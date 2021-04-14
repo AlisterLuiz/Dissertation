@@ -1,0 +1,291 @@
+Li et al. Patient Centering for MDCT
+
+CT Imaging • Original Research
+
+Downloaded from www.ajronline.org by 86.99.44.5 on 10/21/20 from IP address 86.99.44.5. Copyright ARRS. For personal use only; all rights reserved
+
+Automatic Patient Centering for MDCT: Effect on Radiation Dose
+
+Jianhai Li1 Unni K. Udayasankar1 Thomas L. Toth2 John Seamans2 William C. Small1 Mannudeep K. Kalra1,3 Li J, Udayasankar UK, Toth TL, Seamans J, Small WC, Kalra MK
+Keywords: CT, positioning, radiation dose, technology DOI:10.2214/AJR.06.0370 Received March 13, 2006; accepted after revision June 28, 2006. J. Li and M. K. Kalra have received research grants from GE Healthcare. T. L. Toth and J. Seamans are employees of GE Healthcare. U. K. Udayasankar and W. C. Small had no financial interest in the study and had complete access to the data and manuscript content. 1Department of Radiology, Emory University School of Medicine, 1364 Clifton Rd. NE, Atlanta, GA 30322. 2GE Healthcare, Waukesha, WI 53188. 3Present address: Department of Radiology, Massachusetts General Hospital, 55 Fruit St., Boston, MA 02114. Address correspondence to M. K. Kalra (mkalra@partners.org). AJR 2007; 188:547–552 0361–803X/07/1882–547 © American Roentgen Ray Society
+
+OBJECTIVE. The purpose of this study was to determine with phantom and patient imaging the effect of an automatic patient-centering technique on the radiation dose associated with MDCT.
+SUBJECTS AND METHODS. A 32-cm CT dose index (CTDI) phantom was scanned with 64-MDCT in three positions: gantry isocenter and 30 and 60 mm below the isocenter of the scanner gantry. In each position, surface, peripheral, and volume CTDIs were estimated with a standard 10-cm pencil ionization chamber. The institutional review board approved the study with 63 patients (36 men, 27 women; mean age, 51 years; age range, 22–83 years) undergoing chest (n = 18) or abdominal (n = 45) CT using the z-axis automatic exposure control technique. Each patient was positioned according to the region being scanned and then was centered in the gantry. Before scanning of a patient, automatic centering software was used to estimate patient off-centering and percentage of dose reduction with optimum recentering. Data were analyzed with linear correlation and the Student’s t test.
+RESULTS. Peripheral and surface CTDIs increased approximately 12–18% with 30-mm off-center distance and 41–49% with 60-mm off-center distance. Approximately 95% (60/63) of patients were not positioned accurately in the gantry isocenter. The mean radiation dose saving with automatic centering of all patients was 13.0% ± 0.9% (range, 2.6–29.9%). There was strong correlation between off-center distance and percentage of surface CTDI reduction with recentering of patients in the gantry isocenter (r2 = 0.85, p < 0.0001).
+CONCLUSION. Surfaces doses can be reduced if radiologic technologists can better center patients within the CT gantry. Automatic centering technique can help in optimum patient centering and result in as much as 30% reduction in surface dose.
+
+B
+
+ecause of the widespread use of CT, the issue of radiation dose to the patient is important [1]. Several
+
+clinical and technical strategies
+
+have been evaluated for managing radiation
+
+dose associated with CT without compromis-
+
+ing diagnostic information [2, 3]. Among the
+
+technologic innovations for managing radia-
+
+tion dose, automatic exposure control is the
+
+most important technique for maintaining con-
+
+stant image quality while optimizing radiation
+
+dose. Manufacturers offer one or more auto-
+
+matic exposure control techniques on MDCT
+
+scanners. Appropriate patient centering for au-
+
+tomatic exposure control techniques has been
+
+emphasized in previous studies and by manu-
+
+facturers [4]. Although optimum patient posi-
+
+tioning and centering in the gantry are neces-
+
+sary for any CT study, previous phantom and
+
+patient studies have shown that inappropriate
+
+positioning of the patient in the gantry iso-
+
+center can adversely affect specified image
+
+quality with the use of automatic exposure control techniques [4]. This compromise in image quality may be due to the use of bow-tie filters in CT scanners (Fig. 1). The purpose of our study was to determine with phantom and patient imaging the effect of an automatic patient-centering technique on the radiation dose associated with MDCT.
+Subjects and Methods Phantom Study to Determine Effect of Off-Centering
+To quantify the effect of inappropriate centering in the gantry isocenter on radiation dose associated with MDCT, a phantom experiment was performed with a standard 32-cm-diameter polymethyl methacrylate CT dose index (CTDI) phantom (model 007-TE, CIRS). The phantom was positioned in the gantry isocenter with orthogonal centers of the phantom aligned to the center of the gantry and scanned with 64-MDCT (LightSpeed VCT, GE Healthcare) at 120 kVp and 400 mA, 1-second gantry rotation
+
+AJR:188, February 2007
+
+547
+
+Li et al.
+
+Downloaded from www.ajronline.org by 86.99.44.5 on 10/21/20 from IP address 86.99.44.5. Copyright ARRS. For personal use only; all rights reserved
+
+A
+
+B
+
+Fig. 1—Effect of bow-tie filter (B) on X-ray beam relative to patient (P) centering (star). T = X-ray tube. A, Diagram shows that when patient is centered in gantry isocenter (circle), bow-tie filters allow more X-rays (X+++) to traverse thicker, central parts and fewer rays (X+, X++) to pass through thinner, peripheral parts of patient. B, Diagram shows that with off-centering, thicker portion receives fewer X-rays (X+, X++), increasing image noise and that more X-rays (X+++) pass through peripheral thinner parts, increasing surface and peripheral radiation doses.
+
+time, large body scan field of view, 40-mm coverage (64 × 0.625 mm detector configuration), and 5-mm reconstructed section thickness in an axial or stopand-shoot scanning mode. This scanning procedure was repeated with off-centering of the phantom relative to the gantry isocenter, first 30 mm below gantry isocenter and then 60 mm below gantry isocenter. At each phantom position in the gantry, absorbed radiation dose was measured with a standard 10-cm pencil ionization chamber at the center, periphery (top, side, and bottom aspects), and top surfaces of the CTDI phantom. Volume CTDI (CTDIvol) was calculated as two thirds of the peripheral dose and one third of the central dose. CTDIvol is a principal descriptor of average absorbed dose for CT [1] and is measured in milligrays. CTDIvol represents the average absorbed dose within a scan volume relative to a standardized CT phantom [1]. Quantitative image noise in the phantom was measured at different phantom positions (gantry isocenter, 30 mm below gantry isocenter, and 60 mm below gantry isocenter) with a rectangular region of interest of constant size.
+Automatic Centering Technique
+Scanner gantry systems typically have a laserbased guidance system that the radiologic technologist uses to center the patient (but not the gantry table) in the isocenter of the scanner gantry in both the lateral the superior–inferior directions. The technologist also obtains information about table position and height. To reduce radiation dose and improve image quality, automatic patient-centering software was developed to enable radiologic technologists to precisely center patients in the gantry isocenter within the bow-tie filter (Fig. 2). The software is used to calculate desired or ideal patient centering from analysis of a single localizer.
+Use of the software results in an estimate of the mean projection area of a lateral localizer radiograph over the specified z-axis range (body range being scanned). With the technique, body regions
+
+(chest, abdomen, and pelvis) are automatically localized through location of the abdominal region by location of the diaphragm on the localizer radiograph. If the z-axis range is not localized successfully, the software calculates the mean projection over the entire localizer radiograph. With mathematic equations the software then calculates the centroid for the mean projection. The centroid is the geometric center of the attenuation profile (mean projection of lateral localizer radiograph). The software estimates the desired adjustment in patient position (table height) from the system geometry and an empirically determined correction for the patient table that depends on the square root of the mean attenuation profile of the patient. The correction factor for patient table position allows only the patient to be centered and not the combined patient and table. It is derived from a mathematic equation that takes into account the distance between the source and the gantry isocenter, isocenter channel location, centroid of mean projection of the localizer radiograph, pitch angle increment per channel, table error in millimeters, and square root of the mean projection area over the body region being scanned. The current and the ideal patient-centering positions are then displayed on the scanner console along with expected surface dose reduction with correct centering of the patient. The expected surface dose reduction with proper centering of the patient in the gantry isocenter is derived from the phantom study. After repositioning of the patient in the gantry isocenter according to the recommendation obtained with the software, the corrected patient centering is used for automatic tube current modulation.
+The manufacturer developed and tested the accuracy of the automatic centering technique with phantoms and numerous localizer radiographs of the chest and abdomen in both adult and pediatric subjects (Shreter U, personal communication). The technique was not commercially available at the time of this writing.
+
+Phantom Study for Accuracy of Automatic Centering Technique
+To determine the accuracy of the automatic centering technique, the standard CTDI phantom described earlier was carefully positioned in the scanner gantry at three positions: scanner gantry isocenter, 30 mm below gantry isocenter, and 60 mm below gantry isocenter. For each phantom position, lateral localizer radiographs were obtained with the same 64-MDCT scanner. The automatic centering technique was used to determine the offcenter distance for each position.
+Patient Study
+Our study was approved by the institutional review board with waiver of informed consent and was in compliance with the Health Insurance Portability and Accountability Act. The 63 subjects (mean age, 51 years; age range, 22–83 years) underwent thoracic (n = 18) or abdominal (n = 45) CT examinations on a 64-MDCT scanner (LightSpeed VCT, GE Healthcare) between November 2005 and January 2006. The 36 men (mean age, 54 years; age range, 23–79 years) and 27 women (mean age, 48 years; age range, 22–83 years) all underwent contrast-enhanced CT of the chest or abdomen for nonemergency clinical indications. The most common indication was cancer staging or follow-up.
+Each patient was positioned on the scanner gantry table and centered by a radiologic technologist according to standard department protocol for thoracic or abdominal CT examinations. The radiologic technologists (n = 8) had different levels of experience in CT, from 1 year to more than 10 years. A radiologist supervised all CT examinations. The radiologic technologist used the scanner laser guidance system for patient positioning (along the scan direction or z-axis) and centering (in the section plane or x-axis and y-axis) in the gantry. As part of our routine department protocol, we acquire two orthogonal localizer radiographs for
+
+548
+
+AJR:188, February 2007
+
+Patient Centering for MDCT
+
+Downloaded from www.ajronline.org by 86.99.44.5 on 10/21/20 from IP address 86.99.44.5. Copyright ARRS. For personal use only; all rights reserved
+
+A
+
+B
+
+C
+
+D
+
+Fig. 2—43-year-old man with suspected appendicitis. Mechanism of automatic centering technique. A, Localizer radiograph shows initial patient centering by radiologic technologist. B, Localizer radiograph shows automatic estimate of ideal patient centering in gantry isocenter within 5-mm range. C, Localizer radiograph shows that because patient is off-center relative to gantry isocenter, automatic technique recommends adjustment factor of off-center distance (white arrow) so that radiologic technologist can match (gray arrow) patient centering to gantry isocenter by changing table position. D, Localizer radiograph shows correct centering.
+
+planning CT acquisitions at 120 kVp and 10 mA. After acquisition of the first localizer radiograph (lateral projection), the radiologic technologist prepared the body region (chest or abdomen) to be scanned in the z-axis.
+After these steps, the automatic centering software was used to estimate patient centering as set by the radiologic technologist and displayed in a small text window showing information about current patient centering, desired or ideal patient centering, and reduction in surface radiation dose (absorbed dose in milligrays) with use of the z-axis modulation technique (Auto mA, GE Healthcare) of automatic exposure control for CT with the patient centered at the ideal level. This information was recorded, and the patient was recentered in the gantry isocenter according to the information obtained with the automatic patient-centering software. We also recorded information obtained with the technique about patients appropriately centered (i.e., within 5 mm of ideal centering) by the radiologic technologist. The second localizer radiograph (anteroposterior projection) was acquired after recentering of the patient in
+
+the gantry isocenter according to the results with the automatic centering technique.
+Scanning was then performed according to the usual department protocol for thoracic and abdominal CT examinations with z-axis modulation. In addition to information about patient centering, information regarding patient size descriptor (i.e., square root of the projection area of the body region being scanned, size information used for automatic exposure control) obtained with the technique was extracted by two of the authors.
+After being recentered according to results with the automatic centering technique, all patients underwent CT of the chest or abdomen performed with following parameters: 120 kVp, z-axis automatic exposure control technique (Auto mA; noise index, 12.5–15; minimum and maximum tube current, 10–440 mA); 0.5-second gantry rotation time; beam pitch, 0.984:1; 64 × 0.625 mm detector configuration; table speed per gantry rotation, 39.37 mm per rotation; 5-mm reconstructed section thickness; 5-mm intersection distance; and standard reconstruction kernel.
+
+Statistical Analysis
+Data were entered in a spreadsheet (Excel, Microsoft), and all statistical tests were performed with Excel software. The percentage of patients centered correctly by the radiologic technologist was determined. Average and SE of the mean offcenter distance and projected dose reduction for all patients with correct centering were estimated. Similar estimates were made separately for the chest and the abdomen. Off-center distance was calculated for each patient by subtraction of radiologic technologist centering from the ideal centering recommendation obtained with the automatic centering technique.
+Linear statistical correlation between off-center distance and percentage dose reduction was calculated. The Student’s t test was used to determine statistical difference between radiologic technologist centering and automatic centering. The Student’s t test was also performed to compare differences between off-center distances in men and women and to compare off-center distances for the chest and the abdomen. We also calculated linear
+
+AJR:188, February 2007
+
+549
+
+Downloaded from www.ajronline.org by 86.99.44.5 on 10/21/20 from IP address 86.99.44.5. Copyright ARRS. For personal use only; all rights reserved
+
+Li et al.
+
+TABLE 1: Relation Between Centering and Radiation Dose
+
+Center (mm) Volume CTDI
+
+Peripheral CTDI
+
+Top
+
+Side
+
+Bottom Surface CTDI
+
+Noise
+
+0
+
+1.00
+
+1.00
+
+1.00
+
+1.00
+
+1.00
+
+1.00
+
+30
+
+0.99
+
+1.18
+
+0.96
+
+0.85
+
+1.21
+
+1.06
+
+60
+
+0.99
+
+1.41
+
+0.91
+
+0.76
+
+1.49
+
+1.22
+
+Note—Center indicates optimum centering (0 mm) and off-centering (30 and 60 mm) of phantom in gantry isocenter. Peripheral and surface CT dose indexes (CTDIs) with off-centering were significantly higher than doses at optimum positioning (p < 0.05).
+
+correlation between patient size (square root of projection area) and off-center distance. Statistical significance was considered p < 0.05.
+Results Phantom Study
+Surface and peripheral CTDI, CTDIvol, and quantitative noise in the phantom study normalized to corresponding values at optimum centering are summarized in Table 1. Although there was no statistical change in CTDIvol with different phantom positions in the scanner gantry (p = 0.1), there was a substantial increase in peripheral (top aspect of phantom) and surface CTDIs to the phantom with off-centering (p = 0.03).
+The peripheral and surface CTDIs increased approximately 12–18% with a 30mm off-center distance and 41–49% with a 60-mm off-center distance.
+There were approximately 6% and 22% increases in quantitative image noise in the phantom with 30- and 60-mm off-centering
+
+errors, respectively (p < 0.05) (Fig. 3). Results of the phantom study for accuracy of the automatic centering technique are summarized in Table 2. Automatic centering had an accuracy of 94.75–99.03% for estimation of off-center distance.
+Patient Study Sixty (95.2%) of the 63 patients were off-
+centered (> 5 mm beyond ideal centering) in the scanner gantry by the radiologic technologist. All three patients centered correctly were men. All 27 women were off-centered, whereas 91.4% (32/35) of the men were off-centered. The mean off-center distance (± SEM) in all patients was 25.6 ± 1.7 mm (range, 5.5–64 mm). There was no significant statistical difference between off-center distance for men (mean, 24.9 ± 2.5 mm; range, 5.5–64 mm) and women (mean, 26.5 ± 2.2 mm; range, 5.9–48.2 mm) (p = 0.5). The average off-center distance for thoracic CT was 28.9 ± 3.1 mm (range, 6.4–64 mm) and for
+
+abdominal CT was 24.2 ± 2.1 mm (range, 5.5–56 mm). There was no significant statistical difference between the off-center distance for thoracic CT and that for abdominal CT (p = 0.3). We also did not find a significant difference between the off-center distance for men and that for women for thoracic or abdominal CT (p = 0.7).
+The mean radiation dose saving with use of the automatic centering technique for all patients was 13.0% ± 0.9% (range, 2.6–29.9%). No significant statistical difference between percentage of surface dose reduction with optimum centering for men (mean, 12.6% ± 1.2%; range, 2.6–29.9%) and that for women (mean, 13.5% ± 1.3%; range, 3–24%) was found (p = 0.5). The average dose reduction for thoracic CT was 15.0% ± 1.6% (range, 7.0–29.9%) and for abdominal CT was 12.1% ± 1.0% (range, 5.5–56%). There was no significant difference between the dose reduction for thoracic CT and that for abdominal CT (p = 0.26). The difference between dose reduction with appropriate recentering of men and that of women was not significantly significant (p = 0.6) for thoracic or for abdominal CT.
+Overall, there was substantial correlation between off-center distance and percentage of surface dose reduction with recentering of patients in the gantry isocenter (r2 = 0.85, p < 0.0001). We also found strong correlation for off-center distance and surface dose reduction for thoracic (r2 = 0.92, p < 0.0001) and abdominal (r2 = 0.82, p < 0.0001) CT. Both men (r2 = 0.82) and women (r2 = 0.91)
+
+A
+
+B
+
+C
+
+Fig. 3—Noise field images of CT dose index phantom obtained by subtraction of two consecutive images. Process removes correlated phantom features and leaves uncorrelated image of noise. Method allows measurement of noise over large region without interference of phantom structures. A, CT scan with optimum positioning. B–C, CT scans with phantom centered 30 mm (B) and 60 mm (C) below gantry isocenter. Increase in image noise (inferior aspect of phantom, B and C) and surface and peripheral CT dose index is evident with off-centering of phantom.
+
+550
+
+AJR:188, February 2007
+
+Downloaded from www.ajronline.org by 86.99.44.5 on 10/21/20 from IP address 86.99.44.5. Copyright ARRS. For personal use only; all rights reserved
+
+Patient Centering for MDCT
+
+TABLE 2: Accuracy of Automatic Centering Technique in Determining Off-Center Distance for Phantom Study
+
+Actual Phantom Position Relative Estimated Off-Centering with
+
+to Gantry Isocenter (mm)
+
+Automatic Centering (mm)
+
+Percentage Error with Automatic Centering
+
+0
+
+0.07
+
+0.07
+
+30
+
+29.24
+
+2.0
+
+60
+
+56.85
+
+5.2
+
+had strong correlation between these two variables. There was no significant correlation between patient size and off-center distance (r2 = 0.05, p > 0.05).
+Discussion Automatic exposure control techniques are
+perhaps the most important innovation for dose reduction [5]. With these techniques (angular, z-axis, and combined automatic exposure control), tube current is adapted according to the size and attenuation characteristics of the body region being scanned. Thus, constant CT image quality can be achieved with lower radiation dose.
+Bow-tie filters are prepatient filters that help to configure the X-ray beam to the cross-sectional geometry of the body region being scanned. A typical patient has an elliptic crosssection, which is thicker (causes more beam attenuation and requires more X-rays for the same image noise) in the central portion compared with the peripheral portion (causes less beam attenuation and thus requires fewer Xrays for the same image noise). These bow-tieshaped filters decrease the number of X-rays in the peripheral portion of the X-ray beam (for peripheral portions of body) while allowing most X-rays in the central portion of the X-ray beam for the thicker central portions.
+Studies [6] have shown that compared with flat filters, bow-tie filters can help to reduce radiation dose by as much as 50%. X-ray beam attenuation by the bow-tie filter increases with distance from the gantry isocenter. Bow-tie filters work most efficiently when the patient is appropriately positioned in the gantry isocenter [7, 8]. When a patient is not centered appropriately, inappropriate compensation of the X-ray beam by the bowtie filters allows more X-rays to the surface of the thinner peripheral portions of the body while the number of X-rays needed through the thicker central portion of the cross-section is reduced. Appropriate patient centering has been emphasized in conventional radiography and CT. To the best of our knowledge, however, no previous study has quantified the ef-
+
+fect of off-centering the patient with automatic exposure control or the utility of automatic centering in CT.
+Our phantom study showed that off-centering in the scanner gantry results in a substantial increase in radiation dose to the periphery and the surface and an increase in quantitative image noise. These findings can be explained on the basis of the aforementioned description of bow-tie filters. The lack of increase in CTDIvol with off-centering of the phantom can be explained by the fact that, unlike CTDIs at the top surface and the periphery, which are increased because the X-rays have less attenuation owing to the bow-tie filter configuration, CTDIvol represents average absorbed dose in both the center and the periphery of the phantom. Therefore, the increased dose at the top of the periphery is offset by a dose decrease at the bottom of the periphery. The effect of off-centering of the phantom on radiation dose with use of bow-tie filters has been reported in a previous study [7]. The increase in quantitative noise with off-centering of the phantom in our study has also been reported in previous studies [4].
+Our findings suggest that most patients are not appropriately centered in the gantry despite instructions to the contrary. The wide range of off-centering, 2.6–60 mm in our study, regardless of body region, sex, or patient size may have been caused by lack of proper training, lack of attention to the finer aspects of CT, lack of time in a busy clinical schedule, lack of defined anatomic centering landmarks, patient-related factors, or reliance on two localizer radiographs with the possibility of shifting of the reconstructed field of view in either direction. Although we did not assess causes of off-centering of patients, a substantial reduction (as much as 30%) in surface radiation dose with appropriate patient centering with the automatic technique emphasizes that optimum patient centering is critical for maintaining image quality and reducing radiation dose. Variations as great as 30% also have been reported by Aviles Lucas et al. [8] for the air kerma (which represents
+
+the sum of the initial energies of all the charged particles liberated by uncharged ionizing particles in the air, measured in grays) within a body phantom when it was moved vertically. Therefore, radiology departments must instruct their radiologic technologists that appropriate patient centering in the scanner gantry is critical for optimum image quality and radiation dose reduction.
+Our study shows that automatic centering has several benefits in routine CT. Reduction in the surface radiation dose with automatic centering should help to avoid excessive radiation doses to radiosensitive superficial structures, such as thyroid, breast, and gonads, that occur because of patient off-centering. Appropriate centering is particularly crucial for CT studies performed with automatic exposure control techniques, which entail use of the lowest tube current needed to generate the specified image quality based on the crosssectional attenuation characteristics of the patient. Because of the use of lower tube current with automatic exposure control, unintentional X-ray beam attenuation, such as that caused by bow-tie filters due to patient offcentering, can cause an unwanted increase in image noise or beam-hardening artifacts.
+In addition, the manner in which appropriate positioning with the automatic centering technique affects associated radiation dose may be greater for smaller patients than for larger patients. Because automatic exposure control techniques tend to reduce dose in smaller patients and increase dose in larger patients, smaller patients are more likely to have an unintentional increase in image noise caused by inappropriate beam attenuation from bow-tie filters as a result of off-centering [3, 4]. In addition, because they are surrounded by a larger amount of space during imaging than are large patients, smaller patients are more likely to be miscentered than are large patients, who have to be fitted in the gantry isocenter.
+There are considerations associated with the use of the automatic centering software. The automatic centering technique used in our study requires acquisition of two localizer radiographs, which can increase radiation dose to patients, particularly at CT centers where one localizer radiograph is acquired for the planning of CT examinations. This additional dose, however, is small compared with the additional surface dose delivered to most (≈ 95%; 60/63) of the patients inappropriately positioned in the gantry isocenter in our study. Furthermore, the radiation dose for the addi-
+
+AJR:188, February 2007
+
+551
+
+Downloaded from www.ajronline.org by 86.99.44.5 on 10/21/20 from IP address 86.99.44.5. Copyright ARRS. For personal use only; all rights reserved
+
+Li et al.
+
+tional localizer radiograph obtained for automatic centering can be substantially decreased with the use of lower tube potential and tube current than used in our study (120 kVp, 10 mA). Because our department protocols include acquisition of two localizer radiographs, the automatic centering technique did not contribute additional radiation dose to the patients in the study.
+It is possible that complex anatomic features (e.g., severe scoliosis, gradually or abruptly protuberant abdomen), lesions of chest or abdomen (e.g., pleural effusion, large amount of subdiaphragmatic air), and lack of inclusion of the diaphragm in the localizer radiograph can preclude identification of the diaphragm and recommendation of appropriate centering with the automatic centering technique. In addition, the automatic centering software is used to estimate a single position for centering patients in the gantry for thoracic and abdominal CT. Although it may be optimal for a patient with relatively uniform geometry or size over the body region being scanned, this centering may not be effective in patients with inhomogeneous geometry or nonuniform cross-sections over the scan length (e.g., a progressively protuberant abdomen). In such circumstances, a change in type of filtration (bow-tie filters) may be appropriate.
+Another consideration with automatic centering is that the technique necessitates that the radiologic technologist enter the scanner room to change the table position, which requires extra time and may be impractical in emergency settings. In such circumstances, the benefits (better image noise, lower radiation dose) of recentering patients can be
+
+weighed against the possible costs (time constraints) for optional use of this technique.
+There were several limitations to our study. We did not assess the effect on radiation dose of off-centering of phantoms of different sizes. However, the patient portion of our study showed that most patients are not centered precisely in the gantry isocenter and receive additional radiation dose. In addition, we did not perform a power analysis to determine the number of patients needed for the study, and the effect of automatic patient centering was not assessed in pediatric patients. We also did not study the effect of precise patient centering on image quality of CT scans obtained with z-axis modulation.
+Another limitation of our study was that we did not place dosimeters on the surface of body regions being scanned to evaluate the accuracy of prediction of radiation dose reduction with the automatic centering software. We also did not assess whether acquisition of a single localizer radiograph would have made our radiologic technologists more cautious about patient centering than they were with acquisition of two localizer radiographs.
+In summary, our study showed that most patients are incorrectly centered in the gantry isocenter, and the result is substantial radiation dose to these patients. Use of an automatic centering technique helps in optimum patient centering and results in as much as 30% reduction in radiation dose. Until this technique is widely available, however, radiologists, physicists, and radiologic technologists must pay appropriate attention to patient centering to reduce radiation dose associated with fixed tube current and automatic exposure control techniques in CT.
+
+Acknowledgments We thank Laura Tuszynski and Michael
+Daly, undergraduate engineering student interns with GE Healthcare, for their contributions in developing the research software used in this study.
+References
+1. Kalra MK, Maher MM, Toth TL, et al. Strategies for CT radiation dose optimization. Radiology 2004; 230:619–628
+2. Prokop M. Radiation dose and image quality in computed tomography. Rofo 2002; 174:631–636
+3. Kalra MK, Maher MM, Toth TL, et al. Techniques and applications of automatic tube current modulation for CT. Radiology 2004; 233:649–657
+4. Kalra MK, Maher MM, Kamath RS, et al. Sixteen-detector row CT of abdomen and pelvis: study for optimization of z-axis modulation technique performed in 153 patients. Radiology 2004; 233:241–249
+5. Kalra MK, Maher MM, Rizzo S, Saini S. Radiation exposure and projected risks with multidetector-row computed tomography scanning: clinical strategies and technologic developments for dose reduction. J Comput Assist Tomogr 2004; 28[suppl 1]:S46–S49
+6. Toth TL. Dose reduction opportunities for CT scanners. Pediatr Radiol 2002; 32:261–267
+7. Aviles Lucas P, Castellano IA, Dance DR, Vano Carruana E. Analysis of surface dose variation in CT procedures. Br J Radiol 2001; 74:1128–1136
+8. Aviles Lucas P, Dance DR, Castellano IA, Vano E. Monte Carlo simulations in CT for the study of the surface air kerma and energy imparted to phantoms of varying size and position. Phys Med Biol 2004; 49:1439–1454
+
+552
+
+AJR:188, February 2007
+

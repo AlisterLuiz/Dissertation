@@ -1,0 +1,2492 @@
+Travel Medicine and Infectious Disease 34 (2020) 101623
+Contents lists available at ScienceDirect
+Travel Medicine and Infectious Disease
+journal homepage: www.elsevier.com/locate/tmaid
+Clinical, laboratory and imaging features of COVID-19: A systematic review T and meta-analysis
+Alfonso J. Rodriguez-Moralesa,b,c,d,e,∗,1, Jaime A. Cardona-Ospinaa,b,c,d,f,g,h,1, Estefanía Gutiérrez-Ocampoa, Rhuvi Villamizar-Peñaa, Yeimer Holguin-Riveraa, Juan Pablo Escalera-Antezanai,j, Lucia Elena Alvarado-Arnezi, D. Katterine Bonilla-Aldanaa,c,k, Carlos Franco-Paredesd,l,m, Andrés F. Henao-Martinezl, Alberto Paniz-Mondolfid,n,o,p,q, Guillermo J. Lagos-Grisalesa, Eduardo Ramírez-Vallejoa, Jose A. Suárezc,r, Lysien I. Zambranos, Wilmer E. Villamil-Gómezc,d,t,u, Graciela J. Balbin-Ramone,v, Ali A. Rabaanw, Harapan Harapanx,y,z, Kuldeep Dhamaaa, Hiroshi Nishiuraab, Hiromitsu Kataokaac, Tauseef Ahmadad,ae, Ranjit Sahaf, On behalf of the Latin American Network of Coronavirus Disease 2019-COVID-19 Research (LANCOVID-19)
+a Public Health and Infection Research Group, Faculty of Health Sciences, Universidad Tecnológica de Pereira, Pereira, Risaralda, Colombia b Grupo de Investigación Biomedicina, Faculty of Medicine, Fundación Universitaria Autónoma de las Américas, Pereira, Risaralda, Colombia c Comittee on Tropical Medicine, Zoonoses and Travel Medicina, Asociación Colombiana de Infectología, Bogotá, DC, Colombia d Committe on Travel Medicine, Pan-American Association of Infectious Diseases (API), Pereira, Risaralda, Colombia e Master in Clinical Epidemiology and Biostatistics, Universidad Cientifica del Sur, Lima, Peru f Grupo de Investigación Infección e Inmunidad, Faculty of Health Sciences, Universidad Tecnológica de Pereira, Pereira, Risaralda, Colombia g Semillero de Investigación en Infecciones Emergentes y Medicina Tropical, Faculty of Medicine, Fundación Universitaria Autónoma de las Américas, Pereira, Risaralda, Colombia h Emerging Infectious Diseases and Tropical Medicine Research Group, Instituto para la Investigación en Ciencias Biomédicas – Sci-Help, Pereira, Risaralda, Colombia i Universidad Franz Tamayo/UNIFRANZ, Cochabamba, Bolivia j National Responsible for Telehealth Program, Ministry of Health, La Paz, Bolivia k Incubator in Zoonosis (SIZOO), Biodiversity and Ecosystem Conservation Research Group (BIOECOS), Fundación Universitaria Autónoma de las Américas, Sede Pereira, Pereira, Risaralda, Colombia l Division of Infectious Diseases, Department of Medicine, University of Colorado Anschutz Medical Center, Aurora, CO, USA m Hospital Infantil de México Federico Gómez, México City, Mexico n Laboratory of Medical Microbiology, Department of Pathology, Molecular and Cell-based Medicine, The Mount Sinai Hospital-Icahn School of Medicine at Mount Sinai, New York, USA o Laboratorio de Señalización Celular y Bioquímica de Parásitos, Instituto de Estudios Avanzados (IDEA), Caracas, Caracas, Venezuela p Academia Nacional de Medicina, Caracas, Venezuela q Instituto de Investigaciones Biomedicas IDB / Incubadora Venez/olana de la Ciencia, Cabudare, Edo. Lara, Venezuela r Investigador SNI Senacyt Panamá, Clinical Research Deparment, Instituto Conmemorativo Gorgas de Estudios de la Salud, Panamá City, Panama s Department of Physiological and Morphological Sciences, School of Medical, Sciences, Universidad Nacional Autónoma de Honduras (UNAH), Tegucigalpa, Honduras t Infectious Diseases and Infection Control Research Group, Hospital Universitario de Sincelejo, Sincelejo, Sucre, Colombia u Programa del Doctorado de Medicina Tropical, SUE Caribe, Universidad del Atlántico, Barranquilla, Colombia v Hospital de Emergencias Jose Casimiro Ulloa, Lima, Peru w Molecular Diagnostic Laboratory, Johns Hopkins Aramco Healthcare, Dhahran, Saudi Arabia x Medical Research Unit, School of Medicine, Universitas Syiah Kuala, Banda Aceh, Indonesia y Tropical Disease Centre, School of Medicine, Universitas Syiah Kuala, Banda Aceh, Indonesia z Department of Microbiology, School of Medicine, Universitas Syiah Kuala, Banda Aceh, Indonesia aa Division of Pathology, ICAR-Indian Veterinary Research Institute, Izatnagar, 243 122, Bareilly, Uttar Pradesh, India ab Graduate School of Medicine, Hokkaido University, Kita 15 Jo Nishi 7 Chome, Kita-ku, Sapporo-shi, Hokkaido, 060-8638, Japan ac Hamamatsu University School of Medicine, Internal Medicine 3rd Division, Department of Cardiology, Hamamatsu, Shizuoka, Japan ad Department of Epidemiology and Health Statistics, School of Public Health, Southeast University, Nanjing, 210009, China ae Key Laboratory of Environmental Medicine Engineering, Ministry of Education, School of Public Health, Southeast University, Nanjing, China af Department of Microbiology, Tribhuvan University Teaching Hospital, Institute of Medicine, Kathmandu, Nepal
+∗ Corresponding author. Public Health and Infection Research Group, Faculty of Health Sciences, Universidad Tecnológica de Pereira, Pereira, Risaralda, Colombia. E-mail address: arodriguezm@utp.edu.co (A.J. Rodriguez-Morales). URL: https://www.lancovid.org (R. Sah).
+1 Both authors contributed equally. Order was decided by seniority.
+https://doi.org/10.1016/j.tmaid.2020.101623 Received 29 February 2020; Received in revised form 11 March 2020; Accepted 11 March 2020 Available online 13 March 2020 1477-8939/ © 2020 Elsevier Ltd. All rights reserved.
+
+A.J. Rodriguez-Morales, et al.
+
+Travel Medicine and Infectious Disease 34 (2020) 101623
+
+ARTICLE INFO
+Keywords: Coronavirus disease 2019 SARS-CoV-2 Clinical features Laboratory Outcomes Epidemic
+
+ABSTRACT
+Introduction: An epidemic of Coronavirus Disease 2019 (COVID-19) began in December 2019 in China leading to a Public Health Emergency of International Concern (PHEIC). Clinical, laboratory, and imaging features have been partially characterized in some observational studies. No systematic reviews on COVID-19 have been published to date. Methods: We performed a systematic literature review with meta-analysis, using three databases to assess clinical, laboratory, imaging features, and outcomes of COVID-19 confirmed cases. Observational studies and also case reports, were included, and analyzed separately. We performed a random-effects model meta-analysis to calculate pooled prevalences and 95% confidence intervals (95%CI). Results: 660 articles were retrieved for the time frame (1/1/2020-2/23/2020). After screening, 27 articles were selected for full-text assessment, 19 being finally included for qualitative and quantitative analyses. Additionally, 39 case report articles were included and analyzed separately. For 656 patients, fever (88.7%, 95%CI 84.5–92.9%), cough (57.6%, 95%CI 40.8–74.4%) and dyspnea (45.6%, 95%CI 10.9–80.4%) were the most prevalent manifestations. Among the patients, 20.3% (95%CI 10.0–30.6%) required intensive care unit (ICU), 32.8% presented with acute respiratory distress syndrome (ARDS) (95%CI 13.7–51.8), 6.2% (95%CI 3.1–9.3) with shock. Some 13.9% (95%CI 6.2–21.5%) of hospitalized patients had fatal outcomes (case fatality rate, CFR). Conclusion: COVID-19 brings a huge burden to healthcare facilities, especially in patients with comorbidities. ICU was required for approximately 20% of polymorbid, COVID-19 infected patients and hospitalization was associated with a CFR of > 13%. As this virus spreads globally, countries need to urgently prepare human resources, infrastructure and facilities to treat severe COVID-19.
+
+1. Introduction
+1.1. Rationale
+The Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV2), formerly known as the 2019 novel Coronavirus (2019-nCoV), is a newly emerging zoonotic agent that appeared in December 2019 and causes the Coronavirus Disease 2019 (COVID-19) [1]. This pathogen results in a syndrome leading in some cases to a critical care respiratory condition, that requires specialized management at intensive care units (ICU) in many of them [2–7]. The SARS-CoV-2, taxonomically, is currently part of the species of the SARS-related coronaviruses that belong to the subgenus Sarbecovirus. Together with the subgenuses Embecovirus, Hibecovirus, Merbecovirus, and Nobecovirus, that are part of the genus Betacoronavirus (order Nidovirales; suborder Cornidovirineae; family Coronaviridae; subfamily Coronavirinae) [8–14].
+Other Betacoronaviruses before have caused epidemics over the last two decades in Asia, as is the case of SARS-CoV in 2002–2003 in China [10,15,16], and later with the Middle East Respiratory Syndrome (MERS-CoV) in 2012–2013 in Saudi Arabia [17–20]. As expected, several similarities and differences in the epidemiology, clinical features, and management of SARS, MERS, and COVID have been identified [3–5,20–23]. These are enveloped positive-strand RNA viruses isolated from bats that share sequence homology with isolates from humans, suggesting bats as natural hosts and reservoirs [9,24–27]. Although the clinical picture of SARS, MERS, and COVID-19 seems to be similar, differences were noted [4,5,21,28] since early reports. A full clinical characterization of this disease, as well as its laboratory and image characteristics, is required.
+Although only two months have elapsed since the emergence of COVID-19, some studies and case reports have been already published in major international scientific and medical journals, from China and other countries with travel- and non-travel-related cases [7,13,29,30]. Many of these reports have started to answer clinical questions, including evolution and outcomes, as well as potential risk factors, and clinical, laboratory and image findings; however, a systematic review to consolidate what has been learned from each study or reported case is to-date missing. Although systematic reviews and meta-analyses usually include randomized clinical trials (RCTs) and aim to provide a more precise estimate of the effect of a treatment or risk factor for disease, also have been extensively used, especially during the last decades, to
+
+synthesized observational studies [31–33]. In many situations, RCTs are not feasible or available, and only data from observational studies are accessible [33]. This is the case for the clinical, laboratory, and image features of COVID-19.
+2. Objectives
+• To summarize the clinical, laboratory, and image features of COVID19 reported in currently available observational studies.
+• To examine the outcome of COVID-19 cases, including risk factors, the proportion of patients requiring ICU and those with fatal outcomes.
+• To assess the prevalence of comorbidities among COVID-19 confirmed cases.
+3. Methods
+3.1. Protocol and registration
+This protocol follows the recommendations established by the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) statement [34], and it has been reported in the International Prospective Register of Systematic Reviews (PROSPERO) database (ID 170643).
+3.2. Eligibility criteria
+We included published peer-reviewed articles that reported cases with demographical, clinical, laboratory, and image features of realtime reverse transcriptase polymerase chain reaction (rRT-PCR) confirmed SARS-CoV-2 infection. For assessing clinical, laboratory and imaging characteristics eligible study designs were case-control, cohort studies, case reports, and case series. For assessing risk factors and outcomes only observational studies were included. Article language limit was not set, and we included publications from January 1, 2020 until February 23, 2020. Review articles, opinion articles and letters not presenting original data were excluded, as well as studies reporting cases with incomplete information.
+
+2
+
+A.J. Rodriguez-Morales, et al.
+3.3. Information sources and search strategy
+We conducted a systematic review using Medline/PubMed, Scopus, and Web of Science. The following search terms used: “Novel coronavirus,” “Novel coronavirus 2019”, “2019 nCoV”, “COVID-19”, “Wuhan coronavirus,” “Wuhan pneumonia,” and “SARS-CoV-2.” The searches were concluded by February 23, 2020, and four different researchers independently evaluated search results.
+3.4. Study selection
+The results of the initial search strategy were first screened by title and abstract. The full texts of relevant articles were examined for inclusion and exclusion criteria (Fig. 1). When an article reported duplicate information from the same patient, the information of both reports was combined in order to obtain complete data, but only counted as a single case. Observational studies that reported the proportion of symptoms, laboratory characteristics and risk factors were included for quantitative synthesis (meta-analysis). Case reports were not included for the meta-analysis, as they do not have a denominator for any
+
+Travel Medicine and Infectious Disease 34 (2020) 101623
+variables, but descriptive statistics were applied to them, to summarize their findings.
+3.5. Data collection process and data items
+Data extraction forms including information on the type of publication, the publishing institution, country, year and date of publication, the number of reported cases, of cases at ICU, age, sex, comorbidities, clinical features (e.g., fever, cough), laboratory findings (e.g., white blood cell counts [WBC], biochemistry), imaging (e.g., chest X-ray), complications (e.g., acute respiratory distress syndrome, ARDS), outcome (e.g., death) were filled independently by four investigators. A fifth researcher checked the article list and data extractions to ensure there were no duplicate articles or duplicate information of the same patient and also resolved discrepancies about study inclusion.
+3.6. Assessment of methodological quality and risk of bias
+For quality assessment, we used the Quality Appraisal of Case Series
+
+Fig. 1. Study selection and characteristics. 3
+
+A.J. Rodriguez-Morales, et al.
+
+Travel Medicine and Infectious Disease 34 (2020) 101623
+
+Studies Checklist of the IHE and specifically the critical appraisal tool to assess the quality of cross-sectional studies (AXIS) [35,36]. Publication bias was assessed using a funnel-plot. A random-effects model was used to calculate the pooled prevalence and 95%CI, given variable degrees of data heterogeneity, and given the inherent heterogeneity in any systematic review of studies from the published literature. Egger's test for publication bias was also performed.
+3.7. Statistical approach
+Unit discordance for variables was resolved by converting all units to a standard measurement for that variable. Percentages and means ± standard deviation (SDs) were calculated to describe the distributions of categorical and continuous variables, respectively. Since individual patient information was not available for all patients, we report weighted means and SDs. The baseline data were analyzed using the Stata version 14.0, licensed for Universidad Tecnológica de Pereira.
+The meta-analyses were performed using Stata, and the software OpenMeta[Analyst] [37] and Comprehensive Meta Analysis ve.3.3® licensed for Universidad Tecnológica de Pereira, Colombia. Pooled prevalences and their 95% confidence intervals (95% CIs) were used to summarize the weighted effect size for each study grouping variable using the binary random-effects model (the weighting took into consideration the sample sizes of the individual studies), except for median age, where a continuous random-effect model was applied (DerSimonian-Laird procedure) [38,39].
+Measures of heterogeneity, including Cochran's Q statistic, the I2 index, and the tau-squared test, were estimated and reported. We performed subgroup analyses by age groups (adults or children). And meta-analyses for each of the variables of interest.
+4. Results
+4.1. Study selection and characteristics
+A total of 660 articles were retrieved using the search strategy, including 39 case reports. After screening by abstract and title, 64 articles were selected for full-text assessment. Of these, six were excluded due to lack of information on molecular diagnosis, and 58 were included for qualitative analysis, 19 of them for quantitative meta-analysis and 39 case reports for descriptive analysis (Fig. 1). The main characteristics of
+
+the included studies are shown in Table 1. Our review included 19 studies that were published between
+January 1, 2020, and February 21, 2020, most of them from China (18) and one from Australia (Table 1), including a total of 2874 patients, ranging from a case series of 9 [40] to a cross-sectional study of 1590 [41]. Although as of March 9, 2020, there have been more than 111,000 cases reported, these have not been included and published in studies available in the literature. Most studies were cross-sectional (15), and four were case series (Tables 1–5). We analyzed 42 variables for the meta-analyses (Table 6). Publication bias was assessed with a funnel plot for the standard error by logit event, with no evidence of bias (Fig. S1). Additionally, the Egger test (P = 0.801) suggested that there was no notable evidence of publication bias.
+4.2. Demographical characteristics and comorbidities
+The mean age of patients across 18 studies was 51.97 years old (95%CI 46.06–57.89), being male 55.9% (95%CI 51.6–60.1%). Patients presented in 36.8% of cases with comorbidities (95%CI 24.7–48.9%), the most significant being hypertension (18.6%, 95%CI 8.1–29.0%), cardiovascular disease (14.4%, 95%CI 5.7–23.1%), and diabetes (11.9%, 95%CI 9.1–14.6%), among others (Table 6) (Fig. S2).
+4.3. Clinical manifestations and laboratory findings
+Regarding the clinical manifestations, fever (88.7%, 95%CI 84.5–92.9%), cough (57.6%, 95%CI 40.8–74.4%) and dyspnea (45.6%, 95%CI 10.9–80.4%) were the most prevalent clinical manifestations (Table 6). Fever frequency was significantly higher in adults compared to children (92.8%, 95%CI 89.4–96.2%; versus 43.9%, 95%CI 28.2–59.6%) (Fig. S2).
+Regarding laboratory findings, decreased albumin (75.8%, 95%CI 30.5–100.0%), high C-reactive protein (58.3%, 95%CI 21.8–94.7%), and high lactate dehydrogenase (LDH) (57.0%, 95%CI 38.0–76.0), lymphopenia (43.1%, 95%CI 18.9–67.3), and high erythrocyte sedimentation rate (ESR) (41.8%, 95%CI 0.0–92.8), were the most prevalent laboratory results (Table 6) (Fig. S2).
+4.4. Imaging, complications, and outcomes
+At the chest X-rays, the pneumonia compromise was predominantly bilateral (72.9%, 95%CI58.6–87.1), with image findings ground-glass
+
+Table 1 Characteristics of the included studies on COVID-19, 2020. All patients confirmed by real-time RT-PCR.
+
+Author
+
+Journal
+
+Date (MM/DD)
+
+Country
+
+Study type
+
+N
+
+Quality scorea
+
+WMCHHHPNCI Chaolin et al. Li et al. Chen et al. Chung et al. Chen et al. Wang et al. Kui et al. Chang et al. To et al. COVID-19 team Australia Yueying et al. Li et al. Feng et al. Liang et al. Zhang et al. Feng et al. Wang et al. Xiaobo et al.
+
+Commission Report Lancet NEJM Lancet Radiology Chin J Tuberc Respir Dis JAMA Chin Med J JAMA Clin Infect Dis Team Report Eur Radiol Preprint Lancet Radiology Lancet Oncology Chin J Tuberc Respir Dis Chin J Pediatr Chin J Pediatr Lancet Respir Med
+
+01/20 01/24 01/29 01/30 02/04 02/06 02/07 02/07 02/07 02/12 02/12 02/13 02/13 02/13 02/14 02/15 02/17 02/17 02/21
+
+China
+
+Cross-sectional
+
+136
+
+12
+
+China
+
+Cross-sectional
+
+41
+
+19
+
+China
+
+Cross-sectional
+
+425
+
+19
+
+China
+
+Cross-sectional
+
+99
+
+19
+
+China
+
+Cross-sectional
+
+21
+
+12
+
+China
+
+Cross-sectional
+
+29
+
+12
+
+China
+
+Cross-sectional
+
+138
+
+19
+
+China
+
+Cross-sectional
+
+137
+
+12
+
+China
+
+Cross-sectional
+
+13
+
+14
+
+China
+
+Cross-sectional
+
+12
+
+14
+
+Australia
+
+Cross-sectional
+
+15
+
+12
+
+China
+
+Cross-sectional
+
+63
+
+14
+
+China
+
+Case series
+
+24
+
+14
+
+China
+
+Case series
+
+21
+
+12
+
+China
+
+Cross-sectional
+
+1590
+
+17
+
+China
+
+Case series
+
+9
+
+12
+
+China
+
+Case series
+
+15
+
+12
+
+China
+
+Cross-sectional
+
+34
+
+12
+
+China
+
+Cross-sectional
+
+52
+
+17
+
+WMCHHHPNCI, Wuhan Municipal Commission of Health and Health on Pneumonia of New Coronavirus Infection. MM/DD, Month, Day. a Quality score ranged, 0–20. Based on the Appraisal Tool for Cross-Sectional Studies, AXIS [36].
+
+Reference
+[64] [5] [11] [4] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [41] [40] [75] [76] [52]
+
+4
+
+A.J. Rodriguez-Morales, et al.
+
+Table 2 Demographical characteristics, ICU requirement, and comorbidities of the study subjects.
+
+Author
+
+Date (MM/ N DD)
+
+Mean Age (y-old)
+
+Age Range
+
+Sex (Male) N at ICU N (%)
+Comorbidities Diabetes Hypertension Cardiovascular disease
+
+Chronic obstructive pulmonary disease
+
+Malignancies Chronic liver disease
+
+Reference
+
+5
+
+WMCHHHPNCI Chaolin et al. Li et al. Chen et al. Chung et al. Chen et al. Wang et al. Kui et al. Chang et al. To et al. COVID-19 team
+Australia Yueying et al.
+Li et al. Feng et al. Liang et al. Zhang et al. Feng et al. Wang et al. Xiaobo et al.
+
+01/20 01/24 01/29 01/30 02/04 02/06 02/07 02/07 02/07 02/12 02/12
+02/13
+02/13 02/13 02/14 02/15 02/17 02/17 02/21
+
+136 41 49 425 56 99 55.5 21 51 29 56 138 56 137 57 13 34 12 62.5 15 43
+
+63 -
+
+24 43
+
+21 40.9
+
+1590 -
+
+9
+
+36
+
+15 -
+
+34 8
+
+52 59.7
+
+25-89
+
+66
+
+41-58
+
+30
+
+26-82
+
+240
+
+21-82
+
+67
+
+29-77
+
+13
+
+26-79
+
+21
+
+42-68
+
+75
+
+20-83
+
+61
+
+34-48
+
+10
+
+37-75
+
+7
+
+8-66
+
+9
+
+15.2 -
+
+33
+
+44.9
+
+12 - 84 8
+
+25-63
+
+6
+
+-
+
+911
+
+15-49
+
+5
+
+4 - 14
+
+5
+
+-
+
+14
+
+33.6-
+
+35
+
+85.8
+
+13 (31.7) 23 (23.2) 36 (26.1) 1 (6.7)
+
+13 (31.7) 50 (50.5) 16 (55.2) 64 (46.4) 27 (19.7) -
+
+-
+
+-
+
+130 (8.2) -
+
+18 (1.1) 1 (11.1) 21 (40.4)
+
+8 (19.5) 12 (12.1) 5 (17.2) 14 (10.1) 14 (10.2) -
+
+6 (14.6) 8 (27.6) 43 (31.2) 13 (9.5) -
+
+-
+
+-
+
+2 (0.1) 1 (11.1) 9 (17.3)
+
+2 (0.1) -
+
+6 (14.6) 40 (40.4) 20 (14.5) 10 (7.3) -
+-
+5 (9.6)
+
+1 (2.4) 1 (1.0) 4 (2.9) 2 (1.5) -
+-
+1 (0.06) 4 (7.7)
+
+-
+
+-
+
+[64]
+
+1 (2.4)
+
+1 (2.4)
+
+[5]
+
+-
+
+-
+
+[11]
+
+1 (1.0)
+
+-
+
+[4]
+
+-
+
+-
+
+[65]
+
+1 (3.4)
+
+2 (6.9)
+
+[66]
+
+10 (7.2)
+
+4 (2.9)
+
+[67]
+
+2 (1.5)
+
+-
+
+[68]
+
+-
+
+-
+
+[69]
+
+-
+
+-
+
+[70]
+
+-
+
+-
+
+[71]
+
+-
+
+-
+
+[72]
+
+-
+
+-
+
+[73]
+
+-
+
+-
+
+[74]
+
+-
+
+-
+
+[41]
+
+-
+
+-
+
+[40]
+
+-
+
+-
+
+[75]
+
+-
+
+-
+
+[76]
+
+2 (3.8)
+
+-
+
+[52]
+
+Travel Medicine and Infectious Disease 34 (2020) 101623
+
+WMCHHHPNCI, Wuhan Municipal Commission of Health and Health on Pneumonia of New Coronavirus Infection. MM/DD, Month, Day. ICU, intensive care unit requirement. y-old, years old. -, Not available, not reported.
+
+A.J. Rodriguez-Morales, et al.
+
+Travel Medicine and Infectious Disease 34 (2020) 101623
+
+Table 3 Clinical characteristics of the study subjects.
+
+Author
+
+Date (MM/ DD)
+
+N
+
+N (%)
+
+Fever
+
+Cough
+
+Sore Throat
+
+Myalgia or fatigue
+
+Sputum production
+
+Headache Haemoptisis Diarrhoea Dyspnoea
+
+Reference
+
+WMCHHHPNCI Chaolin et al. Li et al. Chen et al. Chung et al. Chen et al. Wang et al.
+Kui et al. Chang et al. To et al. COVID-19 team
+Australia Yueying et al. Li et al. Feng et al. Liang et al. Zhang et al. Feng et al. Wang et al. Xiaobo et al.
+
+01/20 01/24 01/29 01/30 02/04 02/06 02/07
+02/07 02/07 02/12 02/12
+02/13 02/13 02/13 02/14 02/15 02/17 02/17 02/21
+
+136 136 (100.0) 136 (100.0) -
+
+41 40 (97.6) 31 (75.6) 0 (0.0)
+
+425 -
+
+-
+
+-
+
+99 82 (82.8) 81 (81.8) 5 (5.1)
+
+21 14 (66.7) 9 (42.9)
+
+-
+
+29 28 (96.6) 21 (72.4) -
+
+138 136 (98.6) 82 (59.4) 24
+
+(17.4)
+
+137 112 (81.8) 66 (48.2) -
+
+13 12 (92.3) 6 (46.2)
+
+-
+
+12 -
+
+-
+
+-
+
+15 14 (93.3) 11 (73.3) -
+
+18 (43.9) 11 (11.1) 6 (28.6) 12 (41.4) 138 (100.0)
+
+11 (26.8) 21 (72.4) 37 (26.8)
+
+44 (32.1) 3 (23.1) -
+
+6 (4.4) 2 (15.4) -
+
+63 24 21 1590 9 15 34 52
+
+19 (79.2) 18 (85.7) 8 (88.9) 5 (33.3) 17 (50.0) 51 (98.1)
+
+6 (25.0) 12 (57.1) 5 (55.6) 1 (6.7) 13 (38.2) 40 (76.9)
+
+4 (19.0) 4 (44.4) -
+
+6 (25.0) 11 (52.4) 4 (44.4) 6 (76.9)
+
+6 (28.6) -
+
+3 (7.3) 8 (8.1) 3 (14.3) 2 (6.9) 9 (6.5)
+
+2 (4.9) -
+
+13 (9.5) 3 (23.1) -
+
+7 (5.1) -
+
+-
+
+-
+
+4 (16.7) -
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+3 (11.5) -
+
+1 (2.4) 2 (2.0) 4 (13.8) 14 (10.1)
+
+136 (100.0) [64]
+
+22 (53.7) [5]
+
+-
+
+[11]
+
+31 (31.3) [4]
+
+-
+
+[65]
+
+17 (58.6) [66]
+
+43 (31.2) [67]
+
+11 (8.0) 26 (19.0) [68]
+
+1 (7.7) -
+
+[69]
+
+-
+
+-
+
+[70]
+
+-
+
+-
+
+[71]
+
+-
+
+-
+
+[72]
+
+-
+
+2 (8.3)
+
+[73]
+
+-
+
+-
+
+[74]
+
+-
+
+-
+
+[41]
+
+-
+
+-
+
+[40]
+
+-
+
+-
+
+[75]
+
+-
+
+-
+
+[76]
+
+-
+
+33 (63.5) [52]
+
+WMCHHHPNCI, Wuhan Municipal Commission of Health and Health on Pneumonia of New Coronavirus Infection. MM/DD, Month, Day. -, Not available, not reported.
+
+opacity in 68.5% (95%CI 51.8–85.2) (Table 6) (Fig. S2) in those with Xray results.
+Among the patients, 20.3% (95%CI 10.0–30.6%) who required ICU, 32.8% presenting with ARDS (95%CI 13.7–51.8), 13.0% with acute cardiac injury (95%CI 4.1–21.9%), 7.9% with acute kidney injury (95%CI 1.8–14.0%), 6.2% (95%CI 3.1–9.3%) with shock and 13.9% (95%CI 6.2–21.5%) had fatal outcomes (Table 6). RNAemia (detection of viral RNA in blood) was reported 96.8% of the all patients (95%CI 94.9–98.7%) (Table 6) (Fig. S2), and also in nasopharyngeal aspirates (NPA).
+4.5. Case reports
+We found 39 case report articles (Table S1, summarizing 126 cases of COVID-19. The mean age was 47.9 y-old (SD 22.2), being male 69.01% of those with sex identified in the article (Table 7). From the total, 10.3% presented hypertension as comorbidity, followed by other conditions. The more common clinical features were fever (77.0%), cough (55.6%), and myalgia (31.0%), among others (Table 7). Regarding the laboratory findings, lymphopenia was the more frequent (23.8%), followed by high C-reactive protein (22.2%) and high aspartate transaminase (AST) (7.9%). At the chest X-ray, 46% presented ground-glass opacity, with a bilateral compromise in 39.7% of the patients. All the case reports had RNAaemia. For the complications, 7.1% presented with ARDS, and 1.6% with secondary infections, among others. Most of the cases described in these case reports were hospitalized (74.6%), with a fatality rate of 15.9% (Table 7).
+5. Discussion
+Over the last two months, more than 156,000 cases of a new infectious disease have been confirmed in China and other countries in Asia, Pacific, Europe, Africa, and the Americas [22,23,42–44]. The COVID-19 is an emerging condition that primarily threatens the preparedness and biosecurity conditions of all countries on this planet [45]. Preparedness at different levels, facing a new clinical disease, demands efforts in epidemiological, diagnostic, therapeutic, and preventive fields during a potential pandemic [46], that threatens to
+
+spread to new territories (> 115) and areas with the risk of epidemics. Clinical, laboratory, image findings, as well as the factors associated
+with evolution of the disease and outcomes, constitute critical knowledge that should be carefully studied when a new infectious disease emerges. Recently, in this context of the COVID-19 outbreak, several questions have been raised, including what is the full spectrum of disease severity (which can range from asymptomatic, to symptomaticbut-mild, to severe, to requiring hospitalization, to fatal)? [47]. In this systematic review and random-effects meta-analysis, we tried to initially summarize clinical data on COVID-19 confirmed cases that were published during the first weeks of the outbreak. We managed to analyze more than 780 patients for major clinical manifestations and up to half of them for their associated significant laboratory findings. Our findings are robust due to the pooled results after combining all the studies, which can be seen in forest plots for each of the variables. We used a random-effects meta-analysis model. This involves an assumption that the effects being estimated in the different studies are not identical, but follow some distribution. For random-effects analyses, the pooled estimate and 95%CIs refer to the center of the distribution of pooled prevalence but do not describe the width of the distribution. Often the pooled estimate and its 95%CI are quoted in isolation as an alternative estimate of the quantity evaluated in a fixed-effect metaanalysis, which is inappropriate. The 95%CI from a random-effects meta-analysis describes uncertainty in the location of the mean of systematically different prevalence in the different studies [38,39].
+As expected from initial observations in China [4,5,11], COVID-19 patients presented predominantly with fever and cough, which appears to be more frequent in adults than children, as well as dyspnea, and myalgia, among other clinical features. This was consistently found not only in the studies meta-analyzed here but also in the case reports included in this systematic review. Fever frequency is similar in SARS and MERS, but the cough frequency is higher in SARS and COVID-19 than MERS (< 50%) [28,48,49]. In SARS and MERS, diarrhea is reported in 20–25% of patients [50], here we found it in less than 7%, at the studies (Table 6) and case reports (Table 7). Of note, in the case reports, myalgia was the third most common reported symptom after fever and cough. Most patients required hospitalization, often attributed to the patient's comorbidities, as observed in a third of the cases. We found
+
+6
+
+A.J. Rodriguez-Morales, et al.
+
+Table 4 Laboratory characteristics of the study subjects.
+
+Author
+
+Date N (MM/ DD)
+
+N (%)
+
+Leucocytosis Leukopenia Lymphopenia High AST High
+
+High
+
+Creatinine Creatine
+
+kinase
+
+High LDH
+
+High Troponin I, > 99th perc
+
+Anemia
+
+Decreased Albumin
+
+High ALT
+
+High Bilirubin
+
+Erythrocyte sedimentation rate elevated
+
+Creactive protein, high
+
+Reference
+Serum ferritin
+
+7
+
+WMCHHHPNCI 01/20 136
+
+Chaolin et al. 01/24 41
+
+Li et al.
+
+01/29 425
+
+Chen et al.
+
+01/30 99
+
+12 (29.3) 24 (24.2)
+
+Chung et al. Chen et al. Wang et al. Kui et al.
+
+02/04 21 02/06 29 02/07 138 02/07 137
+
+6 (20.7) 0 (0.0) 26 (19.0)
+
+Chang et al. To et al. COVID-19 team
+Australia Yueying et al. Li et al. Feng et al. Liang et al. Zhang et al. Feng et al. Wang et al. Xiaobo et al.
+
+02/07 02/12 02/12
+02/13 02/13 02/13 02/14 02/15 02/17 02/17 02/21
+
+13 12 15
+63 24 21 1590 9 15 34 52
+
+-
+1 (11.1) 5 (14.7) -
+
+10 (24.4) 9 (9.1)
+
+26 (63.4) 35 (35.4)
+
+6 (20.7) 0 (0.0) 51 (37.2)
+
+20 (69.0) 97 (70.3) 99 (72.3)
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+5 (20.8) 8 (53.3) 1 (2.9) -
+
+2 (8.3) 2 (22.2) 1 (2.9) -
+
+15 (36.6) 35 (35.4)
+
+4 (9.8) 3 (3.0)
+
+7 (24.1) -
+
+2 (6.9) -
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+13 (31.7) 13 (13.1)
+
+29 (70.7) 75 (75.8)
+
+5 (12.2) -
+
+-
+
+-
+
+-
+
+-
+
+20 (69.0) -
+
+-
+
+55 (39.9) -
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+10 (29.4) -
+
+-
+
+-
+
+-
+
+50 (50.5)
+
+97 (98.0)
+
+-
+
+-
+
+-
+
+15 (51.7)
+
+-
+
+-
+
+-
+
+-
+
+28 (28.3)
+5 (17.2) -
+
+18 (18.2) 1 (3.4) -
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+84 (84.8)
+-
+-
+6 (25.0) 5 (14.7) -
+
+-
+
+-
+
+[64]
+
+-
+
+-
+
+[5]
+
+-
+
+-
+
+[11]
+
+63 (63.6) 62
+
+[4]
+
+(62.6)
+
+-
+
+-
+
+[65]
+
+27 (93.1) -
+
+[66]
+
+-
+
+-
+
+[67]
+
+115
+
+-
+
+[68]
+
+(83.9)
+
+-
+
+-
+
+[69]
+
+-
+
+-
+
+[70]
+
+-
+
+-
+
+[71]
+
+-
+
+-
+
+[72]
+
+12 (50.0) -
+
+[73]
+
+-
+
+-
+
+[74]
+
+-
+
+-
+
+[41]
+
+5 (55.6) -
+
+[40]
+
+-
+
+-
+
+[75]
+
+1 (2.9) -
+
+[76]
+
+-
+
+-
+
+[52]
+
+Travel Medicine and Infectious Disease 34 (2020) 101623
+
+WMCHHHPNCI, Wuhan Municipal Commission of Health and Health on Pneumonia of New Coronavirus Infection. MM/DD, Month, Day. LDH, Lactate dehydrogenase. AST, Aspartate transaminase. ALT, Alanine transaminase. -, Not available, not reported.
+
+A.J. Rodriguez-Morales, et al.
+
+Table 5 Imaging and complications of the study subjects.
+
+Author
+
+Date
+
+N
+
+N (%)
+
+(MM/
+
+DD)
+
+Imaging
+
+Complications
+
+Reference
+
+Chest Ray Unilateral Pneumonia
+
+Chest Ray Bilateral Pneumonia
+
+Groundglass opacity
+
+Acute respiratory distress syndrome
+
+RNAaemia
+
+Acute cardiac injury
+
+Acute kidney injury
+
+Secondary infection
+
+Shock Hospitalization Discharge Death
+
+8
+
+WMCHHHPNCI Chaolin et al. Li et al. Chen et al. Chung et al. Chen et al. Wang et al. Kui et al. Chang et al. To et al. COVID-19 team
+Australia Yueying et al. Li et al. Feng et al. Liang et al. Zhang et al. Feng et al. Wang et al. Xiaobo et al.
+
+01/20 01/24 01/29 01/30 02/04 02/06 02/07 02/07 02/07 02/12 02/12
+02/13 02/13 02/13 02/14 02/15 02/17 02/17 02/21
+
+136 41 425 99 25 (25.3) 21 2 (1.5) 29 138 0 (0.0) 137 13 1 (7.7) 12 15 -
+
+63 24 21 1590 9 15 34 52
+
+18 (85.7) 2 (22.2) 4 (26.7) -
+
+40 (97.6) 74 (74.7) 16 (11.8) 138 (100.0) 36 (26.3) -
+38 (60.3) 5 (55.6) 8 (53.3) 34 (100.0) -
+
+40 (97.6) 14 (14.1) 18 (13.2) 29 (100.0) 138 (100.0) 55 (40.1) 6 (46.2) -
+
+12 (29.3) 17 (17.2) 27 (19.6) -
+
+14 (22.2) 7 (77.8) 34 (100.0) -
+
+35 (67.3)
+
+6 (14.6) 425 (100.0) 99 (100.0) 21 (15.4) 29 (100.0) 138 (100.0) 137 (100.0) 13 (100.0) 12 (100.0) 15 (100.0)
+
+5 (12.2) 10 (7.2) -
+
+63 (100.0) 24 (100.0) 21 (100.0)
+9 (100.0) 15 (100.0) 34 (100.0) -
+
+12 (23.1)
+
+3 (7.3) 3 (3.0) 5 (3.6) -
+
+4 (9.8) -
+
+15 (28.8)
+
+2 (3.8)
+
+3 (7.3) 4 (4.0) 12 (8.7) -
+
+7 (17.1) 57 (57.6) 21 (15.4) 27 (93.1) 138 (100.0) 77 (56.6) 12 (92.3) 12 (100.0) 11 (73.3)
+
+28 (68.3) 31 (31.3) 47 (34.1) 44 (32.4) 1 (7.7) -
+
+1 (0.7) [64]
+
+6 (14.6) [5]
+
+-
+
+[11]
+
+11 (11.1) [4]
+
+-
+
+[65]
+
+2 (6.9) [66]
+
+6 (4.3) [67]
+
+16 (11.8) [68]
+
+-
+
+[69]
+
+-
+
+[70]
+
+-
+
+[71]
+
+-
+
+-
+
+-
+
+-
+
+[72]
+
+-
+
+-
+
+-
+
+-
+
+[73]
+
+-
+
+21 (100.0)
+
+-
+
+-
+
+[74]
+
+-
+
+1590 (100.0) -
+
+-
+
+[41]
+
+-
+
+9 (100.0)
+
+-
+
+-
+
+[40]
+
+-
+
+-
+
+15 (100.0) -
+
+[75]
+
+-
+
+34 (100.0)
+
+34 (100.0) -
+
+[76]
+
+-
+
+52 (100.0)
+
+-
+
+32 (61.5) [52]
+
+Travel Medicine and Infectious Disease 34 (2020) 101623
+
+WMCHHHPNCI, Wuhan Municipal Commission of Health and Health on Pneumonia of New Coronavirus Infection. MM/DD, Month, Day. ICU, intensive care unit. y-old, years old. AST, Aspartate transaminase. ALT, Alanine transaminase. -, Not available, not reported.
+
+A.J. Rodriguez-Morales, et al.
+
+Travel Medicine and Infectious Disease 34 (2020) 101623
+
+Table 6 Meta-analysis outcomes (random-effects model).a
+
+Variable
+
+Number of Studies
+
+Mean (y-old) / Prevalence (%)
+
+95%CI
+
+n
+
+Qb
+
+I2 c
+
+t2 d
+
+Age Male
+
+18
+
+51.97
+
+22
+
+55.9
+
+46.06-57.89 51.6-60.1
+
+2626 2874
+
+1193.28 61.98
+
+98.56 66.12
+
+145.687 0.005
+
+ICU
+
+6
+
+20.3
+
+10.0-30.6
+
+1883 49.49
+
+89.89 0.013
+
+Comorbidities
+
+7
+
+36.8
+
+Hypertension
+
+5
+
+18.6
+
+Cardiovascular disease
+
+6
+
+14.4
+
+Diabetes
+
+8
+
+11.9
+
+Chronic obstructive pulmonary disease 6
+
+1.8
+
+Malignancies
+
+6
+
+2.5
+
+Chronic liver disease
+
+3
+
+3.0
+
+24.7-48.9 8.1-29.0 5.7-23.1 9.1-14.6 0.6-3.0 0.7-4.2 0.7-5.4
+
+505
+
+47.75
+
+87.44 0.022
+
+363
+
+23.989
+
+83.33 0.011
+
+485
+
+45.29
+
+88.96 0.01
+
+523
+
+4.065
+
+0.00
+
+0.00
+
+485
+
+4.413
+
+0.00
+
+0.00
+
+496
+
+7.59
+
+34.16 0.00
+
+208
+
+0.744
+
+0.00
+
+0.00
+
+Clinical manifestations Fever
+Adult Children Cough Adult Children Dyspnea Myalgia or fatigue Sputum production Sore throat Headache Diarrhea
+
+15
+
+88.7
+
+13
+
+92.8
+
+2
+
+43.9
+
+15
+
+57.6
+
+13
+
+63.4
+
+2
+
+22.0
+
+8
+
+45.6
+
+11
+
+29.4
+
+6
+
+28.5
+
+5
+
+11.0
+
+9
+
+8.0
+
+6
+
+6.1
+
+84.5-92.9 89.4-96.2 28.2-59.6 40.8-74.4 48.0-78.8 0.0-52.9 10.9-80.4 19.8-39.0 10.8-46.3 2.8-19.2 5.7-10.2 2.4-9.7
+
+784
+
+128.73
+
+89.12 0.04
+
+735
+
+68.25
+
+82.42 0.002
+
+49
+
+1.25
+
+20.2
+
+0.003
+
+784
+
+657.76
+
+97.87 0.102
+
+735
+
+413.05
+
+97.09 0.072
+
+49
+
+8.983
+
+88.87 0.044
+
+656
+
+1346.86 99.48 0.248
+
+446
+
+46.53
+
+80.66 0.017
+
+379
+
+94.94
+
+94.73 0.044
+
+308
+
+28.24
+
+85.39 0.006
+
+554
+
+5.048
+
+0.00
+
+0.00
+
+457
+
+13.19
+
+62.11 0.001
+
+Laboratory findings
+
+Decreased Albumin
+
+2
+
+75.8
+
+High C-reactive protein
+
+6
+
+58.3
+
+High LDH
+
+5
+
+57.0
+
+Lymphopenia
+
+8
+
+43.1
+
+High Erythrocyte sedimentation rate
+
+3
+
+41.8
+
+High AST
+
+3
+
+33.3
+
+High ALT
+
+2
+
+24.1
+
+High Creatinine Kinase
+
+2
+
+21.3
+
+Leukopenia
+
+8
+
+18.7
+
+Leukocytosis
+
+7
+
+16.8
+
+High Bilirubin
+
+2
+
+10.7
+
+High Creatinine
+
+3
+
+4.5
+
+30.5-100.0
+
+128
+
+24.29
+
+95.88 0.103
+
+21.8-94.7
+
+332
+
+472.34
+
+98.94 0.200
+
+38.0-76.0
+
+341
+
+54.03
+
+92.59 0.043
+
+18.9-67.3
+
+511
+
+349.18
+
+97.99 0.117
+
+0.0-92.8
+
+157
+
+118.55
+
+98.31 0.199
+
+26.3-40.4
+
+169
+
+1.7
+
+0.00
+
+0.00
+
+13.5-34.6
+
+128
+
+1.749
+
+42.84 0.003
+
+3.2-39.4
+
+140
+
+5.36
+
+81.36 0.014
+
+8.5-28.8
+
+517
+
+126.80
+
+94.48 0.018
+
+5.5-28.0
+
+487
+
+87.47
+
+93.14 0.019
+
+0.0-25.1
+
+128
+
+8.19
+
+87.79 0.01
+
+1.0-8.0
+
+169
+
+2.23
+
+10.17 0.00
+
+Chest X-Ray Pneumonia Compromise
+
+Unilateral
+
+7
+
+25.0
+
+Bilateral
+
+9
+
+72.9
+
+Adult
+
+7
+
+70.7
+
+Children
+
+2
+
+77.7
+
+Image findings
+
+Ground-glass opacity
+
+10
+
+68.5
+
+5.2-44.8
+
+316
+
+165.31
+
+96.37 0.065
+
+58.6-87.1
+
+557
+
+463.64
+
+98.28 0.042
+
+50.4-91.0
+
+508
+
+451.59
+
+98.67 0.070
+
+33.5-100.0
+
+49
+
+12.04
+
+91.69 0.094
+
+51.8-85.2
+
+584
+
+992.3
+
+99.09 0.068
+
+Complications
+
+RNAemia
+
+18
+
+96.8
+
+Adult
+
+16
+
+96.6
+
+Children
+
+2
+
+98.3
+
+Acute respiratory distress syndrome
+
+4
+
+32.8
+
+Acute cardiac injury
+
+3
+
+13.0
+
+Acute kidney injury
+
+4
+
+7.9
+
+Shock
+
+3
+
+6.2
+
+Secondary infections
+
+2
+
+5.6
+
+Hospitalization
+
+15
+
+87.9
+
+Outcome
+
+Discharged
+
+7
+
+52.9
+
+Death
+
+7
+
+13.9
+
+94.9-98.7 94.6-98.6 94.7-100.0 13.7-51.8 4.1-21.9 1.8-14.0 3.1-9.3 0.3-10.9 84.2-91.6
+23.9-81.8 6.2-21.5
+
+1096 1047 49 330 231 330 278 93 2211
+477 632
+
+241.19 240.59 0.125 49.49 6.72 16.5 2.34 1.22 390.76
+548.77 107.17
+
+92.95 93.77 0.00 93.93 70.22 81.85 14.67 18.16 96.42
+98.91 91.4
+
+0.001 0.001 0.00 0.035 0.004 0.003 0.00 0.00 0.004
+0.15 0.009
+
+a 95% CI = 95% confidence interval; ICU, intensive care unit. y-old, years old. AST, Aspartate transaminase. ALT, Alanine transaminase. b Cochran's Q statistic for heterogeneity. c I2 Index for the degree of heterogeneity. d Tau-squared measure of heterogeneity.
+
+P
+< 0.001 < 0.001
+< 0.001
+< 0.001 < 0.001 < 0.001 0.772 0.492 0.180 0.689
+< 0.001 < 0.001 0.263 < 0.001 < 0.001 0.003 < 0.001 < 0.001 < 0.001 < 0.001 0.752 0.022
+< 0.001 < 0.001 < 0.001 < 0.001 < 0.001 0.427 0.186 0.021 < 0.001 < 0.001 0.004 0.328
+< 0.001 < 0.001 < 0.001 < 0.001
+< 0.001
+< 0.001 < 0.001 0.723 < 0.001 0.035 < 0.001 0.310 0.269 < 0.001
+< 0.001 < 0.001
+
+that approximately 20% of those hospitalized needed to be admitted to ICU for critical management. Unlike SARS, with it is well-characterized two-stage clinical course of the disease, COVID-19, still needs further definition [48]. The first week of the condition is also similar, coinciding with recent data of the viral load during this stage [51].
+
+However, case-control studies and cohort studies are necessary to define the clinical evolution of disease better. A second stage, as occurs in SARS, might also be seen in COVID-19, with the lower respiratory tract bilateral compromise, observed in more than 72% of the patients across nine studies with more than 500 patients, also experiencing a dry
+
+9
+
+A.J. Rodriguez-Morales, et al.
+
+Travel Medicine and Infectious Disease 34 (2020) 101623
+
+Table 7 Summary of the case report findings.a
+
+Variables
+
+N (126) %
+
+Variables
+
+N (126) %
+
+Age (y-old) (mean, SD) (n = 118)
+Sex (Male/Female) (n = 71)
+
+47.9 49
+
+ICU (Yes)
+
+11
+
+Comorbidities
+
+Hypertension
+
+13
+
+Chronic liver disease 5
+
+Cardiovascular disease 3
+
+Chronic obstructive
+
+2
+
+pulmonary disease
+
+Malignancy or cancer 1
+
+Clinical features
+
+Fever
+
+97
+
+Cough
+
+70
+
+Myalgia or fatigue
+
+39
+
+Dyspnoea
+
+27
+
+Sputum production
+
+16
+
+Sore Throat
+
+13
+
+Diarrhoea
+
+8
+
+Headache
+
+7
+
+Haemoptisis
+
+1
+
+Laboratory findings
+
+Lymphopenia
+
+30
+
+High C-reactive protein 28
+
+High AST
+
+10
+
+Leukopenia
+
+9
+
+High ALT
+
+9
+
+High LDH
+
+8
+
+High Erythrocyte
+
+6
+
+sedimentation rate
+
+Leukocytosis
+
+4
+
+Anemia
+
+4
+
+Decreased Albumin
+
+3
+
+High Creatinine
+
+2
+
+High Creatine kinase 2
+
+High Bilirubin
+
+1
+
+22.2 Images
+
+69.01
+8.7
+10.3 4.0 2.4
+1.6
+0.8
+77.0 55.6 31.0 21.4 12.7 10.3 6.3 5.6 0.8
+23.8 22.2 7.9 7.1 7.1 6.3 4.8
+3.2 3.2 2.4 1.6 1.6 0.8
+
+Ground-glass
+
+58
+
+opacity at chest X-
+
+ray
+
+Chest X-Ray
+
+50
+
+Bilateral
+
+Pneumonia
+
+Chest X-Ray
+
+13
+
+Unilateral
+
+Pneumonia
+
+Complications
+
+RNAaemia
+
+126
+
+Acute respiratory 9
+
+distress syndrome
+
+Secondary
+
+2
+
+infection
+
+Acute kidney
+
+1
+
+injury
+
+Shock
+
+1
+
+Hospitalization
+
+94
+
+Outcomes
+
+Discharge
+
+48
+
+Death
+
+20
+
+46.0
+39.7
+10.3
+100.0 7.1 1.6 0.8 0.8 74.6 38.1 15.9
+
+Countries of the case report articles (39)
+
+China
+
+25
+
+64.1
+
+South Korea
+
+4
+
+10.3
+
+Australia
+
+1
+
+2.6
+
+Canada
+
+1
+
+2.6
+
+France
+
+1
+
+2.6
+
+Germany
+
+1
+
+2.6
+
+Japan
+
+1
+
+2.6
+
+Nepal
+
+1
+
+2.6
+
+Taiwan
+
+1
+
+2.6
+
+Thailand
+
+1
+
+2.6
+
+United States of
+
+1
+
+2.6
+
+America
+
+Vietnam
+
+1
+
+2.6
+
+Countries of the cases reported (n = 126)
+
+China
+
+101
+
+80.2
+
+South Korea
+
+6
+
+4.8
+
+Germany
+
+5
+
+4.0
+
+France
+
+3
+
+2.4
+
+Australia
+
+2
+
+1.6
+
+Taiwan
+
+2
+
+1.6
+
+Vietnam
+
+2
+
+1.6
+
+Canada
+
+1
+
+0.8
+
+Japan
+
+1
+
+0.8
+
+Nepal
+
+1
+
+0.8
+
+Thailand
+
+1
+
+0.8
+
+United States of
+
+1
+
+0.8
+
+America
+
+a The list of case reports is available at Table S1—supplemental materials.
+
+cough, and dyspnea [5,48,52] and with chest X-ray images of groundglass opacity frequently observed in two-thirds of patients – this is also seen in SARS [53].
+The laboratory abnormalities predominantly found included hypoalbuminemia, elevated inflammatory markers, such as C-reactive protein, LDH, and ESR, among others. Also, lymphopenia is consistently present in more than 40% of the patients across eight studies with more than 500 patients. Data from the 2002–2003 outbreak indicate that SARS may be associated with lymphopenia, leukopenia, and thrombocytopenia, elevated levels of LDH, alanine transaminase (ALT), AST, and creatine kinase [54,55], but also, and not significantly seen, nor consistently reported, in COVID-19 studies and cases, with thrombocytopenia, mild hyponatremia, and hypokalemia. The frequency of lymphopenia found suggests that COVID-19 might act on lymphocytes, especially T lymphocytes, as does SARS-CoV, maybe including
+
+depletion of CD4 and CD8 cells [4]. Virus particles spread through the respiratory mucosa, initially using the ACE2 receptor at ciliated bronchial epithelial cells, and then infect other cells. This induces a cytokine storm in the body and generates a series of immune responses, that cause changes in peripheral white blood cells and immune cells such as lymphocytes [56,57].
+With regard to complications and death, a third of patients presented with ARDS, but also, albeit in a lower frequency, acute cardiac injury, acute kidney injury, and shock, eventually followed by multiple organ failure. Therefore, early identification and timely treatment of critical cases are of crucial importance [4]. We observed a CFR of over 13% in 7 studies describing 632 hospitalized patients. In two studies in China (n = 41, n = 99), the case fatality rates were 15% [5] and 11% [4], respectively. Crude surveillance data [42], indicated that till March 14, 2020, from 156,106 reported cases, 5,829 patients have died (3.73%), with > 52% of the deaths occurring in China (3,085), followed by Italy with 24.72% (1,441). This differs from the CFR found in our systematic review and may be explained by the fact that cases requiring medical attention in hospitals were the patients included in the studies selected for analysis, and that consequently they consulted with an advanced stage of disease leading to hospitalization. Even, from the crude epidemiological data reported by the countries, some of them have reported a higher proportion of deaths, as is the case of Australia (3.75%), China (3.86%), Iran (4.8%), Italy (6.81%, 1,441 deaths/ 21,157 cases), Argentina (8.33%), and Iraq (10.0%). Thus, the CFR in different settings needs further reassessment. More studies are needed to elucidate the risk factors for severe illness and death. This will allow for the identification of groups most likely to have poor outcomes so that we can focus on prevention and treatment efforts? [47].
+After the development of this systematic review (SR), and even availability on a preprint server, online Feb. 25, 2020 (https://www. preprints.org/manuscript/202002.0378/v3); a brief systematic review and meta-analysis, only addressing few variables, such as fever, cough, muscle soreness or fatigue, ARDS, abnormal chest CT, patients in critical condition and death of patients with COVID-19, was published (Feb. 28, 2020) [58]. This review was based on ten studies, using a random effect model, as we did. On March 12, 2020 (two days before the proofs correction of this article), another systematic review was electronically published ahead at International Journal of Infectious Diseases (https://doi.org/10.1016/j.ijid.2020.03.017), assessing the prevalence of comorbidities in the COVID-19 infection patients and the risk of underlying diseases in severe patients compared to non-severe patients. They found similar results: fever (91%, 95%CI 86–97%), followed by cough (67%, 95%CI 59–76%), fatigue (51%, 95%CI 34–68%), and dyspnea (30%, 95%CI 21–40%). The most prevalent comorbidity were hypertension (17%, 95%CI 14–22%), and diabetes (8%, 95%CI 6–11% ), followed by cardiovascular diseases (5%, 95%CI 4–7%), and respiratory system disease (2%, 95%CI 1–3%). They did not assessed other clinical manifestations, nor any laboratory or imaging findings, nor complications.
+Comparing their findings [58] with ours, they found fever in 89.8% (95%CI 81.8–94.5%) of patients, this SR found 88.7% (95%CI 84.5–92.9%), but we assessed differences, as mentioned above, between adults and children, and they did not. For cough, based on the 95%CI, there were not significant differences too, between that SR and the current, 72.2% (95%CI 65.7–78.2%) versus 57.6% (95%CI 40.8–74.4%). For fatigue, there is a variation in frequency between both studies, 42.5% (95%CI 21.3–65.2%) versus 29.4% (95%CI 19.8–39.0%). Sun et al. did not assess other clinical manifestations [58], we were able to do it for eight of the studies included in this systematic review. Both reviews are clear and consistent in that more than 80% of the patients presented with fever, more than half with cough, and more than a third with fatigue. That SR did not assess any laboratory findings, but evaluated the frequency of patients presenting ADRS which was found to be 14.8% (95%CI 4.6–29.6%), which was also consistent with our study, 32.8% (95%CI 13.7–51.8%), which
+
+10
+
+A.J. Rodriguez-Morales, et al.
+
+Travel Medicine and Infectious Disease 34 (2020) 101623
+
+although higher, was not significantly so. For patients admitted to ICU, there were also small differences. Sun et al. found 18.1% (95%CI 12.7–24.3%), however, we identified that 20.3% required intensive critical care (95%CI 10.0–30.6%). The major difference between both studies was in the last variable assessed i.e. the case fatality rate. Sun et al. report 4.3% (95%CI 2.7–6.1%) and we report a rate of 13.9% (95%CI 6.2–21.5%), which is significantly higher. Finally, Sun et al. only included studies, but not case reports, as we did, which provided additional consistent findings of the clinical, laboratory, imaging and evolution characteristics of patients with confirmed COVID-19.
+Our results showed that there is still a need for more comprehensive clinical studies, including short and long -term follow-up cohort assessments. More studies from outside China, where there are more than 100 patients diagnosed with COVID-19, as is the case of South Korea, Italy, and Japan [59,60], will contribute to the growing volume of data, in addition to the growing number of studies appearing from China. Even more, the situation with the cruise ship Diamond Princess, docked in Yokohama, Japan, with 3711 passengers, approximately 20% of the infected, with 7 deaths, is also a valuable chance to better characterize COVID-19. Clinical evidence synthesized in this review is mainly derived from China, although for case reports, ten of the thirty-two countries with confirmed cases [7,12,29,30], have published some of them (Table 7). Further clinical data is crucial to elucidate the clinical spectrum of the disease. The clinical experience stemming from countries now dealing with an ever increasing number of cases such as Italy [61], Singapore, Hong Kong, Nepal [7], Iran, and Malaysia in the form of case reports, case series, or large observational studies will be most important. Up to now, regardless whether of report type (cross-sectional studies or case reports) the clinical findings are consistent, but more data are needed to define the risk factors for admission in ICU and for fatal outcomes. However, data suggest that older age and comorbidities play a vital role in influencing severe disease and negative clinical outcomes. These data would be useful to guide patient risk groups management in the current epidemic, especially in those countries about to receive cases, as is the situation in Latin America. COVID19 cases have been confirmed in Brazil, Mexico, and in all the countries of South America, and in most of the Central America and the Caribbean subregions, as of the time of proofs correction (March 14, 2020) [62]. In these and other resource-constrained settings, e.g. Africa, supplies chains, including those for drugs, masks and personal protection equipment, will be challenged.
+The results of this systematic review highlight the clinical, laboratory, and imaging findings that may assist clinicians anywhere in the globe in suspecting the possibility of COVID-19 infection in those with recent travel to areas with ongoing transmission or among contacts of confirmed cases. Early recognition of cases will allow clinicians to ensure adequate clinical monitoring, institution of supportive interventions, and preventing further transmission by implementing infection control measures [29,56,63]. There is a need for prospective studies to evaluate the epidemiology, pathogenesis, duration of viral shedding, and the clinical spectrum of disease associated with this emerging viral infection [29,56,63].
+To effectively protect populations and healthcare workers in the face of arrival and spreading of this emerging viral pathogen, constant evaluation of available evidence is essential to guide clinical suspicion, diagnosis, management, and mitigation of transmission of COVID-19.
+5.1. Limitations
+This review has several limitations. Few studies are available for inclusion. Most are from China. Now urgently, data from Italy are required. It would be better to include as many studies with a broad geographic scope, to get a more comprehensive understanding of COVID19. More detailed patient information, particularly regarding clinical outcomes, was unavailable in most studies at the time of analyses; however, the data in this review permit a first synthesis of the
+
+clinical and laboratory characteristics of COVID-19. Our systematic review and meta analysis found a CFR of over 13%. As we discussed earlier, the differences between the crude fatality rate (< 3.5%) and that found among hospitalized patients in the selected studies included here may be explained by the fact that cases requiring medical attention in hospitals consulted with a more advanced stage of disease,.
+6. Conclusions
+Infection with COVID-19 is associated with significant morbidity especially in patients with chronical medical conditions. At least onefifth of cases require supportive care in medical intensive care units, which is especially limited in most developing countries. Despite the implementation of optimal supportive interventions, case fatality rate among hospitalized patients is more than 10%. Similar to other viral respiratory pathogens, COVID-19 presents in the majority of cases with a rapidly progressive course of fever, cough and dyspnea. Important distinguishing factors are leukopenia and the rapid progression to ARDS. Eliciting a history of recent travel to areas with ongoing outbreaks of this emerging pathogen or contact with a confirmed case of COVID-19, should prompt clinicians to initiate isolation precautions and obtain laboratory confirmation. Additional research is needed to elucidate viral and host factors in the pathogenesis of severe and fatal infections.
+Author contributions
+AJRM and JACO formulated the research questions, designed the study, developed the preliminary search strategy, and drafted the manuscript. EGO, RV, YHR refined the search strategy by conducting iterative database queries and incorporating new search terms. EGO, RV, YHR, and AJRM searched and collected the articles. JACO, AJRM, and DKBA conducted the quality assessment. All authors critically reviewed the manuscript for relevant intellectual content. All authors have read and approved the final version of the manuscript.
+Funding source
+Universidad Tecnológica de Pereira. Latin American Network of Coronavirus Disease 2019-COVID-19 Research (LANCOVID-19) (www. lancovid.org). Study sponsors had no role in the study design, in the collection, analysis and interpretation of data; in the writing of the manuscript; and in the decision to submit the manuscript for publication.
+Ethical approval
+Approval was not required.
+CRediT authorship contribution statement
+Alfonso J. Rodriguez-Morales: Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Software, Supervision, Validation, Visualization, Writing - original draft, Writing - review & editing. Jaime A. Cardona-Ospina: Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Software, Supervision, Validation, Visualization, Writing - original draft, Writing - review & editing. Estefanía Gutiérrez-Ocampo: Data curation, Writing - review & editing. Rhuvi Villamizar-Peña: Data curation, Writing - review & editing. Yeimer Holguin-Rivera: Data curation, Writing - review & editing. Juan Pablo Escalera-Antezana: Writing - review & editing. Lucia Elena AlvaradoArnez: Writing - review & editing. D. Katterine Bonilla-Aldana: Supervision, Validation, Visualization, Writing - original draft, Writing review & editing. Carlos Franco-Paredes: Writing - review & editing.
+
+11
+
+A.J. Rodriguez-Morales, et al.
+
+Travel Medicine and Infectious Disease 34 (2020) 101623
+
+Andrés F. Henao-Martinez: Writing - review & editing. Alberto PanizMondolfi: Writing - review & editing. Guillermo J. Lagos-Grisales: Writing - review & editing. Eduardo Ramírez-Vallejo: Writing - review & editing. Jose A. Suárez: Writing - review & editing. Lysien I. Zambrano: Writing - review & editing. Wilmer E. Villamil-Gómez: Writing - review & editing. Graciela J. Balbin-Ramon: Writing - review & editing. Ali A. Rabaan: Writing - review & editing. Harapan Harapan: Writing - review & editing. Kuldeep Dhama: Writing - review & editing. Hiroshi Nishiura: Writing - review & editing. Hiromitsu Kataoka: Writing - review & editing. Tauseef Ahmad: Writing - review & editing. Ranjit Sah: Writing - review & editing.
+Declaration of competing interest
+All authors report no potential conflicts. All authors have submitted the ICMJE Form for Disclosure of Potential.
+Acknowledgments
+Contents of this article have been presented in conferences at the ESE Hospital Santa Monica, Dosquebradas, Risaralda, Colombia, March 6, 2020; Universidad Tecnologica de Pereira, Risaralda, Colombia, Symposium on Neglected Tropical Diseases, February 1, 2020, and Fundación Universitaria Autónoma de las Américas, Pereira, Risaralda, Colombia, February 20, 2020 and subsequently by Facebook Live.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https:// doi.org/10.1016/j.tmaid.2020.101623.
+References
+[1] Bonilla-Aldana DK, Dhama K, Rodriguez-Morales AJ. Revisiting the one health approach in the context of COVID-19: a look into the ecology of this emerging disease. Adv Anim Vet Sci 2020;8:234–7.
+[2] Zhu N, Zhang D, Wang W, Li X, Yang B, Song J, et al. A novel coronavirus from patients with pneumonia in China. N Engl J Med 2019. https://doi.org/10.1056/ NEJMoa2001017. 2020.
+[3] Chan JF-W, Yuan S, Kok K-H, To KK-W, Chu H, Yang J, et al. A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet 2020. https://doi.org/10.1016/ S0140-6736(20)30154-9.
+[4] Chen N, Zhou M, Dong X, Qu J, Gong F, Han Y, et al. Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet 2020. https://doi.org/10.1016/S0140-6736(20)30211-7.
+[5] Huang C, Wang Y, Li X, Ren L, Zhao J, Hu Y, et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020;395:497–506.
+[6] The L. Emerging understandings of 2019-nCoV. Lancet 2020;395:311. https://doi. org/10.1016/S0140-6736(20)30186-0.
+[7] Bastola A, Sah R, Rodriguez-Morales AJ, Lal BK, Jha R, Ojha HC, et al. The first 2019 novel coronavirus case in Nepal. Lancet Infect Dis 2020;20:279–80.
+[8] Bonilla-Aldana DK, Villamil-Gómez WE, Rabaan AA, Rodriguez-Morales AJ. Una nueva zoonosis viral de preocupación global: COVID-19, enfermedad por coronavirus 2019. Iatreia 2020:33.
+[9] Millan-Oñate J, Rodríguez-Morales AJ, Camacho-Moreno G, Mendoza-Ramírez H, Rodríguez-Sabogal IA, Álvarez-Moreno C. A new emerging zoonotic virus of concern: the 2019 novel Coronavirus (COVID-19). Infectio 2020:24.
+[10] Ksiazek TG, Erdman D, Goldsmith CS, Zaki SR, Peret T, Emery S, et al. A novel coronavirus associated with severe acute respiratory syndrome. N Engl J Med 2003;348:1953–66.
+[11] Li Q, Guan X, Wu P, Wang X, Zhou L, Tong Y, et al. Early transmission dynamics in wuhan, China, of novel coronavirus-infected pneumonia. N Engl J Med 2020. https://doi.org/10.1056/NEJMoa2001316.
+[12] Phan LT, Nguyen TV, Luong QC, Nguyen TV, Nguyen HT, Le HQ, et al. Importation and human-to-human transmission of a novel coronavirus in vietnam. N Engl J Med 2020. https://doi.org/10.1056/NEJMc2001272.
+[13] Pongpirul WA, Pongpirul K, Ratnarathon AC, Prasithsirikul W. Journey of a Thai taxi driver and novel coronavirus. N Engl J Med 2020;382(11):1067–8. https://doi. org/10.1056/NEJMc2001621.
+[14] Gorbalenya AE. Severe acute respiratory syndrome-related coronavirus – the species and its viruses, a statement of the Coronavirus Study Group. bioRxiv; 2020. 2020.02.07.937862.
+[15] Drosten C, Gunther S, Preiser W, van der Werf S, Brodt HR, Becker S, et al. Identification of a novel coronavirus in patients with severe acute respiratory
+
+syndrome. N Engl J Med 2003;348:1967–76. [16] Kuiken T, Fouchier RA, Schutten M, Rimmelzwaan GF, van Amerongen G, van Riel
+D, et al. Newly discovered coronavirus as the primary cause of severe acute respiratory syndrome. Lancet 2003;362:263–70. [17] de Wit E, van Doremalen N, Falzarano D, Munster VJ. SARS and MERS: recent insights into emerging coronaviruses. Nat Rev Microbiol 2016;14:523–34. [18] Al-Tawfiq JA, Gautret P. Asymptomatic Middle East Respiratory Syndrome Coronavirus (MERS-CoV) infection: extent and implications for infection control: a systematic review. Trav Med Infect Dis 2019;27:27–32. [19] Baharoon S, Memish ZA. MERS-CoV as an emerging respiratory illness: a review of prevention methods. Trav Med Infect Dis 2019:101520. [20] Bonilla-Aldana DK, Quintero-Rada K, Montoya-Posada JP, Ramirez S, PanizMondolfi A, Rabaan A, et al. SARS-CoV, MERS-CoV and now the 2019-novel CoV: have we investigated enough about coronaviruses? - a bibliometric analysis. Trav Med Infect Dis 2020:101566. [21] Al-Tawfiq JA, Zumla A, Memish ZA. Travel implications of emerging coronaviruses: SARS and MERS-CoV. Trav Med Infect Dis 2014;12:422–8. [22] World Health Organization. Novel coronavirus (2019-nCoV) - situation report - 10 30 January 2020. https://www.who.int/docs/default-source/coronaviruse/ situation-reports/20200130-sitrep-10-ncov.pdf?sfvrsn=d0b2e480_2.2020. [23] World Health Organization. Pneumonia of unknown cause – China. https://www. who.int/csr/don/05-january-2020-pneumonia-of-unkown-cause-china/en/.2020. [24] Rodriguez-Morales AJ, Bonilla-Aldana DK, Balbin-Ramon GJ, Paniz-Mondolfi A, Rabaan A, Sah R, et al. History is repeating itself, a probable zoonotic spillover as a cause of an epidemic: the case of 2019 novel Coronavirus. Infez Med 2020;28:3–5. [25] Bonilla-Aldana DK, Suarez JA, Franco-Paredes C, Vilcarromero S, Mattar S, GomezMarin JE, et al. Brazil burning! What is the potential impact of the Amazon wildfires on vector-borne and zoonotic emerging diseases? - a statement from an international experts meeting. Trav Med Infect Dis 2019;31:101474. [26] Mattar S, González M. Zoonotic emergence of coronavirus: a potential public risk for Latin America. Rev MVZ Cordoba 2018;23:6775–7. [27] Plowright RK, Parrish CR, McCallum H, Hudson PJ, Ko AI, Graham AL, et al. Pathways to zoonotic spillover. Nat Rev Microbiol 2017;15:502–10. [28] Yin Y, Wunderink RG. MERS, SARS and other coronaviruses as causes of pneumonia. Respirology 2018;23:130–7. [29] Holshue ML, DeBolt C, Lindquist S, Lofy KH, Wiesman J, Bruce H, et al. First case of 2019 novel coronavirus in the United States. N Engl J Med 2020;382(10):929–36. https://doi.org/10.1056/NEJMoa2001191. [30] Silverstein WK, Stroud L, Cleghorn GE, Leis JA. First imported case of 2019 novel coronavirus in Canada, presenting as mild pneumonia. Lancet 2020;95(10225):734. https://doi.org/10.1016/S0140-6736(20)30370-6. [31] Cardona-Ospina JA, Henao-SanMartin V, Acevedo-Mendoza WF, Nasner-Posso KM, Martinez-Pulgarin DF, Restrepo-Lopez A, et al. Fatal Zika virus infection in the Americas: a systematic review. Int J Infect Dis 2019;88:49–59. [32] Rodriguez-Morales AJ, Cardona-Ospina JA, Fernanda Urbano-Garzon S, Sebastian Hurtado-Zapata J. Prevalence of post-chikungunya infection chronic inflammatory arthritis: a systematic review and meta-analysis. Arthritis Care Res. (Hoboken) 2016;68:1849–58. [33] Stroup DF, Berlin JA, Morton SC, Olkin I, Williamson GD, Rennie D, et al. Metaanalysis of observational studies in epidemiology: a proposal for reporting. Metaanalysis of Observational Studies in Epidemiology (MOOSE) group. J Am Med Assoc 2000;283:2008–12. [34] Moher D, Liberati A, Tetzlaff J, Altman DG, Group P. Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement. PLoS Med 2009;6:e1000097. [35] Institute of Health Economics (IHE). Quality appraisal of case series studies checklist. Edmonton (AB). Institute of Health Economics; 2014. [36] Downes MJ, Brennan ML, Williams HC, Dean RS. Development of a critical appraisal tool to assess the quality of cross-sectional studies (AXIS). BMJ Open 2016;6:e011458. [37] Wallace BC, Dahabreh IJ, Trikalinos TA, Lau J, Trow P, Schmid CH. Closing the gap between methodologists and end-users: R as a computational back-end. J Stat Softw 2012;49. [38] Viechtbauer W. Conducting meta-analyses in R with the metafor package. J Stat Software 2010;36(3):1–48. [39] Kontopantelis E, Reeves D. Performance of statistical methods for meta-analysis when true study effects are non-normally distributed: a comparison between DerSimonian-Laird and restricted maximum likelihood. Stat Methods Med Res 2012;21:657–9. [40] Zhang MQ, Wang XH, Chen YL, Zhao KL, Cai YQ, An CL, et al. Clinical features of 2019 novel coronavirus pneumonia in the early stage from a fever clinic in Beijing. Zhonghua Jiehe He Huxi Zazhi 2020;43:E013. [41] Liang W, Guan W, Chen R, Wang W, Li J, Xu K, et al. Cancer patients in SARS-CoV-2 infection: a nationwide analysis in China. Lancet Oncol 2020;21(3):335–7. https:// doi.org/10.1016/S1470-2045(20)30096-6. [42] Dong E, Du H, Gardner L. An interactive web-based dashboard to track COVID-19 in real time. Lancet Infect Dis 2020. https://doi.org/10.1016/S1473-3099(20) 30120-1. [43] World Health Organization. Statement on the meeting of the international health regulations (2005) emergency committee regarding the outbreak of novel coronavirus (2019-nCoV). https://www.who.int/news-room/detail/23-01-2020statement-on-the-meeting-of-the-international-health-regulations-(2005)emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov; 2020. [44] World Health Organization. Statement on the second meeting of the International Health Regulations (2005) Emergency Committee regarding the outbreak of novel
+
+12
+
+A.J. Rodriguez-Morales, et al.
+
+Travel Medicine and Infectious Disease 34 (2020) 101623
+
+coronavirus (2019-nCoV). https://www.who.int/news-room/detail/30-01-2020statement-on-the-second-meeting-of-the-international-health-regulations-(2005)emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov; 2020. [45] Wu F, Zhao S, Yu B, Chen YM, Wang W, Song ZG, et al. A new coronavirus associated with human respiratory disease in China. Nature 2020;579(7798):265–9. https://doi.org/10.1038/s41586-020-2008-3. [46] Paules CI, Marston HD, Fauci AS. Coronavirus infections-more than just the common cold. J Am Med Assoc 2020. https://doi.org/10.1001/jama.2020.0757. [47] Lipsitch M, Swerdlow DL, Finelli L. Defining the epidemiology of covid-19 - studies needed. N Engl J Med 2020. https://doi.org/10.1056/NEJMp2002125. [48] Srikantiah P, Charles MD, Reagan S, Clark TA, Pletz MW, Patel PR, et al. SARS clinical features, United States, 2003. Emerg Infect Dis 2005;11:135–8. [49] de Groot RJ, Baker SC, Baric RS, Brown CS, Drosten C, Enjuanes L, et al. Middle East respiratory syndrome coronavirus (MERS-CoV): announcement of the Coronavirus Study Group. J Virol 2013;87:7790–2. [50] Wang C, Horby PW, Hayden FG, Gao GF. A novel coronavirus outbreak of global health concern. Lancet 2020;395(10223):470–3. https://doi.org/10.1016/S01406736(20)30185-9. [51] Zou L, Ruan F, Huang M, Liang L, Huang H, Hong Z, et al. SARS-CoV-2 viral load in upper respiratory specimens of infected patients. N Engl J Med 2020. https://doi. org/10.1056/NEJMc2001737. [52] Yang X, Yu Y, Xu J, Shu H, Xia Ja, Liu H, et al. Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study. Lancet Respir Med 2020. https://doi.org/ 10.1016/S2213-2600(20)30079-5. [53] Zhao W, Zhong Z, Xie X, Yu Q, Liu J. Relation between chest CT findings and clinical conditions of coronavirus disease (COVID-19) pneumonia: a multicenter study. AJR Am J Roentgenol 2020:1–6. [54] Lee N, Hui D, Wu A, Chan P, Cameron P, Joynt GM, et al. A major outbreak of severe acute respiratory syndrome in Hong Kong. N Engl J Med 2003;348:1986–94. [55] Tsang KW, Ho PL, Ooi GC, Yee WK, Wang T, Chan-Yeung M, et al. A cluster of cases of severe acute respiratory syndrome in Hong Kong. N Engl J Med 2003;348:1977–85. [56] Rodriguez-Morales AJ, MacGregor K, Kanagarajah S, Patel D, Schlagenhauf P. Going global - travel and the 2019 novel coronavirus. Trav Med Infect Dis 2020;33:101578. [57] Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature 2020;579(7798):270–3. https://doi.org/10.1038/s41586-020-2012-7. [58] Sun P, Qie S, Liu Z, Ren J, Li K, Xi J. Clinical characteristics of 50466 hospitalized patients with 2019-nCoV infection. J Med Virol 2020. https://doi.org/10.1002/ jmv.25735. [59] Nishiura H, Kobayashi T, Yang Y, Hayashi K, Miyama T, Kinoshita R, et al. The rate of underascertainment of novel coronavirus (2019-nCoV) infection: estimation using Japanese passengers data on evacuation flights. J Clin Med 2020;9. [60] Ishikawa H, Shimogawara R. Risk assessment of dengue autochthonous infections in tokyo during summer, especially in the period of the 2020 olympic games. Jpn J Infect Dis 2019;72:399–406. [61] Giovanetti M, Benvenuto D, Angeletti S, Ciccozzi M. The first two cases of 2019-
+
+nCoV in Italy: where they come from? J Med Virol 2020. https://doi.org/10.1002/ jmv.25699. [62] Rodriguez-Morales AJ, Gallego V, Escalera-Antezana JP, Mendez CA, Zambrano LI, Franco-Paredes C, et al. COVID-19 in Latin America: the implications of the first confirmed case in Brazil. Trav Med Infect Dis 2020:101613. [63] Biscayart C, Angeleri P, Lloveras S, Chaves T, Schlagenhauf P, Rodriguez-Morales AJ. The next big threat to global health? 2019 novel coronavirus (2019-nCoV): what advice can we give to travellers? - interim recommendations January 2020, from the Latin-American society for Travel Medicine (SLAMVI). Trav Med Infect Dis 2020:101567. [64] 武汉市卫生委员会对新型冠状病毒感染的肺炎. 武汉市卫生健康委员会关于新型冠状 病毒感染的肺炎情况通报. http://wjw.wuhan.gov.cn/front/web/showDetail/ 2020012009077.2020. [65] Chung M, Bernheim A, Mei X, Zhang N, Huang M, Zeng X, et al. CT imaging features of 2019 novel coronavirus (2019-nCoV). Radiology. 2020:200230. [66] Chen L, Liu HG, Liu W, Liu J, Liu K, Shang J, et al. [Analysis of clinical features of 29 patients with 2019 novel coronavirus pneumonia]. Zhonghua Jiehe He Huxi Zazhi 2020;43:E005. [67] Wang D, Hu B, Hu C, Zhu F, Liu X, Zhang J, et al. Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus-infected pneumonia in wuhan, China. J Am Med Assoc 2020. https://doi.org/10.1001/jama.2020.1585. [68] Kui L, Fang YY, Deng Y, Liu W, Wang MF, Ma JP, et al. Clinical characteristics of novel coronavirus cases in tertiary hospitals in Hubei Province. Chin Med J (Engl). 2020. https://doi.org/10.1097/CM9.0000000000000744. [69] Chang Lin M, Wei L, Xie L, Zhu G, Dela Cruz CS, et al. Epidemiologic and clinical characteristics of novel coronavirus infections involving 13 patients outside wuhan, China. J Am Med Assoc 2020. https://doi.org/10.1001/jama.2020.1623. [70] To KK, Tsang OT, Chik-Yan Yip C, Chan KH, Wu TC, Chan JMC, et al. Consistent detection of 2019 novel coronavirus in saliva. Clin Infect Dis 2020. https://doi.org/ 10.1093/cid/ciaa149. [71] COVID-19 National Incident Room Surveillance Team. COVID-19, Australia: epidemiology report 2. 2020. [72] Pan Y, Guan H, Zhou S, Wang Y, Li Q, Zhu T, et al. Initial CT findings and temporal changes in patients with the novel coronavirus pneumonia (2019-nCoV): a study of 63 patients in Wuhan, China. Eur Radiol 2020. https://doi.org/10.1007/s00330020-06731-x. [73] Liu YSL, Zhang D, Tang S, Chen H, Chen L, Xinchun H. The epidemiological and clinical characteristics of 2019 novel coronavirus infection in changsha China. China (2/10/2020). SSRN Preprints available at SSRN,. https://ssrncom/abstract= 3537093.2020. [74] Pan F, Ye T, Sun P, Gui S, Liang B, Li L, et al. Time course of lung changes on chest CT during recovery from 2019 novel coronavirus (COVID-19) pneumonia. Radiology. 2020:200370. [75] Feng K, Yun YX, Wang XF, Yang GD, Zheng YJ, Lin CM, et al. [Analysis of CT features of 15 Children with 2019 novel coronavirus infection]. Zhonghua Er Ke Za Zhi 2020;58:E007. [76] Wang XF, Yuan J, Zheng YJ, Chen J, Bao YM, Wang YR, et al. [Clinical and epidemiological characteristics of 34 children with 2019 novel coronavirus infection in Shenzhen]. Zhonghua Er Ke Za Zhi 2020;58:E008.
+
+13
+

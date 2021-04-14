@@ -1,0 +1,119 @@
+(IJACSA) International Journal of Advanced Computer Science and Applications, Vol. 2, No. 7, 2011
+The Development Process of the Semantic Web and Web Ontology
+
+K.Vanitha, K.Yasudha, K.N.Soujanya
+Asst. Prof, Dept of CS GIS,GU
+Visakhaptnam,India
+
+M.Sri Venkatesh
+Assoc. Prof, Dept of CS GIS,GU
+Visakhaptnam,India
+
+K.Ravindra, S.Venkata Lakshmi
+Dept. of IT, GIS,GU
+Visakhaptnam,India
+
+Abstract—This paper deals with the semantic web and web ontology. The existing ontology development processes are not catered towards casual web ontology development, a notion analogous to standard web page development. Ontologies have become common on the World-Wide Web[2]. Key features of this process include easy and rapid creation of ontological skeletons, searching and linking to existing ontologies and a natural language-based technique to improve presentation of ontologies[6]. Ontologies, however, vary greatly in size, scope and semantics. They can range from generic upper-level ontologies to domain-specific schemas. The success of the Semantic Web is based on the existance of numerous distributed ontologies, using which users can annotate their data, thereby enabling shared machine readable content. This paper elaborates the stages in a casual ontology development process.
+Key words- Toolkits; ontology; semantic web; language-based; web ontology.
+I. INTRODUCTION
+The notion of the Semantic Web has been gaining prominence, in which users can create precise, unambiguous encodings of information in a machine readable format. Central to this notion is the idea of an Ontology, which is a formal specification of a conceptualization. The success of the Semantic Web is based on the existence of numerous distributed ontologies, using which users can annotate their data, thereby enabling shared machine readable content Ontologies, however, vary greatly in size, scope and semantics. They can range from generic upper-level ontologies to domain-specific schemas. They can be created by Knowledge Representation (KR) experts or novice web users, differing widely in authoring style and formal semantics.
+They can be small ontologies containing a handful of concepts or large ontologies containing thousands of terms and relationships. In such a diverse and heterogeneous information space, ontology engineering assumes tremendous practical significance. Tools supporting it need to provide a seamless environment for browsing, searching, sharing and authoring ontological data. A number of ontology development tools currently exist. Most of the tools provide an integrated environment to build and edit ontologies, check for errors and inconsistencies, browse multiple ontologies, share and reuse existing data by establishing mappings among different ontological entities. However, these tools are influenced by traditional KR-based ontology engineering methodologies, with steep-learning curves, making it cumbersome to use for casual
+
+web ontology development. In this paper, we outline the lifecycle of a casual web ontology development process. Key emphasis is given to the following aspects:
+1) Aiding authors (esp. domain experts) build ontologies from scratch rapidly, using a short hand notation instead of a Direct Manipulation (DM) interface [3].
+2) Facilitating reuse of existing data by providing advanced search capabilities to help locate specific concepts that can be borrowed or linked while creating a new ontology.
+3) Helping novice web users explicitly understand ontological terminologies.
+II. SEMANTIC WEB
+The meaning of the word semantic is the study of meaning and changes of meaning, which provides information of a word. This information becomes knowledge on analyzing the semantics and the network information or knowledge is semantic web. The semantic web brings a set of new emerging technologies and models that need to be found and executed. Semantic web is a platform that integrates data sources using semantic rules, ontologies, web services and web processes[8]. Hence semantic web is not an application but an infrastructure where applications can be developed. The various applications include B2B E-Commerce, Bio-informatics, Tourism, personal semantic assistants etc., The Semantic Web activity statement of the World Wide Web Consortium (W3C)[2] describes the Semantic web as an extension of the current web in which information is given in a well-defined meaning, better enabling computers and people to work in cooperation. It is the idea of having data on the web defined and linked in a way that it can be used for more effective discovery, automation, integration, and reuse across various applications. The Web can reach its full potential if it becomes a place where data can be shared and processed by automated tools as well as by people [2].
+The semantic web development can be categorized broadly into four clusters. They are
+a) Identification and localization: Identification of web resources, considering the semantics of representation languages and localizing these resources for processing.
+b) Relationships between semantic models : There is a need to develop a layered and modular representation languages for the semantic web, considering the heterogeneity as an intrinsic feature as there is no language, no model and no ontology suitable for all purposes.
+
+www.ijacsa.thesai.org
+
+122 | P a g e
+
+(IJACSA) International Journal of Advanced Computer Science and Applications, Vol. 2, No. 7, 2011
+
+c) Tolerant and safe reasoning: As web metadata is considered it is necessary to provide tolerant computing techniques in order to implement safe computing. Also to provide, trust, proofs and rewards on the web new computational models are to be developed.
+d) Facilitating web adoption: By considering the availability of resources and with the support of developing web ontology’s, ontology libraries on meta data( text, audio, video, images), the semantic web can be made user friendly which is the most critical point.
+The Semantic web is based on a set of language such as RDF and OWL that can be used to markup the content of web pages. These languages have a well –defined semantics in proof theory that alllows agents to draw inferences over the state of the language[1].Examples of applications that use Semantics and ontologies
+1) Semantic web services 2) Sematic integration of tourism information sources 3) Semantic digital libraries 4) Semantic electronic patient health record 5) Semantic E-learn Services 6) Semantic Intelligent Systems.
+III. ONTOLOGY DEVELOPMENT PROCESS
+An ontology defines a common vocabulary for researchers. The knowledge which varies greatly in size, scope and semantics is conceptualized based on a concept ontology, which is the success of the semantic web thus the heart of the semantic web. Ontology can be large or small containing thousands of terms and relationships. These can be created by knowledge representation experts or novice web users. In this way, ontology gained its importance in research to share information in a particular domain in machine readable format. Modeling experts build simple ontology’s and instances to enter information easily. Ontology together with a set of individual instances of classes constitutes a knowledge base. Classes are the focus of most anthologies. Classes describe concepts in the domain. A class can have subclasses that represent concepts that are more specific than the super class. Ontology is a single and main building block of semantic web. Ontology is divided into 3 categories
+a) Natural Language Ontology
+b) Domain Ontology
+c) Ontology Instances There are seven activities involved in ontology
+development process which is an iterative process
+1) Determine the domain and scope of the ontology that will give the information and answer several basic questions: What is the domain that the ontology will cover? For what we are going to use the ontology? For what types of questions the information in the ontology should provide answers? Who will use and maintain the ontology? The answers to these questions may change during the ontology-design process. But it help limit the scope of the model.
+
+2) Reusing existing ontologies considering what someone else has done and checking if we can refine and extend existing sources for our particular domain and task. If our system needs to interact with other applications that may requires reusing existing ontologies. Many ontologies are already available in electronic form and can be imported into an ontology-development environment that many knowledgerepresentation systems can import and export ontologies. Knowledge representation system cannot work directly with a particular formalism. The task of translating an ontology from one formalism to another is usually not a difficult task[4].
+3) Enumerate terms in the ontology, it is a list of all terms to make the statements about or to explain to a user. What are the terms we would like to talk about? which type of properties ?
+4) Define the classes and the class hierarchy, the developing the class hierarchy and defining properties of concepts are closely intertwined. There are several possible approaches in developing a class hierarchy.
+a) Top-down development process. b) Bottom-up development process. c) Combination development process.
+Fig 1. Different approaches of Ontology
+If the developer has the top-down approach, the combination approach is often the easiest for many ontology developers, since the concepts in the middle tend to be the more descriptive concepts in the domain( in the year1978 by Rosch). Depending on the usuage propriety to think and distinguish the most general classification. Then top-down approach may work better. If we use the specific propriety the information we get through the bottom-up approach may be appropriate. Either of the approachs usually starts with
+
+www.ijacsa.thesai.org
+
+123 | P a g e
+
+(IJACSA) International Journal of Advanced Computer Science and Applications, Vol. 2, No. 7, 2011
+
+defining classes. Then select describe objects which is dependent on the existence rather than describing these objects.
+1) Define the properties of classes, sometimes the classes alone will not provide enough information so we have to define some of the classes and must describe the internal structure of the concepts.
+2) Define the facets of the slots, slots can have different facets describing the value type, allowed values, the number of the values and other features of the values the slot can take.
+3) Create instances creates individual instances of classes in the hierarchy. As a final word on defining a class hierarchy the following set of rules are always helpful in deciding when an ontology definition is complete.
+Ontology should not contain all the possible information about the domain and similarly the ontology should not contain all the possible properties and distinctions among classes in the hierarchy. In practical terms, developing an ontology includes:
+a) defining classes in the ontology. b) arranging the classes in a taxonomic (subclass superclass) hierarchy. c) defining slots and describing allowed values for these slots.
+d) filling in the values for slots for instances.
+
+Domain scope
+
+Consider reusing
+
+Properties of Classes
+
+Enumerate important
+terms
+
+Characteristics of properties
+
+Create instances
+
+Class hierarchy
+
+Fig 2. Ontology development activities
+The Artificial-Intelligence literature contains many definitions of an ontology; many of these contradict one another[7]. For this purpose to guide, an ontology is a formal explicit description of concepts in a domain of discourse (classes (sometimes called concepts)), properties of each concept describing various features and attributes of the concept (slots (sometimes called roles or properties)), and restrictions on slots (facets (sometimes called role
+
+restrictions))[6]. An Ontology together with a set of individual instances of classes constitutes a knowledge base. In reality, there is a fine line where the ontology ends and the knowledge base begins. Classes are the focus of most ontologies. Classes describe concepts in the domain.
+IV. CASUAL WEB ONTOLOGY DEVELOPMENT
+The casual web ontology development process is analogous to the standard web page development process, in which users have certain information to deploy on the web, and though the use of standard HTML editors such as MS Front page etc., they can quickly and easily arrange and layout the information as desired, while linking to existing relevant information. Casual ontology development process is to be aimed at average semantic. Web users who would rather have a fast and guided approach to web ontology building instead of manual approach. The process already said above is regarding the concepts and domain, arranging the hierarchy and specific properties, refine the terms and refinement stages. While browsing related ontological terms, natural language explanations of these terms are provided to help users easily understand their semantics.
+V. NATURAL LANGUAGE EXPLANATIONS
+The need to provide a natural language explanation of terms in an ontologies arises from the fact that the intended purpose of ontologies is information sharing which could involve external parties that have little or no background knowledge of the ontology domain[6]. In such cases, it becomes the responsibility of the domain experts crating the ontology to provide textual documentation for the terms within. When this is not available, understanding the explicit meaning behind the terms can be difficult. Readability can be greatly enhanced if a natural language representation of the DL-based terms is provided and the NL generation system should be flexible in that the parameters used to specify textual descriptions can be customized based on user preferences[4].
+Most ontology editors assume that the user is well aware of the semantics of the ontology language, whereas in many cases this is not true. While the user may be familiar with the basics of the language, such as its underlying model, types of semantic constructs and its basic syntax/purpose, there are too many hidden semantic nuances in a DL-based language that even an experienced user might not know[5]. A rule based system seems an ideal choice to implement this functionality. A set of manually hard coded rules can be written beforehand, each of which gets fired on specific user-actions such as adding a class, specifying an intersection class definition. Accordingly displays the alternatives or implications of the action based on current state of the ontology and semantics of the language. Backend reasoning would be needed in order to make inferences based on the user action.
+VI. CONCLUSION
+This paper presented a detailed definition about semantic web and web ontology and some outlined information of a casual web ontology development process. Various key stages are involved in this process and its use of shorthand information of shorthand notation to draft ontology[1]. A powerful ontology search algorithm that combines keywords
+
+www.ijacsa.thesai.org
+
+124 | P a g e
+
+(IJACSA) International Journal of Advanced Computer Science and Applications, Vol. 2, No. 7, 2011
+
+with DL-based constructs to find related concepts and related ontology and, natural language based presentation [6]. This is described as an ontology-development methodology for frame based systems. Listed the steps in the ontology-development process and addressed the complex issues of defining class hierarchies and properties of classes and instances. One of the most important things to remember is there is no single correct ontology for any domain [7]. Ontology design is a creative process and no two ontologies designed by different people would be the same application of the ontology and the designer’s understanding and view of the domain will undoubtedly affect ontology design choices. We can assess the quality of our ontology only by using in its applications for which we have designed it.
+REFERENCES
+[1] DRTC Workshop on Semantic web December,2003, Bangalore. Resource Description Frame work: “ATutorial for Developing Web Ontology”.
+
+[2] “W3C Semantic Web Activity Statement”,
+[3] Chimaera (2000). Chimaera ontology Environment.
+[4] Duineveld, A.J.,Stoter, R., Weiden, M.R., Kenepa, B. and Benjamins, .R.(2000).WonderTools? “A Comarative study of ontological engineering tools”. International Journal of Human-Computer Studies.
+[5] “Reusable ontologies, knowledge-acquisition tools, and performance systems; PROTÉGÉ-II solutions to Sisyphus-2”. International journal of Human-Computer Studies44: 301-334. Rothenfluh, T.R Gennari, J.H.,Eriksson, H., puerta, A.R., Tu,S.W.and Musen, M.A. (1996).
+[6] McGuinness, D.L.,Abrahams, M.k.,Resnick, L.A., Patel-Schneider,P.F., Thomason, R.H., Cavalli-Sforza, V. and Conati, C.(1994). Classic Knowledge Representation system Tutorial.
+[7] Musen, M.A.(1992) “Dimensions of Knowledge sharing and reuse”. Computers and Biomedical Research 25:435-467.
+[8] Jorge Cardoso, Universidade da madeira, portugal. “Developing Dynamic Packaging Applications using Semantic Web-based Integration”.
+
+www.ijacsa.thesai.org
+
+125 | P a g e
+

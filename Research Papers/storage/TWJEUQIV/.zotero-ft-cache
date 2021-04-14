@@ -1,0 +1,82 @@
+
+Skip to main content
+Cornell University
+We gratefully acknowledge support from
+the Simons Foundation and member institutions.
+arXiv.org > eess > arXiv:2003.10769
+
+Help | Advanced Search
+Search
+Electrical Engineering and Systems Science > Image and Video Processing
+(eess)
+COVID-19 e-print
+
+Important: e-prints posted on arXiv are not peer-reviewed by arXiv; they should not be relied upon without context to guide clinical practice or health-related behavior and should not be reported in news media as established information without consulting multiple experts in the field.
+[Submitted on 22 Mar 2020 ( v1 ), last revised 27 Mar 2020 (this version, v2)]
+Title: Estimating Uncertainty and Interpretability in Deep Learning for Coronavirus (COVID-19) Detection
+Authors: Biraja Ghoshal , Allan Tucker
+Download PDF
+
+    Abstract: Deep Learning has achieved state of the art performance in medical imaging. However, these methods for disease detection focus exclusively on improving the accuracy of classification or predictions without quantifying uncertainty in a decision. Knowing how much confidence there is in a computer-based medical diagnosis is essential for gaining clinicians trust in the technology and therefore improve treatment. Today, the 2019 Coronavirus (SARS-CoV-2) infections are a major healthcare challenge around the world. Detecting COVID-19 in X-ray images is crucial for diagnosis, assessment and treatment. However, diagnostic uncertainty in the report is a challenging and yet inevitable task for radiologist. In this paper, we investigate how drop-weights based Bayesian Convolutional Neural Networks (BCNN) can estimate uncertainty in Deep Learning solution to improve the diagnostic performance of the human-machine team using publicly available COVID-19 chest X-ray dataset and show that the uncertainty in prediction is highly correlates with accuracy of prediction. We believe that the availability of uncertainty-aware deep learning solution will enable a wider adoption of Artificial Intelligence (AI) in a clinical setting. 
+
+Subjects: 	Image and Video Processing (eess.IV) ; Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG); Machine Learning (stat.ML)
+Cite as: 	arXiv:2003.10769 [eess.IV]
+  	(or arXiv:2003.10769v2 [eess.IV] for this version)
+Submission history
+From: Biraja Ghoshal [ view email ]
+[v1] Sun, 22 Mar 2020 21:58:13 UTC (1,284 KB)
+[v2] Fri, 27 Mar 2020 16:48:13 UTC (1,414 KB)
+Full-text links:
+Download:
+
+    PDF
+    Other formats 
+
+( license )
+Current browse context:
+eess.IV
+< prev   |   next >
+new | recent | 2003
+Change to browse by:
+cs
+cs.CV
+cs.LG
+eess
+stat
+stat.ML
+References & Citations
+
+    NASA ADS
+    Google Scholar
+    Semantic Scholar
+
+a export bibtex citation Loading...
+Bookmark
+BibSonomy logo Mendeley logo Reddit logo ScienceWISE logo
+About arXivLabs
+arXivLabs: experimental projects with community collaborators
+
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+
+Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs and how to get involved .
+Bibliographic Tools
+Code
+Recommenders
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? ) Browse v0.3.2.6 released 2020-10-16    Feedback?
+
+    About
+    Help
+
+    contact arXiv Click here to contact arXiv Contact
+    subscribe to arXiv mailings Click here to subscribe Subscribe
+
+    Copyright
+    Privacy Policy
+
+    Web Accessibility Assistance
+
+    arXiv Operational Status
+    Get status notifications via email or slack
+
