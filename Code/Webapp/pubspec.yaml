@@ -51,7 +51,57 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/xray/
+    # - assets/xray/
+    -  assets/xray/1/input.jpg
+    -  assets/xray/3/input.jpg
+    -  assets/xray/4/input.jpg
+    -  assets/xray/5/input.jpg
+    -  assets/xray/6/input.jpg
+    -  assets/xray/7/input.jpg
+    -  assets/xray/9/input.jpg
+    -  assets/xray/11/input.jpg
+    -  assets/xray/12/input.jpg
+    -  assets/xray/13/input.jpg
+    -  assets/xray/14/input.jpg
+    -  assets/xray/15/input.jpg
+    -  assets/xray/16/input.jpg
+    -  assets/xray/18/input.jpg
+    -  assets/xray/19/input.jpg
+    -  assets/xray/20/input.jpg
+    -  assets/xray/21/input.jpg
+    -  assets/xray/22/input.jpg
+    -  assets/xray/23/input.jpg
+    -  assets/xray/24/input.jpg
+    -  assets/xray/1/heatmap.jpg
+    -  assets/xray/3/heatmap.jpg
+    -  assets/xray/4/heatmap.jpg
+    -  assets/xray/5/heatmap.jpg
+    -  assets/xray/6/heatmap.jpg
+    -  assets/xray/7/heatmap.jpg
+    -  assets/xray/9/heatmap.jpg
+    -  assets/xray/11/heatmap.jpg
+    -  assets/xray/12/heatmap.jpg
+    -  assets/xray/13/heatmap.jpg
+    -  assets/xray/14/heatmap.jpg
+    -  assets/xray/15/heatmap.jpg
+    -  assets/xray/16/heatmap.jpg
+    -  assets/xray/18/heatmap.jpg
+    -  assets/xray/19/heatmap.jpg
+    -  assets/xray/20/heatmap.jpg
+    -  assets/xray/21/heatmap.jpg
+    -  assets/xray/22/heatmap.jpg
+    -  assets/xray/23/heatmap.jpg
+    -  assets/xray/24/heatmap.jpg
+    -  assets/ct/1/input.jpg
+    -  assets/ct/2/input.jpg
+    -  assets/ct/3/input.jpg
+    -  assets/ct/4/input.jpg
+    -  assets/ct/5/input.jpg
+    -  assets/ct/1/heatmap.jpg
+    -  assets/ct/2/heatmap.jpg
+    -  assets/ct/3/heatmap.jpg
+    -  assets/ct/4/heatmap.jpg
+    -  assets/ct/5/heatmap.jpg
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
