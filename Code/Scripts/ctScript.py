@@ -296,5 +296,3 @@ def makeDecisionCT(base64Image):
     json.dump(jsonResult, f)
 
   return jsonResult
-
-

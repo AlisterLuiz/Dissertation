@@ -204,4 +204,3 @@ def makeDecisionXRay(base64Image):
   jsonResult['Diagnosis'] = labels[predictionIndex]
   jsonResult['Accuracy'] = '98%'
   return jsonResult
-
