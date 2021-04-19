@@ -1,0 +1,31 @@
+% Appendix Template
+
+\chapter{CT Image Segmentation Techniques} \label{CT Image Segmentation Techniques} % Change X to a consecutive letter; for referencing this appendix elsewhere, use \ref{AppendixX}
+
+
+\section*{Extended CT Scan COVID-19 Applications}
+
+Table \ref{tab:CT Image Segmentation Techniques Extended} below is an extended version of Table \ref{tab:CT Image Segmentation Techniques} which summarizes existing studies and research, both quantification and diagnosis COVID-19 applications conducted on CT scans.   
+\\
+\begin{longtable}{| p{.25\textwidth} | p{.15\textwidth} | p{.20\textwidth} |  p{.25\textwidth} |} 
+
+    \hline
+\textbf{Study} & \textbf{Method} & \textbf{Application} & \textbf{Target ROI}  \\
+\hline
+\multirowcell{1}{Zheng et al. \cite{CXZ+2020}} & \multirowcell{1}{U-Net} & \multirowcell{1}{Diagnosis}& \multirowcell{1}{Lung} \\ \hline
+\multirowcell{2}{Cao et al. \cite{CYZ+2020}} & \multirowcell{2}{U-Net} & \multirowcell{2}{Quantification}& \multirowcell{1}{Lung} \\ \cline{4-4} & & & \multirowcell{1}{Lesion} \\ \hline
+\multirowcell{3}{Huang et al. \cite{HLR+2020}} & \multirowcell{3}{U-Net} & \multirowcell{3}{Quantification}& \multirowcell{1}{Lung} \\ \cline{4-4} & & & \multirowcell{1}{Lung Lobes} \\ \cline{4-4} & & &  \multirowcell{1}{Lesion}  \\ \hline
+\multirowcell{2}{Yue et al. \cite{YHQ+2020}} & \multirowcell{2}{U-Net} & \multirowcell{2}{Quantification}& \multirowcell{1}{Lung Lobes} \\ \cline{4-4} & & & \multirowcell{1}{Lesion} \\ \hline
+\multirowcell{2}{Gozel et al. \cite{GOM+2020}} & \multirowcell{2}{U-Net} & \multirowcell{2}{Diagnosis}& \multirowcell{1}{Lung} \\ \cline{4-4} & & & \multirowcell{1}{Lesion} \\ \hline
+\multirowcell{4}{Shan et al. \cite{SFY+2020}} & \multirowcell{4}{VB-Net} & \multirowcell{4}{Diagnosis} & \multirowcell{1}{Lung} \\ \cline{4-4} & & & \multirowcell{1}{Lung Lobes} \\ \cline{4-4} &  & & \multirowcell{1}{Lung Segments} \\ \cline{4-4} & & & \multirowcell{1}{Lesion}\\ \hline
+\multirowcell{1}{Li et al. \cite{LLL+2020}} & \multirowcell{1}{U-Net} & \multirowcell{1}{Diagnosis} & \multirowcell{1}{Lesion} \\ \hline
+\multirowcell{1}{Chen et al. \cite{CJL+2020}} & \multirowcell{1}{UNet++} & \multirowcell{1}{Diagnosis} & \multirowcell{1}{Lesion} \\ \hline
+\multirowcell{2}{Jin et al. \cite{JSB+2020}} & \multirowcell{2}{UNet++} & \multirowcell{2}{Diagnosis} & \multirowcell{1}{Lung} \\ \cline{4-4} & & &  \multirowcell{1}{Lesion}\\ \hline
+\multirowcell{4}{Tang et al. \cite{TLX+2020}} & \multirowcell{4}{Commercial\\Software} & \multirowcell{4}{Quantification} & \multirowcell{1}{Lung} \\ \cline{4-4} & & & \multirowcell{1}{Lesion} \\ \cline{4-4} & & & \multirowcell{1}{Trachea} \\ \cline{4-4} & & & \multirowcell{1}{Bronchus}\\ \hline
+% \multirowcell{3}{\cite{SCN+2020}} & \multirowcell{3}{Threshold-based\\Region Growing\\\cite{LBC+2020}} & Lesion \\ \hline
+
+
+\caption{CT Image Segmentation Techniques in COVID-19 Applications \cite{SFJ+2020}}
+
+    \label{tab:CT Image Segmentation Techniques Extended}
+    \end{longtable}
