@@ -8,9 +8,9 @@
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-A comprehensive analysis of the existing research and methodologies 
+We provide a comprehensive analysis of the existing research and methodologies 
 pertaining to COVID-19 detection using 
-medical imagery and deep learning have been provided in this chapter.
+medical imagery and deep learning in this chapter.
 
 % %-----------------------------------
 % %	SUBSECTION 1
@@ -32,6 +32,8 @@ The following section discusses in detail the traditional procedure used
 in detecting COVID-19 using the real-time RT-PCR test but more importantly gives an insight on 
 how medical imagery could be used to achieve the same. The specific patterns 
 and lesions observed from the lung scans of patients diagnosed with COVID-19 are also showcased in this section.
+
+Besides these two approaches, Laguarta et al. utilized cough recordings to diagnose patients with COVID-19 \cite{JFB2020}. Their CNN-based models achieved a sensitivity of 98.5\% and specificity of 94.2\% respectively for patients diagnosed with COVID-19 using an official test. For asymptomatic patients, the model achieves a sensitivity of 100\% and specificity of 83.2\% respectively. 
 
 \subsection{The RT-PCR Test}
 The real-time RT-PCR test is a nuclear-derived method that detects the presence of 
@@ -74,7 +76,7 @@ infected person could spread the virus as they are not under quarantine.
 \vspace{1em}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=15cm, height=6cm]{Images/RTPCR.jpg}
+    \includegraphics[width=10cm, height=6cm]{Images/RTPCR.jpg}
     %\decoRule
     \caption[RT-PCR Test Negative Rate]{Probability of having a negative RT-PCR test result given SARS-CoV-2 infection (top) and of being infected with SARS-CoV-2 after a negative RT-PCR test result (bottom), by days since exposure \cite{KLL+2020}}
     \label{fig:RT-PCR Test Negative Rate}
@@ -95,13 +97,7 @@ shall be presented to lay a foundation for future sections
 where we illustrate how deep learning could learn these features 
 and use it for automated real-time COVID-19 diagnosis.
 
-A study conducted by Chung et al. on 21 symptomatic  
-patients infected with coronavirus admitted to three hospitals in 
-three provinces Guangdong, Jiangxi 
-and Shandong respectively in China from January 18$^{th}$ 2020 to 
-until January 27$^{th}$ 2020 aimed to identify potential imaging 
-features of COVID-19 from CT scans reviewed and verified by two fellowship-trained 
-cardiothoracic radiologists with approximately 5 years of experience each.
+Chung et al. conducted a study on 21 symptomatic patients infected with coronavirus admitted to three hospitals in provinces of Guangdong, Jiangxi, and Shandong respectively in China from January 18th, 2020 to 27th, 2020. They aimed to identify potential imaging features of COVID-19 from CT scans with the help of two experienced fellowship-trained cardiothoracic radiologists with approximately 5 years of experience each.
 
 % After evaluation, the following common characteristics were observed:
 % \begin{itemize}
@@ -117,12 +113,12 @@ cardiothoracic radiologists with approximately 5 years of experience each.
 %   \end{itemize}
 
 The degree of lobe involvement was 
-assessed and a "Total Severity Score" was assigned by summing up the each of the 
+assessed and a "Total Severity Score" was assigned by summing up each of the 
 individual lob scores. Patients were also re-evaluated in order to study the 
 progression of features by the same two radiologists \cite{CMA+2020}.
 
-After evaluation, the following common characteristics tabulated in Table \ref{tab:CT Scan Review Results} were observed. Other abnormalities such as Cavitation, Reticulation, Interlobular Septal Thickening, Calcification, and Bronchiectasis were also assessed.
-% \vspace{1em}
+The observed common characteristics after evaluation are tabulated in Table \ref{tab:CT Scan Review Results}. Other abnormalities such as Cavitation, Reticulation, Interlobular Septal Thickening, Calcification, and Bronch-iectasis were also assessed.
+\vspace{1em}
 % The results of the above study are tabulated below: 
 
 \begin{longtable}{| p{.65\textwidth} | p{.163\textwidth} |} 
@@ -176,10 +172,10 @@ Bilateral lung disease & 16 (76\%)\\ \hline
 % that besides 3 out of the initial 21 patients, patients were observed to have 
 % GGO's or consolidation.
 % 
-\vspace{-2.7em}
+% \vspace{-2em}
 A follow-up chest CT scan was conducted on 8 of the initial 21 patients, within 
 a range of 1 to 4 days. Only 1 patient out of the 8 had normal initial and 
-follow-up CT scan results. 5 out of eight experienced mild progression in 
+follow-up CT scan results. 5 out of 8 experienced mild progression in 
 the lung characteristics, the remaining 2 displayed 
 moderate progression. Fortunately, none of the patients experienced severe progression.
 
@@ -189,11 +185,10 @@ the virus affects more than two lobes with bilateral involvement. Other
 observations include rounded morphology detected in 7 patients, 
 reticulation in 3 patients, and crazy-paving in 4 patients \cite{CMA+2020}.
 % \\
-%  \vspace{-2em}
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=15.5cm, height=12.5cm]{Images/CTScans2.jpg}
+ \includegraphics[width=12.5cm, height=9.2cm]{Images/CTScans2.jpg}
  %\decoRule
  \caption[CT Scan Images]{Observed lung CT Scan characteristics. a) White arrow indicates patchy GGO, and black arrow indicates consolidative pulmonary opacities. b) White arrow indicates GGO's with a rounded morphology. c)  White arrow indicates crazy-paving pattern, GGO and interlobular sepal thickening with intralobular lines. d) Follow-up CT scan progression. White arrow indicates new solitary, rounded, peripheral ground-glass lesion \cite{CMA+2020}.}
  \label{fig:CT Scan Image 1}
@@ -240,7 +235,7 @@ Another study by Morales et al. whose results are summarized in Appendix \ref{CO
 COVID-19, we shall now discuss how deep learning could learn these 
 features and accurately diagnose patients with COVID-19 in real-time. 
 
-\section{Deep Learning for COVID-19 Diagnosis}
+\section{Deep Learning for Medical Imagery-based COVID-19 Detection}
 
 The coronavirus global pandemic spreading rapidly all across the world have 
 forced scientists and researchers to identify alternative 
@@ -255,7 +250,7 @@ using medical imagery due to its rapid detection capabilities,
 fully automated and efficient diagnosis workflow, 
 and assisting medical practitioners by highlighting observed 
 COVID-19 lung characteristics similar to 
-features discussed in the section \ref{medical imagery}. A detailed overview of the modern CT and X-ray systems enabling automated diagnosis workflow ensuring minimal virus exposure can be found in Appendix \ref{Automated Diagnosis Workflow}.
+features discussed in Section \ref{medical imagery}. A detailed overview of the modern CT and X-ray systems enabling automated diagnosis workflow ensuring minimal virus exposure can be found in Appendix \ref{Automated Diagnosis Workflow}.
 
 % In this section, we will have a comprehensive discussion on how 
 % deep learning techniques could accurately diagnose patients with COVID-19 by reviewing the methodologies used and the results 
@@ -285,7 +280,7 @@ to the three most prominent segmentation methods which are \textbf{U-Net} \cite{
 %     \item VB-Net \cite{SFY+2020}
 % \end{itemize}
 
-From section \ref{medical imagery}, we can infer that the main ROIs could be classified into 
+From Section \ref{medical imagery}, we can infer that the main ROIs could be classified into 
 two specific categories, which are lung-region and lung-lesion oriented 
 methods. The latter is more of a challenge in terms of its detection as lesions 
 could be in a variety of shapes and sizes, furthermore, locating its region 
@@ -316,7 +311,7 @@ for many medical applications. They include the following:
 % \vspace{-2em}
 Identifying and labeling the training data for the purpose of COVID-19 diagnosis is often 
 time consuming and labour intensive, especially the manual detection of lesions. Shan et al. proposes a workaround which involves the "human-in-the-loop" strategy, 
-where radiologists play an integral part in the training process \cite{SFY+2020}. Another similar suggestion from Yue et al. was to allow the radiologists to provide initial seeds for the U-Net  model \cite{YHQ+2020}.
+where radiologists play an integral part in the training process \cite{SFY+2020}. Another similar suggestion from Yue et al. allowed the radiologists to provide initial seeds for the U-Net  model \cite{YHQ+2020}.
 
 Zheng et al. suggests an alternative approach, where unsupervised methods are used to generate pseudo segmentation masks for images to overcome 
 the labeling process and thus avoid its limitations. In addition to reviewing results of lung segmentation from the U-Net model, Zheng et al. also utilizes a 3D CNN to predict the probability of 
@@ -329,16 +324,14 @@ The lung segmentation's obtained could be used for COVID-19 diagnosis and for th
 quantification of data. The literature mentioned in this section includes both of the 
 objectives.
 
-Li et al. conducted a multi-center study by distinguishing COVID-19 from community-acquired pneumonia \cite{LLL+2020}. A combination of U-Net and ResNet-50 was proposed with the former used to extract lung regions using pre-processed 2D slices. The latter along with shared weights between the 2D slices combined 
+Li et al. conducted a multi-center study by distinguishing COVID-19 from Community-acquired Pneumonia \cite{LLL+2020}. A combination of U-Net and ResNet-50 is proposed with the former used to extract lung regions using pre-processed 2D slices. The latter along with shared weights between the 2D slices combined 
 with max-pooling is used for COVID-19 diagnosis. This study utilizes a large dataset 
-with 1296 COVID-19 patients, 1735 with community-acquired pneumonia, and 1325 
-non-pneumonia patients. The model achieves a specificity of 96\% and sensitivity 
+with 1296 COVID-19 patients, 1735 with Community-acquired Pneumonia, and 1325 
+Non-Pneumonia patients. The model achieves a specificity of 96\% and sensitivity 
 of 90\%.  
 
-An AI system developed by Jin et al. for rapid COVID-19 diagnosis, involves the input to the classification model 
-being the CT slices which have been segmented \cite{JSB+2020}. Instead of a 3D CNN, a ResNet-50 model was used for diagnosis
-and UNet++ for lung segmentation and lesion identification. The model 
-is trained on 1136 images, 723 COVID-19 positives, and 413 negatives and 
+An AI system developed by Jin et al. for rapid COVID-19 diagnosis, inputs segmented CT slices to the model \cite{JSB+2020}. Instead of 3D CNN, a ResNet-50 model is used for diagnosis
+and UNet++ for lung segmentation and lesion identification. The model trained on 1136 images, 723 COVID-19 positives, and 413 negatives 
 achieves sensitivity and specificity of 97.4\% and 92.2\% respectively.
 
 As for the quantification of data, both Cao et al. \cite{CYZ+2020} and Huang et al. \cite{HLR+2020} monitor the longitudinal 
@@ -346,16 +339,16 @@ progression of COVID-19 using the CT segmentation of pulmonary opacities using t
 the lung region and GGO. Therefore, the image segmentation obtained aids radiologists 
 in infection identification, analysis, and diagnosis.
 
-Most of the classification studies involve segregating COVID-19 patients 
+Most classification studies involve segregating COVID-19 patients 
 from non-COVID-19 with most of the latter patients being segregated further 
-into pneumonia and non-pneumonia subjects.
+into Pneumonia and Non-Pneumonia subjects.
 
 Chen et al. developed a UNet++ model which segments lung lesions 
 \cite{CJL+2020} using CT images of 51 COVID-19 patients and 
 55 patients with other diseases and diagnose patients with 95.2\% accuracy thus reducing the reading time of radiologists by 65\%. Given 
-raw images to the model, prediction boxes displaying suspected regions were output,
-after further extraction and filtering a logic linking of predictions was added, which 
-aimed to aid radiologists in manual detection of the virus.
+raw images to the model, it outputs prediction boxes displaying suspected regions,
+after further extraction and filtering, a logic linking of predictions is added that 
+aims to aid radiologists in manual detection of the virus.
 
 Jin et al. considers an alternative approach  
 utilizing 2D Deeplab v1 and 2D ResNet-152 models for lung segmentation 
@@ -364,23 +357,23 @@ model achieves a respectable score of 94.1\% sensitivity and 95.5\%
 specificity using a dataset of 496 COVID-19 positive CT scan images.
 
 The objective of the remaining studies besides COVID-19 diagnosis is its differentiation
-with common pneumonia which primarily 
-includes viral pneumonia. The main reason for this objective being the 
+with common Pneumonia which primarily 
+includes viral Pneumonia. The main reason for this objective being the 
 very similar radiological appearances of both the diseases.
 
-Wang et al. classifies between COVID-19 and viral pneumonia using a 2D CNN model on delineated 
-region patches \cite{WBX+2020}. Experiments were conducted on chest CT scans from 
-44 COVID-19 and 55 pneumonia patients with external testing 
+Wang et al. classifies between COVID-19 and viral Pneumonia using a 2D CNN model on delineated 
+region patches \cite{WBX+2020}. Experiments conducted on chest CT scans from 
+44 COVID-19 and 55 Pneumonia patients with external testing 
 resulting in 79.3\% accuracy.
 
 Experiments carried out by Song et al. employs OpenCV to segment 
 2D slices which include lung regions \cite{SZL+2020}. The 3D chest CT images resulted in 
-15 2D slices of complete lungs and each slice were fed into the deep learning based CT diagnosis system also called DeepPneumonia. A combination of 
+15 2D slices of complete lungs and each slice is fed into the deep learning based CT diagnosis system also called DeepPneumonia. A combination of 
 a pre-trained ResNet-50 along with Feature Pyramid Network (FPN) which can 
 extract specific ranked details from the images, coupled 
-with an attention module to learn these extracted details were used to develop this model.
+with an attention module to learn these extracted details are used to develop this model.
 
-The dataset includes 88 COVID-19 patients, 101 bacterial pneumonia and 86 
+The dataset includes 88 COVID-19 patients, 101 bacterial Pneumonia and 86 
 healthy patients. The proposed model achieves a classification accuracy of 86\%.
 
 Table \ref{tab:CT Image Segmentation Techniques} and \ref{tab:COVID-19 Diagnosis Applcations} summarizes all the COVID-19 image segmentation 
@@ -437,7 +430,7 @@ and also reduce the high exposure rates between patients and medical professiona
 
 \subsection{X-ray Based Diagnosis of COVID-19}
 X-rays are most often the first imaging modality used on suspected patients, due 
-to its wide availability in most clinics and medical facilities. As seen in section \ref{medical imagery},
+to its wide availability in most clinics and medical facilities. As seen in Section \ref{medical imagery},
 radiological signs include GGOs, consolidation, and opacification.
 
 In order to detect these abnormalities in lung X-ray scans, three popular 
@@ -477,7 +470,7 @@ to detect COVID-19 from X-ray images  \cite{AKP2020}. The dataset includes X-ray
 attains 97\%.
 
 Zhang et al. also suggest a ResNet based model for COVID-19 detection \cite{ZXS+2020}. 
-But the model aims to achieve two objectives, one for COVID-19 classification and another for anomaly detection. The experiment was conducted on a dataset containing X-rays from 
+But the model aims to achieve two objectives, one for COVID-19 classification and another for anomaly detection. The experiment is conducted on a dataset containing X-rays from 
 70 COVID-19 patients and 1008 other X-rays. The anomaly detection score in-turn optimizes the COVID-19 
 classification score which reaches 96\% from the experiments conducted by the authors.
 
@@ -504,12 +497,11 @@ Table \ref{tab:X-ray Image Segmentation Techniques} summarizes the results obtai
 \vspace{-2em}
 \begin{center}\textcolor{red}{* } Acc. - Accuracy, Sens. - Sensitivity, Spec. - Specificity \end{center}
 
-As seen in the above studies on X-ray images, the classification of COVID-19 from other Pneumonia seems 
-to be a repeating objective. The major limitation involves the lack of data available as 
-currently there exist two online datasets with 70 images from COVID-19 patients, therefore 
+As seen in the above studies on X-ray images, the classification of COVID-19 from Pneumonia seems 
+to be a repeating objective. The major limitation involves the lack of data available, therefore 
 the generalizability and stability of the model are yet to be evaluated.
 
-\subsection{Interpreting Deep Learning Results}
+\subsection{Heatmap Visualization of Deep Learning Results}
 \label{Interpreting Deep Learning Results}
 Deep learning techniques are often regarded as "Black Boxes" concerning 
 its training and classification mechanisms. In medical applications such as this topic where we 
@@ -530,8 +522,8 @@ mentioned below:
     \item \textbf{Gradient-Weighted CAM (Grad-CAM)} - Calculates the gradient of the classification score with respect to the convolutional features \cite{RCD+2017}.
 \end{itemize}
 
-The saliency maps shown in Figure \ref{fig:X-ray images and their corresponding heat maps} and \ref{fig:Saliency Maps displaying COVID-19 lung characteristics in CT and X-ray scans} highlight those regions in the lungs 
-which as discussed in Section \ref{medical imagery}, exhibit the most common characteristics 
+The saliency maps shown in Figure \ref{fig:X-ray images and their corresponding heat maps} and \ref{fig:Saliency Maps displaying COVID-19 lung characteristics in CT and X-ray scans} highlight regions in the lungs 
+which as discussed in Section \ref{medical imagery} exhibit the most common characteristics 
 in patients diagnosed with COVID-19. 
 GGO's, consolidations, lesions, and crazy-paving patterns are some of the 
 more contributing features for diagnosis purposes by the 
@@ -539,7 +531,7 @@ deep learning model as indicated by the saliency maps.
 
     \begin{figure}[H]
     \centering
-    \includegraphics[width=15cm, height=6cm]{Images/Saliency4.JPG}
+    \includegraphics[width=15cm, height=8cm]{Images/Saliency4.JPG}
     %\decoRule
     \caption[X-ray Heat Map]{X-ray images and the corresponding heat maps \cite{OTY+2020}}
     \label{fig:X-ray images and their corresponding heat maps}
@@ -599,7 +591,7 @@ only the beginning and medical industry is due for a
 breakthrough soon. 
 
 % \vspace{-1em}
-\subsection{Overview of COVID-19 Applications}
+% \subsection{Overview of COVID-19 Applications}
 
 Among many medical applications, where AI could potentially 
 optimize and improvise standard procedures, automated 
@@ -625,7 +617,7 @@ to deep learning interpretability techniques which provides a finer localization
 map and exhibits more intricate details when compared to 
 Class Activation Mapping (CAM) techniques.
 % \vspace{-1em}
-\subsection{Critical Review}
+\subsection*{Critical Review}
 
 Using medical imagery for disease diagnosis has variety of applications, for example, 
 diagnosing COVID-19 as seen through experiments conducted by multiple studies. But one noticeable caveat is the observed negative radiological signs during preliminary stages of the disease. This could have critical consequences in real-life circumstances especially amid a global pandemic.
@@ -646,7 +638,7 @@ where filters applied on a completely different dataset could be
 reused for COVID-19 applications are viable options to mitigate the above labeling 
 complication.
 
-As the coronavirus was declared a global pandemic fairly recently in early 2020, limited 
+As the coronavirus was declared a global pandemic in early 2020, limited 
 follow-up studies exist to identify treatment mechanisms and 
 evaluating diagnosis tools. Few studies such as from Chung et al. \cite{CMA+2020}, mentioned earlier 
 did in fact carry out follow-up CT scans to recognize progression patterns from 
@@ -656,8 +648,8 @@ the initial version, the results obtained could not be reliably applied in the r
 % Applying the findings obtained and methods carried out from 
 % experiments conducted on related studies similar to COVID-19 diagnosis 
 % would be the ideal path to take during this stage of the pandemic. 
-% Especially from various pneumonia diseases as we have seen earlier to have similar radiological observations as that of the coronavirus. Deep learning 
-% techniques employed for the diagnosis of pneumonia could also be replicated for 
+% Especially from various Pneumonia diseases as we have seen earlier to have similar radiological observations as that of the coronavirus. Deep learning 
+% techniques employed for the diagnosis of Pneumonia could also be replicated for 
 % COVID-19 diagnosis.
 
 % Applying the findings obtained and methods carried out from 

@@ -1,10 +1,10 @@
 \chapter{Project Implementation} \label{Project Implementation}
 
-In this section we explore the implementation workflow followed throughout project development phase. This chapter is divided into two main sections, that is, X-rays and CT scans. Within each of these sections, we provide a comprehensive discussion on the approaches and concepts utilized. The implementation workflow ranges from Data Collection to Heatmap Visualization. Before we dive into these sections, we describe our development environment. 
+In this section we explore the implementation workflow followed throughout project development phase. This chapter is divided into two main sections, that is, X-rays and CT scans. Within each of these sections, we provide a comprehensive discussion on the approaches and concepts utilized. The implementation workflow ranges from Data Collection to Heatmap Visualization. Before we dive into these sections, we briefly describe our requirements and development environment. 
 
 \section{Requirements Analysis}
 
-Our implementation was indeed focused around the Functional Requirements carefully curated during Stage 1 of this project. Most of our requirements revolved around the segmentation and diagnosis of chest X-rays and CT scans, with the former being a mandatory requirement. 
+Our implementation is indeed focused around the Functional Requirements carefully curated during Stage 1 of this project. Most of our requirements revolved around the segmentation and diagnosis of chest X-rays and CT scans, with the former being a mandatory requirement. 
 
 Fortunately, we have been able to experiment with both X-rays and CT scans and successfully build a real-time diagnosis system. Other requirements focused on heatmap generation, multi-class diagnosis, and web interface, which have also been implemented. In addition, we have validated a subset of results obtained with findings observed by a senior Radiologist. 
 
@@ -17,7 +17,7 @@ We have utilized the free-to-use tier of Google Colaboratory to develop our deep
 
 \section{Source Code}
 
-As mentioned in Section \ref{devEnv}, we have used notebooks provided by Google Colab for developing and evaluating our models. All datasets and notebooks utilized in this project, Flutter code used for our Diagnosis Portal, Python scripts and additional resources are uploaded on our OneDrive repository \footnote{The OneDrive Repository can be found here: \url{https://heriotwatt-my.sharepoint.com/:f:/g/personal/agl2_hw_ac_uk/EmzALshj8olHrfeelAF8h7ABPoVhQBsnViMaiNgTp9Zc6g?e=FbzZhj}}. We have also uploaded the Source Code on GitHub as per the requirements \footnote{GitHub Repository can be found here: \url{https://github.com/AlisterLuiz/Dissertation}}. We have also deployed our Diagnosis Portal that allows real-time COVID-19 Diagnosis \footnote{Link to the Diagnosis Portal: \url{http://40.76.124.61/}}.
+As mentioned in Section \ref{devEnv}, we have used notebooks provided by Google Colab for developing and evaluating our models. All datasets and notebooks utilized in this project, Flutter code used for our Diagnosis Portal, Python scripts and additional resources are uploaded on our OneDrive repository \footnote{The OneDrive Repository can be found here: \url{https://heriotwatt-my.sharepoint.com/:f:/g/personal/agl2_hw_ac_uk/EmzALshj8olHrfeelAF8h7ABPoVhQBsnViMaiNgTp9Zc6g?e=FbzZhj}}. We have uploaded the Source Code on GitHub as per the requirements \footnote{GitHub Repository can be found here: \url{https://github.com/AlisterLuiz/Dissertation}}. We have also deployed our Diagnosis Portal that allows real-time COVID-19 Diagnosis \footnote{Link to the Diagnosis Portal: \url{http://40.76.124.61/}}.
 
 
 \section{X-ray Scans}
@@ -25,14 +25,14 @@ The following section illustrates the workflow utilized to collect data, develop
 
 \subsection{Data Collection}
 
-Our model was trained and tested using images from a Kaggle dataset\footnote{Available at: \url{https://www.kaggle.com/prashant268/chest-xray-covid19-pneumonia}}. The dataset is compiled from multiple  sources \cite{GAN2020, MOO2018, AGC2020}. It is an open-source database of COVID-19 cases which includes X-ray scans. It includes COVID-19 and Pneumonia cases as well as Healthy Chest Scans.
+Our model is trained and tested on images from a Kaggle dataset\footnote{Available at: \url{https://www.kaggle.com/prashant268/chest-xray-covid19-pneumonia}}. The dataset is compiled from multiple  sources \cite{GAN2020, MOO2018, AGC2020}. It is an open-source database of COVID-19 cases which includes X-ray scans. It includes COVID-19 and Pneumonia cases as well as Healthy Chest Scans.
 
 
 Furthermore, given the objective of our classification task to identify COVID-19 patterns, only the posterior-anterior view of the lungs was considered for training and testing. This view visualizes the bony thoracic cavity, mediastinum, and great vessels \cite{MUR2020}. This choice allowed us to reduce the number of training instances and work with a less unbalanced dataset. 
 
 \subsection{Data Pre-processing}
 
-As we successfully identified a suitable dataset and collected the required X-ray scans, it was now time to pre-process the data and prepare it for model training purposes. This section highlights all the pre-processing procedures we have carried out.
+As we successfully identified a suitable dataset and collected the required X-ray scans, we then pre-process the data and prepare it for model training purposes. This section highlights all the pre-processing procedures carried out.
 
 \subsubsection{Data Augmentation} \label{aug}
 
@@ -40,10 +40,10 @@ To generate more training samples and reliable training results we have performe
 
 In each fold of the 10-fold cross validation, we take 10\% of dataset out to be used as validation dataset. The remaining 90\% undergoes an augmentation step. The augmentation step uses three operators to produce slightly modified image, namely rotation, zooming and shearing. Image rotation rotates image by $5^{\circ}$. Zooming applies a +2\% zoom. Shearing distorts an image along an axis (essentially converting rectangles into parallelograms), applies a $2^{\circ}$ counter-clockwise distortion. 
 
-To perform augmentation with these three operators we have utilized Keras' Image Data Generator class which generates batches of tensor image data with real-time data augmentation \cite{KER}. Given memory limits of Google Colab, we have generated 600 images per class using training data which was appended to our existing dataset. Therefore, augmented training data was fed into our deep learning model for training. A summary of our dataset is provided in Section \ref{eda}.
+To perform augmentation with these three operators we have utilized Keras' Image Data Generator class which generates batches of tensor image data with real-time data augmentation \cite{KER}. Given memory limits of Google Colab, we have generated around 600 images per class using training data which was appended to our existing dataset. Therefore, augmented training data was fed into our deep learning model for training. A summary of our dataset is provided in Section \ref{eda}.
 
 \subsubsection{Exploratory Data Analysis} \label{eda}
-As an initial insight into our dataset, we have plotted the number of X-ray scans per class before and after we have balanced the dataset, these figures are plotted in Figure \ref{fig:dataset_dist}. From our initial data collection, we received 575 COVID-19, 4273 Pneumonia, and 2583 healthy chest scans. After balancing, our dataset comprised of 572 scans from each class respectively.
+As an initial insight into our dataset, we have plotted the number of X-ray scans per class before and after we have balanced the dataset, these figures are plotted in Figure \ref{fig:dataset_dist}. From our initial data collection, we received 575 COVID-19, 4273 Pneumonia, and 2583 Healthy Chest Scans. After balancing, our dataset comprised of 572 scans from each class respectively.
 
 % \vspace{1em}
 
@@ -102,7 +102,7 @@ We have constructed, developed, and evaluated three pre-trained base models on t
 
 Each of the pre-trained models we have experimented with has their own set of advantages. Dense-Net's are known to ease vanishing-gradient problem, reinforce feature propagation, promote feature reuse, and reduce the number of training parameters \cite{HLW+2016}.
 
-Residual Networks are known for their faster training speeds and powerful representational ability \cite{BAK2016, FEN2017}. Furthermore, from Literature Review (Section \ref{LR}) we observe that ResNet variants seem to be a popular choice among studies performing image classification.
+Residual Networks are known for their faster training speeds and powerful representational ability \cite{BAK2016, FEN2017}. Furthermore, from Chapter \ref{LR} we observe that ResNet variants seem to be a popular choice among studies performing image classification.
 \vspace{0.5em}
 \begin{figure}[H]
         \begin{subfigure}[]{0.49\linewidth}
@@ -151,7 +151,7 @@ pretrainedVGG = tf.keras.applications.VGG16(input_shape = (imageSize, imageSize,
 
 \subsubsection{Keras Callbacks} \label{KCXray}
 
-The Keras Callbacks API is an effective utility which aids in enhancing model training. A callback is an object that can perform actions at various stages of training, usually in between epochs or when training begins or ends \cite{KCB}. For training our deep learning models on X-ray scans we utilized three Callback functions, that is, EarlyStopping, ReduceLROnPlateau, and ModelCheckpoint.
+The Keras Callbacks API is an effective utility which aids in enhancing model training. A Callback is an object that can perform actions at various stages of training, usually in between epochs or when training begins or ends \cite{KCB}. For training our deep learning models we utilized three Callback functions, that is, EarlyStopping, ReduceLROnPlateau, and ModelCheckpoint.
 
 EarlyStopping (ES) ends training when a monitored metric has stopped improving \cite{KES}. For each of our deep learning models we have used the ES Callback with the following parameters. 
 
@@ -160,9 +160,9 @@ EarlyStopping (ES) ends training when a monitored metric has stopped improving \
 esCallback = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=15, verbose=1)
 \end{lstlisting}
 
-We monitor validation loss and terminate our training as soon as model converges. An added benefit of using this callback is reduced processing time required to train our deep learning models.
+We monitor validation loss and terminate our training as soon as model converges. An added benefit of using this Callback is reduced processing time required to train our deep learning models.
 
-The next callback, ReduceLROnPlateau reduces the learning rate when a metric has stopped improving, in our case validation loss. This callback proved to be fruitful while training our deep learning models. Reducing the Learning Rate by a factor of 0.5, helped the models to converge faster and overcome learning plateaus \cite{KLR}. 
+The next Callback, ReduceLROnPlateau reduces the learning rate when a certain metric has stopped improving, in our case, the validation loss. This Callback proved to be fruitful while training our deep learning models. Reducing the Learning Rate by a factor of 0.5, helped the models to converge faster and overcome learning plateaus \cite{KLR}. 
 \vspace{1em}
 \begin{lstlisting}
 lrReduce = tf.keras.callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.5, min_delta=0.0001, patience=8, verbose=1)
@@ -178,7 +178,7 @@ mcpSave = ModelCheckpoint('Path to Save Model', save_best_only=True, monitor='va
 Utilizing each of our these three callbacks allowed us to increase the efficiency and performance of our models.
 
 \subsubsection{Transfer Learning} \label{tl}
-Transfer learning is a machine-learning technique where a model trained for an application with some dataset is re-used on another dataset. The pre-trained model approach to transfer learning consists of using the source model as a starting point for training the target model. 
+Transfer learning is a machine-learning technique where a model trained for an application with some dataset is reused on another dataset. The pre-trained model approach to transfer learning consists of using the source model as a starting point for training the target model. 
 
 In order to reduce training time and improve accuracy, we adopted the pre-trained transfer learning approach. We have used a model trained with large volume of images from the ImageNet dataset for classification tasks \cite{IMG}. Using the pre-trained model, we trained only the final layer so as to alter its weights to suit our dataset. All other layers used fixed weights obtained from the prior training using the ImageNet dataset. A very simple illustration of the Transfer Learning approach is shown in Figure \ref{fig:transfer learning}. 
 
@@ -197,7 +197,7 @@ Given our base models, an ideal approach to improve upon the classification perf
 
 Our approach involves utilizing the best performing model after cross-validation from each of the three base models. We take the last dense layer of each model, that is, without the heads, and provide the network an opportunity to learn from these dense layers before applying the softmax function. Indeed, we have frozen the layer weights of our base models, before ensembling. 
 
-Keras' Concatenate layer \cite{CON} allows us easily merge or stack these dense layers and yield the final prediction after applying the softmax activation. As expected, we have observed an increase in classification performance through ensembling our base models. An illustration of the same is provided in Figure \ref{fig:ensemble learning}.
+Keras' Concatenate layer \cite{CON} allows us to easily merge or stack these dense layers and yield the final prediction after applying the softmax activation. As expected, we have observed an increase in classification performance through ensembling our base models. An illustration of the same is provided in Figure \ref{fig:ensemble learning}.
 
 \begin{figure}[H]
 	\centering
@@ -242,9 +242,9 @@ history = model.fit(augmentedDataX, YCatAug, validation_data = (XTrain[test], YC
 
 \subsubsection{Heatmap Visualization}
 
-For the purpose of building a more interepretable model, we generated heatmaps for the provided X-ray scans. The heatmaps highlight the regions that led to the classification by our model. We calculated the Grad-CAM heatmaps with the help of Keras' Computer Vision examples \cite{KCV}. The same Grad-CAM class activation visualization example provided by François Chollet was utilized in our implementation \cite{KGM}. We have generated Grad-CAM heatmaps from each of our three base models. We have utilized Numpy \cite{NUM} to average obtained heatmaps and produce the final consolidated heatmap.
+For the purpose of building a more interpretable model, we generated heatmaps for the provided X-ray scans. The heatmaps highlight the regions that led to the classification by our model. We calculated the Grad-CAM heatmaps with the help of Keras' Computer Vision examples \cite{KCV}. The same Grad-CAM class activation visualization example provided by François Chollet is utilized in our implementation \cite{KGM}. We have generated Grad-CAM heatmaps from each of our three base models. We have utilized Numpy \cite{NUM} to average obtained heatmaps and produce the final consolidated heatmap.
 
-Grad-CAM heatmaps highlight regions in the lungs which, as discussed in section \ref{Interpreting Deep Learning Results}, exhibit the most common characteristics in patients diagnosed with COVID-19. These include features such as GGO’s, consolidations, lesions, and crazy-paving patterns, which are some of the most contributing features to diagnosis. This technique provides interpretation means that would assist radiologists in identifying the same lung characteristics as with traditional segmentation-based methods. Regions in red are the most influential in making the decision, whereas blue regions are the least influential.
+Grad-CAM heatmaps highlight regions in the lungs which, as discussed in Section \ref{Interpreting Deep Learning Results}, exhibit the most common characteristics in patients diagnosed with COVID-19. These include features such as GGO’s, consolidations, lesions, and crazy-paving patterns, which are some of the most contributing features to diagnosis. This technique provides interpretation means that would assist radiologists in identifying the same lung characteristics as with traditional segmentation-based methods. Regions in red are the most influential in making the decision, whereas blue regions are the least influential.
 
 
 \subsubsection{Workflow Summary Illustration}
@@ -273,7 +273,7 @@ In the following subsections, we provide a brief overview on the various Data Pr
 
 Even though the Kaggle dataset already contains the pre-processed dataset, it was necessary for us to understand the process involved in extracting the lung parenchyma, so as to do the same for incoming unseen samples in a real-time application.
 
-This process for extracting the lung parenchyma was as per the suggestions by Ning et al. \cite{ICT2019}. The source code involved a fill water function that applied certain filter masks to further fine tune the extracted lung parenchymas. An example of a CT scan image before and after extracting lung parenchyma is displayed in Figure \ref{fig:extract}. Indeed, the processed CT images were used for model training and evaluation purposes.
+This process for extracting the lung parenchyma is as per the suggestions by Ning et al. \cite{ICT2019}. The source code involved a fill water function that applied certain filter masks to further fine tune the extracted lung parenchymas. An example of a CT scan image before and after extracting lung parenchyma is displayed in Figure \ref{fig:extract}. Indeed, the processed CT images were used for model training and evaluation purposes.
 
 \begin{figure}[H]
         \begin{subfigure}[b]{0.5\textwidth}
@@ -293,7 +293,7 @@ This process for extracting the lung parenchyma was as per the suggestions by Ni
 
 \subsubsection{Data Augmentation}
 
-Similar to our X-ray pre-processing workflow we have augmented the CT data so as to improve the reliability of our model prediction and handle unpredictabilities of real-world data. The same augmentation parameters were applied at each of the 10 iterations of 10-fold cross validation, that is, $5^{\circ}$ rotation, +2\% zooming, and $2^{\circ}$ shearing. Keras' Image Data Generator class was once again utilized for performing real-time data augmentation \cite{KER}. Once again prioritizing the limits of Google Colab, we have generated 2000 augmented images per class and is appended to the existing dataset.
+Similar to our X-ray pre-processing workflow we have augmented the CT data so as to improve the reliability of our model prediction and handle unpredictabilities of real-world data. The same augmentation parameters were applied at each of the 10 iterations of 10-fold cross validation, that is, $5^{\circ}$ rotation, +2\% zooming, and $2^{\circ}$ shearing. Keras' Image Data Generator class was once again utilized for performing real-time data augmentation \cite{KER}. Once again prioritizing the limits of Google Colab, we have generated around 2000 augmented images per class and is appended to the existing dataset.
 
 \subsubsection{Exploratory Data Analysis} \label{EDA CT}
 
@@ -330,7 +330,7 @@ To familiarize ourselves with the data, the first step was to plot the number of
   \label{tab:Dataset Info CT}
     \end{longtable}
 
-We have also displayed a subset of our CT scans dataset along with their labels in Figure \ref{fig:ct data}.
+We have displayed a subset of our original CT scans dataset along with their labels in Figure \ref{fig:ct data}.
 
 
 \begin{figure}[H]
@@ -346,7 +346,7 @@ We have also displayed a subset of our CT scans dataset along with their labels 
 Our proposed methodology for CT scans is similar to that of X-ray's to keep our workflow consistent. There are indeed changes in our proposed models and certain parameter values. The following sections elaborates on these differences. 
 \subsubsection{Proposed Models}
 
-For CT Scans we have experimented with three models, that is, UNet, UNet++, and Attention UNet. These variants of the base UNet model seems to be popular among literature. The UNet++ and Attention UNet models were Ensembled to improve the classification performance, similar to our X-ray diagnosis workflow. Each of these three model architectures are provided in Figure \ref{fig:ctmodels}.
+For CT scans we have experimented with three models, that is, UNet, UNet++, and Attention UNet. These variants of the base UNet model seems to be popular among literature. The UNet++ and Attention UNet models were ensembled to improve the classification performance, similar to our X-ray diagnosis workflow. Each of these three model architectures are provided in Figure \ref{fig:ctmodels}.
 
 The UNet model was originally created for Bio-medical Image Segmentation purposes \cite{RFT2015}. As its name indicates, the architecture consists of a 'U' structure, as shown in Figure \ref{fig:unet}. The basic idea revolves around the notion that the same feature maps used for image contraction is utilized to expand a vector to a segmented image. This would help in preserving the structural integrity of the image and greatly reduce image distortion \cite{HSA2018}. The UNet architecture is comprised of three sections, which are, contraction, bottleneck, and expansion respectively.
 
@@ -388,7 +388,7 @@ pretrainedAttUNet = kerasModels.att_unet_2d((imageSize, imageSize, 3), filter_nu
 
 \subsubsection{Keras Callbacks}
 
-We have utilized the same set of callbacks as we have used for our X-ray models, that is, EarlyStopping, ReduceLROnPlateau, and ModelCheckpoint. However, there have been differences in the parameters especially for EarlyStopping as the UNet models tend to stop training before reaching convergence. Therefore, it was necessary for us to increase the patience parameter depending the variant of UNet model. The following code snippets showcase the parameters used for EarlyStopping Keras callback.
+We have utilized the same set of Callbacks used for our X-ray models, that is, EarlyStopping, ReduceLROnPlateau, and ModelCheckpoint. However, there have been differences in the parameters especially for EarlyStopping as the UNet models tend to stop training before reaching convergence. Therefore, it was necessary for us to increase the patience parameter depending the variant of UNet model. The following code snippets showcase the parameters used for EarlyStopping Keras Callback.
 
 \vspace{1em}
 \begin{lstlisting}
@@ -397,7 +397,7 @@ AttUNetESCallback = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patienc
 UNetPlusESCallback = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=140, verbose=1)
 \end{lstlisting}
 
-Furthermore, for the UNet++ model we have provided custom parameters for the ReduceLROnPlateau callback to achieve optimal convergence and thereby increase classification accuracy.
+Furthermore, for the UNet++ model we have provided custom parameters for the ReduceLROnPlateau Callback to achieve optimal convergence and thereby increase classification accuracy.
 
 \vspace{1em}
 \begin{lstlisting}
@@ -451,7 +451,7 @@ At each iteration of the 10-fold cross validation, 90\% of the training data und
 
 Augmentation of 3267 samples from each class resulted in 5270 samples as our augmented training dataset. Our final training dataset is therefore comprised of 10,540 samples as we have two classes, COVID-19 and Normal. Indeed, only the training dataset was augmented, our testing dataset was left aside only for validation purposes. Table \ref{tab:CT Dataset Info} displays the size of our data.
 
-We have trained our UNet and Attention UNet models for 200 epochs each, whereas for UNet++ it took around 300 epochs to achieve convergence. The batch size was 1024 samples per forward/backward pass. Our ensemble model was trained for 50 epochs to give it an opportunity to learn from the final dense layers from each of our base models before returning a prediction. Similar to X-ray scans, we have initialized the same callbacks, and returned the classification report \cite{SCR} and confusion matrix \cite{SCM} after every fold which allowed us to determine the best performing model.
+We have trained our UNet and Attention UNet models for 200 epochs each, whereas for UNet++ it took around 300 epochs to achieve convergence. The batch size was 1024 samples per forward/backward pass. Our ensemble model was trained for 50 epochs to give it an opportunity to learn from the final dense layers from each of our base models before returning a prediction. Similar to X-ray scans, we have initialized the same Callbacks, and returned the classification report \cite{SCR} and confusion matrix \cite{SCM} after every fold which allowed us to determine the best performing model.
 
 % A sample snippet of code is provided below.
 
@@ -462,9 +462,9 @@ We have trained our UNet and Attention UNet models for 200 epochs each, whereas 
 
 \subsubsection{Heatmap Visualization}
 
-For interpreting our model's results we have generated heatmaps in addition to the diagnosis result. The same Grad-CAM technique utilizing Keras library \cite{KCV} was applied in the case of CT scans to highlight common characteristics in patients diagnosed with COVID-19. We have once again averaged the heatmaps produced by each of our three base models with the help of Numpy \cite{NUM} to obtain the final heatmap. We believe these heatmaps would aid radiologists in identifying the same lung characteristics more efficiently.
+For interpreting our model results we have generated heatmaps in addition to the diagnosis result. The same Grad-CAM technique utilizing Keras library \cite{KCV} was applied in the case of CT scans to highlight common characteristics in patients diagnosed with COVID-19. We have once again averaged the heatmaps produced by each of our three base models with the help of Numpy \cite{NUM} to obtain the final heatmap. We believe these heatmaps would aid radiologists in identifying the same lung characteristics more efficiently.
 
-There was only one difference in our implementation when compared to X-rays. Given a test image, it was necessary for us to extract the lung parenchyma before proceeding with the diagnosis and generating the heatmaps. The heatmap filter generated was superimposed to our unprocessed CT input in order to highlight the most critical regions.
+There is only one difference in our implementation when compared to X-rays. Given a test image, it was necessary for us to extract the lung parenchyma before proceeding with the diagnosis and generating the heatmaps. The heatmap filter generated was superimposed to our unprocessed CT input in order to highlight the most critical regions.
 
 \subsubsection{Workflow Summary Illustration}
 
@@ -480,30 +480,30 @@ There was only one difference in our implementation when compared to X-rays. Giv
 
 \section{Web Interface}
 
-Our Web Interface is a simple Diagnosis Portal allowing users to input X-ray or CT scans and retrieve real-time diagnosis and a heatmap highlighting critical regions. The front-end of the web application was built using Google's Flutter UI Toolkit. A Flask application was also deployed serving as backend containing Python scripts that retrieve diagnosis results. We have used an Ubuntu Virtual Machine offered by Microsoft Azure to deploy our Python Scripts and Web Application \footnote{Link to the Diagnosis Portal: \url{http://40.76.124.61/}}.
+Our Web Interface is a simple Diagnosis Portal allowing users to input X-ray or CT scans and retrieve real-time diagnosis and a heatmap highlighting critical regions. The front-end of the web application is built using Google's Flutter UI Toolkit. A Flask application is also deployed serving as backend containing Python scripts that retrieve diagnosis results. We have used an Ubuntu Virtual Machine offered by Microsoft Azure to deploy our Python Scripts and Web Application \footnote{Link to the Diagnosis Portal: \url{http://40.76.124.61/}}.
 
-The Flask API provided an interface for the Flutter app, which takes the scan as input and returns diagnosis and heatmap. To ensure responsiveness of our Portal, we have utilized a custom responsive folder architecture \cite{agl2020}. We have uploaded a video demonstration of the Web Application, along with screenshots on OneDrive \footnote{Web Application Screenshots and Video Presentation can be found here: \url{https://heriotwatt-my.sharepoint.com/:f:/g/personal/agl2_hw_ac_uk/EgtAqrerqXZIhD3EPQJOJBsBJ3VTXhCZv_9pm_R01Bf8pA?e=z3mHHj}}. A subset of screenshots is displayed in Figure \ref{fig:portalScreenshots}.
+The Flask API provides an interface for the Flutter app, which takes the scan as input and returns diagnosis and heatmap. To ensure responsiveness of our Portal, we have utilized a custom responsive folder architecture \cite{agl2020}. We have uploaded a video demonstration of the Web Application, along with screenshots on OneDrive \footnote{Web Application Screenshots and Video Presentation can be found here: \url{https://heriotwatt-my.sharepoint.com/:f:/g/personal/agl2_hw_ac_uk/EgtAqrerqXZIhD3EPQJOJBsBJ3VTXhCZv_9pm_R01Bf8pA?e=z3mHHj}}. A subset of screenshots is displayed in Figure \ref{fig:portalScreenshots}.
 
 \begin{figure}[H]
         \begin{subfigure}[b]{0.5\textwidth}
                 \includegraphics[width=\linewidth, height=4.3cm]{Images/Website Screenshot 1.png}
         \end{subfigure}%
         \begin{subfigure}[b]{0.5\textwidth}
-                \includegraphics[width=\linewidth, height=4.3cm]{Images/Website Screenshot 2.png}
-        \end{subfigure}%
-        \vspace{0.8em}
-        \begin{subfigure}[b]{0.5\textwidth}
                 \includegraphics[width=\linewidth, height=4.3cm]{Images/Website Screenshot 5.png}
         \end{subfigure}%
+        \vspace{0.8em}
         \begin{subfigure}[b]{0.5\textwidth}
                 \includegraphics[width=\linewidth, height=4.3cm]{Images/Website Screenshot 7.png}
         \end{subfigure}%
-        \vspace{0.8em}
-        \begin{subfigure}[b]{0.5\textwidth}
-                \includegraphics[width=\linewidth, height=4.3cm]{Images/Website Screenshot 3.png}
-        \end{subfigure}%
         \begin{subfigure}[b]{0.5\textwidth}
                 \includegraphics[width=\linewidth, height=4.3cm]{Images/Website Screenshot 8.png}
+        \end{subfigure}%
+        \vspace{0.8em}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth, height=4.3cm]{Images/Website Screenshot 2.png}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth, height=4.3cm]{Images/Website Screenshot 3.png}
         \end{subfigure}%
         %\\\centering
         %\decoRule

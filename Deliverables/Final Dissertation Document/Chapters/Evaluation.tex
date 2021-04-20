@@ -1,8 +1,6 @@
 \chapter{Results and Evaluation} \label{Results and Evaluation}
 
-In this chapter we analyze the performance of each of our trained models. We conduct a thorough performance evaluation and compare the results obtained with the RT-PCR test and a basic CNN. We also compare our results with related work highlighted in Section \ref{LR}. The heatmaps obtained have also been compared to the findings obtained by a professional Radiologist. 
-
-% We have utilized the strategies proposed in Appendix \ref{Evaluation Strategy Section} for evaluation purposes.
+In this chapter we analyze the performance of each of our trained models. We conduct a thorough performance evaluation and compare the results obtained with the RT-PCR test and a basic CNN. We also compare our results with related work highlighted in Section \ref{LR}. The heatmaps obtained have also been compared to the findings observed by a professional Radiologist. 
 
 \section{X-ray Scans}
 The following sections evaluates results obtained by each of our X-ray models, followed by comparing them across various parameters.
@@ -117,7 +115,7 @@ Next we have ResNet50 which is popular among literature as seen in Section \ref{
         \caption{ResNet50 Model Training Performance Trends}\label{fig:resnetModelTraining}
 \end{figure}
 \vspace{-1em}
-The final base model is VGG16. We have achieved an average accuracy of 95.6\% after 10-fold cross validation on the balanced dataset. The average and best accuracy obtained on unseen data are 95.3\% and 96.8\% respectively. The classification report, confusion matrix, and trends in accuracy and loss is displayed in Table \ref{tab:VGG CR}, Figure \ref{fig:VGG16 Confusion Matrix}, Figure \ref{fig:vggModelTraining}.
+The final base model is VGG16. We have achieved an average accuracy of 95.6\% after 10-fold cross validation on the balanced dataset. The average and best accuracy obtained on unseen data are 95.3\% and 96.8\% respectively. The classification report, confusion matrix, and trends in accuracy and loss is displayed in Table \ref{tab:VGG CR}, Figure \ref{fig:VGG16 Confusion Matrix}, Figure \ref{fig:vggModelTraining} respectively.
 
     % \vspace{1em}
 
@@ -188,7 +186,7 @@ After ensembling each of the three base models discussed in Section \ref{ptmXray
 \\\hline
 			Normal      &98.3\%   &98.5\%    &98.4\%
 \\\hline 
-            Pneumonia   &98.1\%       &98.3\%        &98.2\%
+            Pneumonia   &98.3\%       &98.1\%        &98.2\%
 \\\hline
 
     \end{longtable}
@@ -228,9 +226,9 @@ After ensembling each of the three base models discussed in Section \ref{ptmXray
 \subsection{Performance Comparison}
 In the following sections we compare the performance of our models with respect to each other and determine the best performing model, followed by comparing the best results with that of the RT-PCR test and CNN. We also compare our results with related studies observed in the literature. We conclude this section by comparing our heatmap results with that of the findings obtained by a professional Radiologist who has volunteered to help us in this study.
 
-\subsubsection{Trained Models}
+\subsubsection{Comparison of Trained Models}
 
-We compare each of our base X-ray models along with the ensemble model across various parameters such as Accuracy, Precision, Recall, F1-Score, Specificity, and Sensitivity respectively. These metric scores are tabulated in Table \ref{tab:mpcXray}.
+We compare each of our base X-ray models along with the ensemble model across various parameters such as Accuracy, Precision, Recall, F1-Score, Specificity, and Sensitivity respectively. The average metric scores are tabulated in Table \ref{tab:mpcXray}.
 
 \vspace{1em}
  \begin{longtable}{| p{.23\textwidth} |  p{.1\textwidth} |   p{.1\textwidth} | p{.06\textwidth} | p{.095\textwidth} | p{.11\textwidth} | p{.11\textwidth} |} 
@@ -243,36 +241,36 @@ We compare each of our base X-ray models along with the ensemble model across va
 \\\hline
 			VGG16    &95.6\%   &95.6\%    &95.6\%    &95.6\%   &99.0\%   &97.8\% 
 \\\hline
-	        \textbf{Ensemble Model}    &\textbf{98.8\%}   &\textbf{98.7\%}    &\textbf{98.9\%}    &\textbf{98.8\%}   &\textbf{99.4\%}   &\textbf{98.9\%} 
+	        \textbf{Ensemble Model}    &\textbf{98.8\%}   &\textbf{98.8\%}    &\textbf{98.8\%}    &\textbf{98.8\%}   &\textbf{99.4\%}   &\textbf{98.8\%} 
 \\\hline
  \caption{X-ray Models Performance Comparison}  \label{tab:mpcXray}
 
     \end{longtable}
 \vspace{-1em}
-We observe that out of the base models, DenseNet121 and ResNet50 have very comparable results with the former having a slight performance increase when compared to the latter. However, the Ensemble Model clearly outperforms each of our base models as expected.
+We observe that out of the base models, ResNet50 and VGG16 have very comparable results with the former having a slight performance increase when compared to the latter. However, the Ensemble Model clearly outperforms each of our base models as expected.
 
-\subsubsection{RT-PCR and CNN}
+\subsubsection{Comparison with RT-PCR and CNN}
 
-We compare the results given by our Ensemble model, only for the \textbf{COVID-19 class}, with the RT-PCR test according to the study conducted by the Infectious Diseases Society of America (IDSA) \cite{IDS2020}. We also did implement a CNN-based model to compare our model with deep learning models that use state of the art techniques.
-Table \ref{tab:comp} summarizes the comparison and uses three metrics, namely sensitivity and specificity (relatively to the COVID-19 class) as well as accuracy. 
+We compare the results given by our Ensemble model, only for \textbf{COVID-19 class}, with the RT-PCR test according to the study conducted by the Infectious Diseases Society of America (IDSA) \cite{IDS2020}. We also did implement a CNN-based model to compare our model with deep learning models that use state of the art techniques.
+Table \ref{tab:comp} summarizes the comparison and uses three metrics, namely accuracy, sensitivity, and specificity. 
 
  \begin{longtable}{| p{.15\textwidth} | p{.11\textwidth} |  p{.11\textwidth} |   p{.11\textwidth} |} 
     \hline
 & \textbf{Accuracy} & \textbf{Sensitivity} & \textbf{Specificity} \\
 \hline
 
-			RT-PCR      &-   &84.2\%    &98.9\%  
+			RT-PCR      &94.0\%   &84.2\%    &98.9\%  
 \\\hline
 			CNN    &93.9\%   &85.2\%    &98.2\% 
 \\\hline
-			\textbf{Our Approach}   &\textbf{99.9\%}   &\textbf{99.8\%}    &\textbf{99.9\%} 
+			\textbf{Our Approach}   &\textbf{99.9\%}   &\textbf{99.9\%}    &\textbf{99.8\%} 
 \\\hline
  \caption{Comparison with RT-PCR and CNN for X-ray scans}  \label{tab:comp}
     \end{longtable}
 \vspace{-1em}
-As expected, our Ensemble model performs significantly better when compared to a basic CNN model. More importantly, our approach also exhibits better sensitivity and specificity when compared to the traditional RT-PCR test.
+As expected, our Ensemble model performs significantly better when compared to a basic CNN model. More importantly, our approach also exhibits better performance when compared to the traditional RT-PCR test.
 
-\subsubsection{Related Work}
+\subsubsection{Comparison with Related Work}
 
 In this section, we compare the performance of the Ensemble model with similar studies found in literature. We shall compare the results obtained by our best performing model with the scores reported by studies discussed in Section \ref{LR}. Table \ref{tab:relWorkXray} tabulates these results.
 
@@ -290,19 +288,19 @@ Zhang et al. \cite{ZXS+2020}   &96.0\%    &59.6\%     &96.0\%   &73.5\%    &70.7
 \\\hline
 Narin et al. \cite{AKP2020}   &98.0\%    &76.5\%     &91.8\%   &83.5\%    &96.6\%     &91.8\%
 \\\hline
-\textbf{Ensemble Model}    &\textbf{98.8\%}   &\textbf{98.7\%}    &\textbf{98.9\%}    &\textbf{98.8\%}   &\textbf{99.4\%}   &\textbf{98.9\%} 
+    \textbf{Ensemble Model}    &\textbf{98.8\%}   &\textbf{98.8\%}    &\textbf{98.8\%}    &\textbf{98.8\%}   &\textbf{99.4\%}   &\textbf{98.8\%}  
 \\\hline
  \caption{Comparison with Related Work}  \label{tab:relWorkXray}
 
     \end{longtable}
 \vspace{-2em}
 
-Our X-ray Ensemble model outperforms the results obtained by other studies across all metrics. We believe that various approaches considered such as Data Augmentation, Transfer Learning, and Ensemble Learning have helped our models achieve optimal classification performance.
+Our X-ray Ensemble model outperforms the results obtained by other studies across most metrics. We believe that various approaches considered such as Data Augmentation, Transfer Learning, and Ensemble Learning have helped our models achieve optimal classification performance.
 \vspace{-1em}
 
-\subsubsection{Radiologist Findings} \label{rfxray}
+\subsubsection{Comparison with Radiologist Findings} \label{rfxray}
 
-To further verify that the heatmaps produced by the model are in conformance with the same observed characteristics, we have provided a subset of X-rays scans to a senior Radiologist \footnote{The authors thank Dr. G.R. Mahadevan (MD, IDCCM,D.Diab, Specialist in COVID-19) from Maya Nursing Home,Tamil Nadu for annotating the X-ray and CT images.} and have asked to highlight the critical regions and provide their diagnosis results. 
+To further verify that the heatmaps produced by the model are in conformance with the observed COVID-19 characteristics, we have provided a subset of X-rays scans to a senior Radiologist \footnote{The authors thank Dr. G.R. Mahadevan (MD, IDCCM,D.Diab, Specialist in COVID-19) from Maya Nursing Home,Tamil Nadu for annotating the X-ray and CT images.} and have asked to highlight the critical regions and provide their diagnosis results. 
 
 Table \ref{tab:radioFinding} compares the Radiologist's annotations and diagnosis with those produced by our model along with the heatmap result.
 We can observe that the heatmaps are in direct compliance with the Radiologists’ findings. Precisely, visually, the heatmaps show that our predictive model highlights at least one or more of the critical regions identified by the Radiologist. Furthermore, all areas highlighted by the Radiologist are shades of either red of purple, but never blue.
@@ -374,26 +372,6 @@ We have also verified that the heatmaps we obtained correspond to the regions hi
           \vspace{0.5em}
     \end{minipage}
     \\ \hline
-%       \begin{minipage}{.3\textwidth}
-%     \vspace{1em}
-%       \includegraphics[width=\linewidth, height=30mm]{Images/PneuOrig4.jpg}
-%     \vspace{0.5em}
-%     \end{minipage}
-%     &
-%   \begin{minipage}{.3\textwidth}
-%       \vspace{1em}
-%       \includegraphics[width=\linewidth, height=30mm]{Images/PneuRadio4.png}
-%           \centering  Pneumonia
-%               \vspace{0.5em}
-%     \end{minipage}
-%     & 
-%     \begin{minipage}{.3\textwidth}
-%         \vspace{1em}
-%       \includegraphics[width=\linewidth, height=30mm]{Images/PneuHeatmap4.jpg}
-%       \centering Pneumonia
-%           \vspace{0.5em}
-%     \end{minipage}
-    % \\ \hline
           \begin{minipage}{.3\textwidth}
     \vspace{1em}
       \includegraphics[width=\linewidth, height=30mm]{Images/covidOrig1.jpg}
@@ -666,9 +644,9 @@ We have ensembled each of our base CT models to further improve classification p
 
 In the following sections, we compare our models amongst each other and determine the best model. We also compare the best model with the RT-PCR test and CNN, followed by similar studies from literature. Finally, we compare the heatmaps obtained with findings observed by a professional Radiologist.
 
-\subsubsection{Trained Models}
+\subsubsection{Comparison of Trained Models}
 
-We compare each of our base CT models along with the ensemble model across various parameters such as Accuracy, Precision, Recall, F1-Score, Specificity, and Sensitivity respectively. These metric scores are tabulated in Table \ref{tab:mpcCT}.
+We compare each of our base CT models along with the ensemble model across various parameters such as Accuracy, Precision, Recall, F1-Score, Specificity, and Sensitivity respectively. The average metric scores are tabulated in Table \ref{tab:mpcCT}.
 
 \vspace{1em}
  \begin{longtable}{| p{.23\textwidth} |  p{.1\textwidth} |   p{.1\textwidth} | p{.06\textwidth} | p{.095\textwidth} | p{.11\textwidth} | p{.11\textwidth} |} 
@@ -689,7 +667,7 @@ We compare each of our base CT models along with the ensemble model across vario
 \vspace{-1em}
 We observe that out of the base models, Attention UNet outperforms the rest. As expected, a slight performance increase is also observed from the Ensemble model.
 
-\subsubsection{RT-PCR and CNN}
+\subsubsection{Comparison with RT-PCR and CNN}
 
 We compare the results obtained by our Ensemble model with traditional RT-PCR test and a basic CNN model, only for \textbf{COVID-19 class}. Once again, we use the study conducted by the Infectious Diseases Society of America (IDSA) \cite{IDS2020} for comparison purposes. Table \ref{tab:compCT} compares the results.
 
@@ -698,7 +676,7 @@ We compare the results obtained by our Ensemble model with traditional RT-PCR te
 & \textbf{Accuracy} & \textbf{Sensitivity} & \textbf{Specificity} \\
 \hline
 
-			RT-PCR      &-   &84.2\%    &98.9\%  
+			RT-PCR      &94.0\%   &84.2\%    &98.9\%  
 \\\hline
 			CNN    &82.3\%   &80.2\%    &84.6\% 
 \\\hline
@@ -708,9 +686,9 @@ We compare the results obtained by our Ensemble model with traditional RT-PCR te
     \end{longtable}
 \vspace{-1em}
 
-We observe that our Ensemble model outperforms CNN across all metrics. Our approach also perform better than traditional RT-PCR test in terms of Sensitivity and has comparable Specificity.  
+We observe that our Ensemble model outperforms CNN across all metrics. We also observe that our approach performs better than traditional RT-PCR test.  
 
-\subsubsection{Related Work}
+\subsubsection{Comparison with Related Work}
 
 We compare the performance of our Ensemble model to related work discussed in Section \ref{LR} across various metrics. The results are summarized in Table \ref{tab:relWorkCT}.
 
@@ -732,8 +710,6 @@ Chen et al. \cite{CJL+2020}   &91.6\%    &84.6\%     &100\%   &91.6\%    &93.6\%
 \\\hline
 Li et al. \cite{LLL+2020}   &94.0\%    &89.7\%     &89.7\%   &89.7\%    &95.7\%     &89.7\%
 \\\hline
-% Jin et al. \cite{JSB+2020}  &\%    &\%     &\%   &\%    &92.2\%     &97.4\%
-% \\\hline
 \textbf{Ensemble Model}    &\textbf{98.7\%}   &\textbf{98.7\%}    &\textbf{98.7\%}    &\textbf{98.7\%}   &\textbf{98.7\%}   &\textbf{98.7\%} 
 \\\hline
  \caption{Comparison with Related Work}  \label{tab:relWorkCT}
@@ -744,11 +720,11 @@ Li et al. \cite{LLL+2020}   &94.0\%    &89.7\%     &89.7\%   &89.7\%    &95.7\% 
 Our Ensemble model performs significantly better when compared other approaches across all metrics. Once again, the data pre-processing and processing workflow such as splitting the lung parenchyma, augmentation, transfer learning, and ensemble learning respectively, seems to play a major factor to the models optimal performance.
 
 
-\subsubsection{Radiologist Findings}
+\subsubsection{Comparison with Radiologist Findings}
 
-We once again compare the generated heatmaps with that of the findings observed by a professional Radiologist. From Table \ref{tab:radioFindingCT}, we can observe that the heatmaps generated are in direct conformance with the senior Radiologist's finding \footnote{The authors thank Dr. G.R. Mahadevan (MD, IDCCM,D.Diab, Specialist in COVID-19) from Maya Nursing Home,Tamil Nadu for annotating the X-ray and CT images.}. The heatmaps identify atleast one or more of the critical regions highlighted by the Radiologist. We also observe that all areas highlighted by the Radiologist are shades of red, purple, or green and not blue. 
+We once again compare the generated heatmaps with that of the findings observed by a professional Radiologist. From Table \ref{tab:radioFindingCT}, we can observe that the heatmaps generated are in direct conformance with the senior Radiologist's finding \footnote{The authors thank Dr. G.R. Mahadevan (MD, IDCCM,D.Diab, Specialist in COVID-19) from Maya Nursing Home,Tamil Nadu for annotating the X-ray and CT images.}. The heatmaps identify at least one or more of the critical regions highlighted by the Radiologist. We also observe that all areas highlighted by the Radiologist are shades of red, purple, or green and not blue. 
 
-Furthermore, similar to our observations from Section \ref{rfxray}, we have verfied that our heatmaps correlate to the studies conducted by Harmon et al., Li et al., and Chung et al., therefore ensuring the reliability of our results. We observe that consolidations, GGO's, and lesions are major contributing factors to COVID-19 detection.
+Furthermore, similar to our observations from Section \ref{rfxray}, we have verified that our heatmaps correlate to the studies conducted by Harmon et al., Li et al., and Chung et al., therefore ensuring the reliability of our results. We observe that consolidations, GGO's, and lesions are major contributing factors to COVID-19 detection.
 
 \begin{longtable} { | c | c | c | }
     \hline
@@ -865,18 +841,18 @@ The results obtained indicates that most of the participants easily understood t
 
 Besides these questions, the participant was also asked to provide feedback if they felt so regarding the interface or any general suggestions. Table \ref{feedback} highlights some of the top suggestions provided, which would be definitely considered in future versions of this Diagnosis Portal.
 
-
-\begin{longtable}{| p{.055\textwidth} | p{.83\textwidth} |} 
+\vspace{1em}
+\begin{longtable}{| p{.055\textwidth} | p{.89\textwidth} |} 
     \hline
     		\textbf{S.No}    &\textbf{Suggestions for Improvement} 
 \\\hline
-            1   &Improvements to UI, Multi-page Site as in separate page for COVID-19 and Pneumonia
+            1   &Improvements to UI, Multi-page Site as in separate page for COVID-19 and Pneumonia.
 \\\hline
-            2   &Just keep adjusting the layout of the website so rather than scrolling all site content are seen together. Also since it's a diagnosis web portal, for future works integrating different medical issues related to COVID-19 can be trained in the AI, for more efficient outcomes
+            2   &Just keep adjusting the layout of the website so rather than scrolling all site content are seen together. Also since it's a diagnosis web portal, for future works integrating different medical issues related to COVID-19 can be trained in the AI, for more efficient outcomes.
 \\\hline
             3   &If the result of the diagnosis indicates COVID - 19, guidelines and measures (according to region) being presented along with it would be helpful.
 \\\hline
-          4   &The options for switching between X-ray and CT could be renamed as "Click here to view X-ray" and "Click here to view CT Scan"
+          4   &The options for switching between X-ray and CT could be renamed as "Click here to view X-ray" and "Click here to view CT Scan".
 \\\hline
 
 \caption{Feedback on the Diagnosis Portal} \label{feedback}
@@ -941,7 +917,7 @@ P15  &3   &2   &4   &2   &4   &2   &4   &2   &3   &2   &70 \\\hline
 \end{longtable}
 
 
-The average SUS score is \textbf{90.3}. As per Jeff Sauro, a SUS score above 68 is \textbf{Above Average}. A score above 80.3 is \textbf{Excellent}. As per our this criteria, we are pleased to know that our Diagnosis Portal falls into the former category. Figure \ref{fig:susScore} displays our SUS scores and the average score. We also believe that the Mode statistical quantity is in fact really useful in understanding the participants general mindset. Therefore, we have highlighted the Mode, Maximum and Minimum per question in Table \ref{susStats}. 
+The average SUS score is \textbf{90.3}. As per Jeff Sauro, a SUS score above 68 is \textbf{Above Average}. A score above 80.3 is \textbf{Excellent}. As per our this criteria, we are pleased to know that our Diagnosis Portal falls into the latter category. Figure \ref{fig:susScore} displays our SUS scores and the average score. We also believe that the Mode statistical quantity is in fact really useful in understanding the participants general mindset. Therefore, we have highlighted the Mode, Maximum and Minimum per question in Table \ref{susStats}. 
 
 \begin{figure}[H]
     \centering
@@ -965,7 +941,7 @@ Minimum     &2   &1   &4   &1   &3   &1   &3   &1   &3   &1
 
 \subsection{Activity 3: Metrics Test}
 
-The last activity involves explicitly testing the certain metrics stated in Section \ref{hypo} and Table \ref{tab:Evaluation Strategy}. We have asked the participants to fill in a Likert Scale which each metric having scores ranging from Very Poor to Excellent. Table \ref{metricTest} summarizes the results. 
+The last activity involves explicitly testing the certain metrics stated in Section \ref{hypo} and Table \ref{tab:Evaluation Strategy}. We have asked the participants to fill in a Likert Scale with each metric having scores ranging from Very Poor to Excellent. Table \ref{metricTest} summarizes the results. 
 
 \begin{longtable}{| p{.19\textwidth} | p{.11\textwidth} | p{.05\textwidth} | p{.04\textwidth} | p{.06\textwidth} | p{.10\textwidth} |} 
     \hline
