@@ -15,18 +15,22 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 def helloWorld():
     return 'Hello World!'
 
-@app.route('/xray', methods=['GET'])
+@app.route('/xray', methods=['GET', 'POST'])
 def predictXRay():
+    requestData = request.get_json()
+    image = requestData['Image']
     d = {}
-    d['Image'] = str(request.args['Image'])
+    d['Image'] = str(image)
     prediction = makeDecisionXRay(d['Image'])
     return jsonify(prediction)
 
 
-@app.route('/ct', methods=['GET'])
+@app.route('/ct', methods=['GET', 'POST'])
 def predictCT():
+    requestData = request.get_json()
+    image = requestData['Image']
     d = {}
-    d['Image'] = str(request.args['Image'])
+    d['Image'] = str(image)
     prediction = makeDecisionCT(d['Image'])
     return jsonify(prediction)
 

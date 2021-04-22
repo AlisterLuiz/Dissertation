@@ -129,9 +129,9 @@ def superimposed_img(image, heatmap, imageSize):
     return superimposed_img
 
 # Load best performing models
-reconstructedDenseNet = tf.keras.models.load_model('./static/models/DenseNet4.h5')
-reconstructedResNet = tf.keras.models.load_model('./static/models/ResNet9.h5')
-reconstructedVGG = tf.keras.models.load_model('./static/models/VGG8.h5')
+reconstructedDenseNet = tf.keras.models.load_model('./static/models/DenseNet6.h5')
+reconstructedResNet = tf.keras.models.load_model('./static/models/ResNet2.h5')
+reconstructedVGG = tf.keras.models.load_model('./static/models/VGG1.h5')
 
 # Initialize Labels and Layer Names
 labels = ["COVID19", "NORMAL", "PNEUMONIA"]
@@ -141,9 +141,9 @@ classifierLayerNames = {
     "DenseNet": [
                   "bn",
                   "relu",
-                  "global_average_pooling2d_4",
-                  "dense_8",
-                  "dense_9",
+                  "global_average_pooling2d_5",
+                  "dense_10",
+                  "dense_11",
     ],
     "ResNet": [
                "global_average_pooling2d_11",
@@ -152,12 +152,11 @@ classifierLayerNames = {
     ],
     "VGG": [
             "block5_pool",
-            "global_average_pooling2d_28",
-            "dense_56",
-            "dense_57",
+            "global_average_pooling2d_20",
+            "dense_40",
+            "dense_41",
     ]
 }
-
 
 def makeDecisionXRay(base64Image):
   """
@@ -195,7 +194,7 @@ def makeDecisionXRay(base64Image):
   with open(os.path.join(outputPath, 'input.jpg'),"wb") as f:
     f.write(base64.b64decode(base64Image))
 
-  reconstructedEnsembleXRay = tf.keras.models.load_model('./static/models/EnsembleXRay10.h5')
+  reconstructedEnsembleXRay = tf.keras.models.load_model('./static/models/EnsembleXRay1.h5')
   predictionIndex = np.argmax(reconstructedEnsembleXRay.predict(testImage))
 
   # Store the result in a map 
@@ -204,3 +203,4 @@ def makeDecisionXRay(base64Image):
   jsonResult['Diagnosis'] = labels[predictionIndex]
   jsonResult['Accuracy'] = '98%'
   return jsonResult
+

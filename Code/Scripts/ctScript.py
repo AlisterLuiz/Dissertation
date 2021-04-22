@@ -46,9 +46,9 @@ from tensorflow import keras
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 
 # Load best performing models
-reconstructedUNet = tf.keras.models.load_model('./static/models/UNet9.h5')
-reconstructedAttUNet = tf.keras.models.load_model('./static/models/AttUNet6.h5')
-reconstructedUNetPlus = tf.keras.models.load_model('./static/models/UNetPlus10.h5')
+reconstructedUNet = tf.keras.models.load_model('./static/models/UNet8.h5')
+reconstructedAttUNet = tf.keras.models.load_model('./static/models/AttUNet2.h5')
+reconstructedUNetPlus = tf.keras.models.load_model('./static/models/UNetPlus9.h5')
 
 
 # Initialize Labels and Layer Names
@@ -58,27 +58,27 @@ lastConvLayerNames = {"UNet": "unet_output", "AttUNet": "attunet_output", "UNetP
 classifierLayerNames = { 
     "UNet": [
                   "unet_output_activation",
-                  "global_average_pooling2d_9",
-                  "dense_36",
-                  "dense_37",
-                  "dense_38",
-                  "dense_39",
+                  "global_average_pooling2d_37",
+                  "dense_88",
+                  "dense_89",
+                  "dense_90",
+                  "dense_91",
     ],
     "AttUNet": [
                   "attunet_output_activation",
-                  "global_average_pooling2d_6",
-                  "dense_24",
-                  "dense_25",
-                  "dense_26",
-                  "dense_27",
+                  "global_average_pooling2d_1",
+                  "dense_4",
+                  "dense_5",
+                  "dense_6",
+                  "dense_7",
     ],
     "UNetPlus": [
                "unetplus_output_activation",
-               "global_average_pooling2d_9",
-               "dense_36",
-               "dense_37",
-               "dense_38",
-               "dense_39",
+               "global_average_pooling2d_18",
+               "dense_72",
+               "dense_73",
+               "dense_74",
+               "dense_75",
     ],
 }
 
@@ -296,3 +296,5 @@ def makeDecisionCT(base64Image):
     json.dump(jsonResult, f)
 
   return jsonResult
+
+
