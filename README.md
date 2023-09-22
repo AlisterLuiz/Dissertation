@@ -4,16 +4,17 @@
 ### Year IV
 ### Heriot-Watt University
 
-The Dataset can be found HERE: https://heriotwatt-my.sharepoint.com/:f:/g/personal/agl2_hw_ac_uk/EnKrslnVWU1LnjvrkZ702aQBAgppJNP-F-YLBm2GIR9uPA?e=o06Ymc
+The Dataset can be found HERE: [LINK](https://heriotwatt-my.sharepoint.com/:f:/g/personal/agl2_hw_ac_uk/EnKrslnVWU1LnjvrkZ702aQBAgppJNP-F-YLBm2GIR9uPA?e=o06Ymc)
 
-The Trained Models can be found HERE: https://heriotwatt-my.sharepoint.com/:f:/g/personal/agl2_hw_ac_uk/EkOwQUZKeStJpRsibfuqff8BIaTqbwEzHEw41nv1l2gJIg?e=M4Sckf
+The Trained Models can be found HERE: [LINK](https://heriotwatt-my.sharepoint.com/:f:/g/personal/agl2_hw_ac_uk/EkOwQUZKeStJpRsibfuqff8BIaTqbwEzHEw41nv1l2gJIg?e=M4Sckf)
 
 Please do place this Models Folder inside Code->Scripts->static
 
-The Dissertation Video Presentation can be found here: https://youtu.be/ocuA5EqEZH8
+The Dissertation Video Presentation can be found here: [LINK](https://youtu.be/ocuA5EqEZH8)
 
-Alternative Link: https://heriotwatt-my.sharepoint.com/:v:/g/personal/agl2_hw_ac_uk/EXn-MBIafMJLmsoFsJvhqZUBCAXZnIijGDttG_0KykqmLw?e=Crwntc
+Alternative Link: [LINK](https://heriotwatt-my.sharepoint.com/:v:/g/personal/agl2_hw_ac_uk/EXn-MBIafMJLmsoFsJvhqZUBCAXZnIijGDttG_0KykqmLw?e=Crwntc)
 
+The Dissertation Document can be found here: [LINK](https://github.com/AlisterLuiz/Dissertation/blob/master/Deliverables/Final%20Dissertation%20Document/Alister%20Final%20Dissertation.pdf)
 
 The Coronavirus Disease (COVID-19), ever since its inception in late 2019 has spread all across the world and as a result, led to an increased burden on healthcare professionals due to the urgent need for rapid disease diagnosis and effectuating quarantine protocols. 
 
